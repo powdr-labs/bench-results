@@ -36,22 +36,25 @@ def extract_metrics(filename):
     #     and labels.get("air_name").startswith("PowdrAir")
     #     and metric["metric"] == "cells"])
 
-    metrics["app_proof_time"] = sum([int(metric["value"])
+    metrics["app_proof_time_ms"] = sum([int(metric["value"])
         for labels, metric in entries
         if labels.get("group") == "app_proof"
         and metric["metric"] == "stark_prove_excluding_trace_time_ms"])
 
-    metrics["leaf_recursion_time"] = sum([int(metric["value"])
+    metrics["leaf_recursion_time_ms"] = sum([int(metric["value"])
         for labels, metric in entries
-        if labels.get("group")
-        and labels.get("group").startswith("leaf")
+        if labels.get("group", "").startswith("leaf")
         and metric["metric"] == "stark_prove_excluding_trace_time_ms"])
 
-    metrics["inner_recursion_time"] = sum([int(metric["value"])
+    metrics["inner_recursion_time_ms"] = sum([int(metric["value"])
         for labels, metric in entries
-        if labels.get("group")
-        and labels.get("group").startswith("internal")
+        if labels.get("group", "").startswith("internal")
         and metric["metric"] == "stark_prove_excluding_trace_time_ms"])
+
+    metrics["app_trace_gen_time_ms"] = sum([int(metric["value"])
+        for labels, metric in entries
+        if labels.get("group") == "app_proof"
+        and metric["metric"] == "trace_gen_time_ms"])
 
     return metrics
 
