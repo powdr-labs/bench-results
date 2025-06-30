@@ -1,0 +1,2 @@
+    filename  num_segments  app_proof_cells  app_proof_time_ms  app_execute_time_ms  app_trace_gen_time_ms  leaf_proof_time_ms  inner_recursion_proof_time_ms  non_powdr_cells  powdr_cells  non_powdr_ratio  powdr_rows
+metrics.json             3      15062260062             164284                23213                  64042                   0                              0      12172545886   2889714176         0.808149    16826880
