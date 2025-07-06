@@ -1,0 +1,5 @@
+filename,num_segments,app_proof_cells,app_proof_time_ms,app_execute_time_ms,app_trace_gen_time_ms,leaf_proof_time_ms,inner_recursion_proof_time_ms,non_powdr_cells,powdr_cells,non_powdr_ratio,powdr_rows
+100apc.json,1,1363775717,23499,28181,82254,9907,5217,17812128,1345963589,0.013060892475181093,2162707
+manual.json,2,1632951691,31136,439,1124,6708,8464,1632951691,0,1.0,0
+noapc.json,20,14476108592,307869,33867,64193,31117,96438,14476108592,0,1.0,0
+
