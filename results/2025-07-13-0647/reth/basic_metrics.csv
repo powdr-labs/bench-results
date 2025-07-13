@@ -1,0 +1,4 @@
+filename,num_segments,app_proof_cells,app_proof_time_ms,app_execute_time_ms,app_trace_gen_time_ms,leaf_proof_time_ms,inner_recursion_proof_time_ms,normal_instruction_ratio,openvm_precompile_ratio,powdr_ratio,powdr_rows
+reth/noapc.json,6,19634124184,218781,24989,56756,83211,30287,0.593845652942418,0.406154347057582,0.0,0
+reth/100apc.json,3,14762798614,160064,23569,64867,90399,12468,0.3127071125675385,0.4895133950514513,0.19777949238101014,16661504
+
