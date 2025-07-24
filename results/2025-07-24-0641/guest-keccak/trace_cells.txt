@@ -1,0 +1,21 @@
+Total cells: 1.36B
+Cells by AIR:
+air_name
+PowdrAir<BabyBearParameters>                                      1338770915
+RangeTupleCheckerAir<2>                                              4718592
+VmAirWrapper<Rv32JalrAdapterAir, Rv32JalrCoreAir>                    3145728
+VmAirWrapper<Rv32BranchAdapterAir, BranchEqualCoreAir<4>             2752512
+VariableRangeCheckerAir                                              2359296
+VmAirWrapper<Rv32BaseAluAdapterAir, BaseAluCoreAir<4, 8>             2097152
+VmAirWrapper<Rv32BranchAdapterAir, BranchLessThanCoreAir<4, 8>       1703936
+BitwiseOperationLookupAir<8>                                          655360
+Poseidon2PeripheryAir<BabyBearParameters>, 1>                         157696
+ProgramAir                                                            147456
+MemoryMerkleAir<8>                                                     45056
+AccessAdapterAir<8>                                                    14848
+PersistentBoundaryAir<8>                                               14336
+Rv32HintStoreAir                                                         112
+VmConnectorAir                                                            34
+PhantomAir                                                                14
+Name: cells, dtype: int64
+Saving plot to trace_cells.png
