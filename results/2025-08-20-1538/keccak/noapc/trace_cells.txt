@@ -1,0 +1,26 @@
+Total cells: 19.42B
+Cells by AIR:
+air_name
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadStoreCoreAir<4>         7606370304
+VmAirWrapper<Rv32BaseAluAdapterAir, BaseAluCoreAir<4, 8>          7197425664
+VmAirWrapper<Rv32BaseAluAdapterAir, ShiftCoreAir<4, 8>            4293918720
+RangeTupleCheckerAir<2>                                             94371840
+VmAirWrapper<Rv32BranchAdapterAir, BranchEqualCoreAir<4>            68124672
+VariableRangeCheckerAir                                             47185920
+VmAirWrapper<Rv32BranchAdapterAir, BranchLessThanCoreAir<4, 8>      40894464
+VmAirWrapper<Rv32JalrAdapterAir, Rv32JalrCoreAir>                   20185088
+VmAirWrapper<Rv32CondRdWriteAdapterAir, Rv32JalLuiCoreAir>          14696448
+BitwiseOperationLookupAir<8>                                        13107200
+VmAirWrapper<Rv32RdWriteAdapterAir, Rv32AuipcCoreAir>                7569408
+VmAirWrapper<Rv32BaseAluAdapterAir, LessThanCoreAir<4, 8>            6150144
+Poseidon2PeripheryAir<BabyBearParameters>, 1>                        3153920
+ProgramAir                                                           2949120
+VmAirWrapper<Rv32MultAdapterAir, MultiplicationCoreAir<4, 8>         1636096
+MemoryMerkleAir<8>                                                    491520
+AccessAdapterAir<8>                                                   337920
+PersistentBoundaryAir<8>                                              327680
+VmConnectorAir                                                           840
+PhantomAir                                                               360
+Rv32HintStoreAir                                                         152
+Name: cells, dtype: int64
+Saving plot to noapc/trace_cells.png
