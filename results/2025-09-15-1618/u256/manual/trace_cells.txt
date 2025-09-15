@@ -1,0 +1,29 @@
+Total cells: 0.67B
+Cells by AIR:
+air_name
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadStoreCoreAir<4>                   390070272
+AccessAdapterAir<8>                                                          69206016
+VmAirWrapper<Rv32BaseAluAdapterAir, BaseAluCoreAir<4, 8>                     46137344
+AccessAdapterAir<16>                                                         42991616
+AccessAdapterAir<32>                                                         29884416
+RangeTupleCheckerAir<2>                                                      18874368
+VmAirWrapper<Rv32JalrAdapterAir, Rv32JalrCoreAir>                            16777216
+VmAirWrapper<Rv32CondRdWriteAdapterAir, Rv32JalLuiCoreAir>                   12058624
+VmAirWrapper<Rv32HeapAdapterAir<2, 32, 32>, BaseAluCoreAir<32, 8>            11796480
+VmAirWrapper<Rv32HeapAdapterAir<2, 32, 32>, MultiplicationCoreAir<32, 8>     11665408
+VmAirWrapper<Rv32RdWriteAdapterAir, Rv32AuipcCoreAir>                         6291456
+VmAirWrapper<Rv32BranchAdapterAir, BranchEqualCoreAir<4>                      3538944
+MemoryMerkleAir<8>                                                            3145728
+VariableRangeCheckerAir                                                       2359296
+PersistentBoundaryAir<8>                                                      2097152
+VmAirWrapper<Rv32BranchAdapterAir, BranchLessThanCoreAir<4, 8>                1048576
+BitwiseOperationLookupAir<8>                                                   655360
+VmAirWrapper<Rv32BaseAluAdapterAir, ShiftCoreAir<4, 8>                         215040
+VmAirWrapper<Rv32HeapBranchAdapterAir<2, 32>, BranchEqualCoreAir<32>           176128
+Poseidon2PeripheryAir<BabyBearParameters>, 1>                                  157696
+VmAirWrapper<Rv32BaseAluAdapterAir, LessThanCoreAir<4, 8>                      157696
+ProgramAir                                                                     147456
+VmConnectorAir                                                                     42
+PhantomAir                                                                         18
+Name: cells, dtype: int64
+Saving plot to manual/trace_cells.png
