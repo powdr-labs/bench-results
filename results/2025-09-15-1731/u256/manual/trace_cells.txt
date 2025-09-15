@@ -1,0 +1,30 @@
+Total cells: 16.08B
+Cells by AIR:
+air_name
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadStoreCoreAir<4>                   8288993280
+VmAirWrapper<Rv32BaseAluAdapterAir, BaseAluCoreAir<4, 8>                    1960837120
+AccessAdapterAir<8>                                                         1470627840
+AccessAdapterAir<16>                                                         913571840
+AccessAdapterAir<32>                                                         635043840
+VmAirWrapper<Rv32HeapAdapterAir<2, 32, 32>, BaseAluCoreAir<32, 8>            498401280
+VmAirWrapper<Rv32CondRdWriteAdapterAir, Rv32JalLuiCoreAir>                   497418240
+VmAirWrapper<Rv32HeapAdapterAir<2, 32, 32>, MultiplicationCoreAir<32, 8>     492863488
+RangeTupleCheckerAir<2>                                                      415236096
+VmAirWrapper<Rv32JalrAdapterAir, Rv32JalrCoreAir>                            356515840
+MemoryMerkleAir<8>                                                           150994944
+VmAirWrapper<Rv32RdWriteAdapterAir, Rv32AuipcCoreAir>                        133693440
+PersistentBoundaryAir<8>                                                     100663296
+VmAirWrapper<Rv32BranchAdapterAir, BranchEqualCoreAir<4>                      76087296
+VariableRangeCheckerAir                                                       51904512
+BitwiseOperationLookupAir<8>                                                  14417920
+VmAirWrapper<Rv32BranchAdapterAir, BranchLessThanCoreAir<4, 8>                10485760
+Poseidon2PeripheryAir<BabyBearParameters>, 1>                                  3627008
+ProgramAir                                                                     3244032
+VmAirWrapper<Rv32HeapBranchAdapterAir<2, 32>, BranchEqualCoreAir<32>           2818048
+VmAirWrapper<Rv32BaseAluAdapterAir, LessThanCoreAir<4, 8>                      1300992
+VmAirWrapper<Rv32BaseAluAdapterAir, ShiftCoreAir<4, 8>                         1142400
+VmAirWrapper<Rv32MultAdapterAir, MultiplicationCoreAir<4, 8>                     22576
+VmConnectorAir                                                                     924
+PhantomAir                                                                         396
+Name: cells, dtype: int64
+Saving plot to manual/trace_cells.png
