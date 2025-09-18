@@ -1,0 +1,29 @@
+Total cells: 12.22B
+Cells by AIR:
+air_name
+PowdrAir<BabyBearParameters>                                         11580745728
+VmAirWrapper<Rv32BaseAluAdapterAir, BaseAluCoreAir<4, 8>               322961408
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadStoreCoreAir<4>               85327872
+VmAirWrapper<Rv32JalrAdapterAir, Rv32JalrCoreAir>                       58720256
+VmAirWrapper<Rv32BaseAluAdapterAir, LessThanCoreAir<4, 8>               35323904
+VmAirWrapper<Rv32MultAdapterAir, MulHCoreAir<4, 8>                      25460736
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadSignExtendCoreAir<4, 8>       23068672
+VmAirWrapper<Rv32MultAdapterAir, MultiplicationCoreAir<4, 8>            19038208
+RangeTupleCheckerAir<2>                                                 18874368
+VmAirWrapper<Rv32BaseAluAdapterAir, ShiftCoreAir<4, 8>                  12042240
+VariableRangeCheckerAir                                                  9437184
+VmAirWrapper<Rv32BranchAdapterAir, BranchEqualCoreAir<4>                 7077888
+VmAirWrapper<Rv32RdWriteAdapterAir, Rv32AuipcCoreAir>                    5505024
+Poseidon2PeripheryAir<BabyBearParameters>, 1>                            4415488
+BitwiseOperationLookupAir<8>                                             2621440
+ProgramAir                                                               2359296
+VmAirWrapper<Rv32CondRdWriteAdapterAir, Rv32JalLuiCoreAir>               1507328
+VmAirWrapper<Rv32BranchAdapterAir, BranchLessThanCoreAir<4, 8>            917504
+MemoryMerkleAir<8>                                                        786432
+AccessAdapterAir<8>                                                       540672
+PersistentBoundaryAir<8>                                                  524288
+VmConnectorAir                                                               168
+Rv32HintStoreAir                                                             152
+PhantomAir                                                                    72
+Name: cells, dtype: int64
+Saving plot to projective-apc100/trace_cells.png
