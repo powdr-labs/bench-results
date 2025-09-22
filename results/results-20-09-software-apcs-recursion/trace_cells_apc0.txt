@@ -1,0 +1,30 @@
+Total cells: 222.41B
+Cells by AIR:
+air_name
+VmAirWrapper<Rv32BaseAluAdapterAir, BaseAluCoreAir<4, 8>             75480694784
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadStoreCoreAir<4>            56755224576
+VmAirWrapper<Rv32BaseAluAdapterAir, ShiftCoreAir<4, 8>               27249868800
+VmAirWrapper<Rv32BaseAluAdapterAir, LessThanCoreAir<4, 8>            21693346752
+VmAirWrapper<Rv32MultAdapterAir, MulHCoreAir<4, 8>                   16314952272
+VmAirWrapper<Rv32MultAdapterAir, MultiplicationCoreAir<4, 8>         12204574976
+Poseidon2PeripheryAir<BabyBearParameters>, 1>                         2574860288
+RangeTupleCheckerAir<2>                                               1944059904
+ProgramAir                                                            1944059904
+VmAirWrapper<Rv32BranchAdapterAir, BranchEqualCoreAir<4>              1939341312
+VmAirWrapper<Rv32BranchAdapterAir, BranchLessThanCoreAir<4, 8>         816840704
+VmAirWrapper<Rv32JalrAdapterAir, Rv32JalrCoreAir>                      759693312
+MemoryMerkleAir<8>                                                     530743296
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadSignExtendCoreAir<4, 8>      500694656
+VmAirWrapper<Rv32CondRdWriteAdapterAir, Rv32JalLuiCoreAir>             468025344
+AccessAdapterAir<8>                                                    275607552
+PersistentBoundaryAir<8>                                               267255808
+VmAirWrapper<Rv32RdWriteAdapterAir, Rv32AuipcCoreAir>                  258146304
+VariableRangeCheckerAir                                                243007488
+Rv32HintStoreAir                                                       120097024
+BitwiseOperationLookupAir<8>                                            67502080
+KeccakVmAir                                                               434557
+VmAirWrapper<Rv32MultAdapterAir, DivRemCoreAir<4, 8>                      328286
+PhantomAir                                                                 12618
+VmConnectorAir                                                              4326
+Name: cells, dtype: int64
+Saving plot to ./trace_cells_apc0.png
