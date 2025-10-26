@@ -1,0 +1,29 @@
+Total cells: 11.09B
+Cells by AIR:
+air_name
+VmAirWrapper<Rv32BaseAluAdapterAir, BaseAluCoreAir<4, 8>             4060086272
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadStoreCoreAir<4>            2145386496
+VmAirWrapper<Rv32MultAdapterAir, MulHCoreAir<4, 8>                   1280311296
+VmAirWrapper<Rv32BaseAluAdapterAir, ShiftCoreAir<4, 8>               1211105280
+VmAirWrapper<Rv32MultAdapterAir, MultiplicationCoreAir<4, 8>          957349888
+VmAirWrapper<Rv32BaseAluAdapterAir, LessThanCoreAir<4, 8>             888143872
+PowdrAir<BabyBearParameters>                                          287997952
+VmAirWrapper<Rv32JalrAdapterAir, Rv32JalrCoreAir>                      50331648
+VmAirWrapper<Rv32BranchAdapterAir, BranchEqualCoreAir<4>               38928384
+VmAirWrapper<Rv32RdWriteAdapterAir, Rv32AuipcCoreAir>                  34603008
+VmAirWrapper<Rv32CondRdWriteAdapterAir, Rv32JalLuiCoreAir>             33161216
+RangeTupleCheckerAir<2>                                                28311552
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadSignExtendCoreAir<4, 8>      15859712
+VariableRangeCheckerAir                                                14155776
+Rv32HintStoreAir                                                       13697024
+VmAirWrapper<Rv32BranchAdapterAir, BranchLessThanCoreAir<4, 8>         11534336
+Poseidon2PeripheryAir<BabyBearParameters>, 1>                           6938624
+BitwiseOperationLookupAir<8>                                            3932160
+ProgramAir                                                              1769472
+MemoryMerkleAir<8>                                                      1179648
+AccessAdapterAir<8>                                                      811008
+PersistentBoundaryAir<8>                                                 786432
+PhantomAir                                                               405504
+VmConnectorAir                                                              252
+Name: cells, dtype: int64
+Saving plot to affine-hint-apc003/trace_cells.png
