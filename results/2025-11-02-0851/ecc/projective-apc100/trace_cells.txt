@@ -1,0 +1,29 @@
+Total cells: 4.27B
+Cells by AIR:
+air_name
+PowdrAir<BabyBearParameters>                                         4021968128
+VmAirWrapper<Rv32BaseAluAdapterAir, BaseAluCoreAir<4, 8>               95158272
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadStoreCoreAir<4>              50282496
+RangeTupleCheckerAir<2>                                                23592960
+VmAirWrapper<Rv32JalrAdapterAir, Rv32JalrCoreAir>                      17825792
+VariableRangeCheckerAir                                                11796480
+VmAirWrapper<Rv32BaseAluAdapterAir, LessThanCoreAir<4, 8>              10723328
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadSignExtendCoreAir<4, 8>       7569408
+VmAirWrapper<Rv32MultAdapterAir, MulHCoreAir<4, 8>                      7501824
+Poseidon2PeripheryAir<BabyBearParameters>, 1>                           5677056
+VmAirWrapper<Rv32MultAdapterAir, MultiplicationCoreAir<4, 8>            5609472
+VmAirWrapper<Rv32BaseAluAdapterAir, ShiftCoreAir<4, 8>                  3548160
+BitwiseOperationLookupAir<8>                                            3276800
+ProgramAir                                                              2949120
+VmAirWrapper<Rv32BranchAdapterAir, BranchEqualCoreAir<4>                1880064
+VmAirWrapper<Rv32RdWriteAdapterAir, Rv32AuipcCoreAir>                   1671168
+MemoryMerkleAir<8>                                                       983040
+VmAirWrapper<Rv32CondRdWriteAdapterAir, Rv32JalLuiCoreAir>               777216
+AccessAdapterAir<8>                                                      675840
+PersistentBoundaryAir<8>                                                 655360
+VmAirWrapper<Rv32BranchAdapterAir, BranchLessThanCoreAir<4, 8>           270336
+VmConnectorAir                                                              210
+Rv32HintStoreAir                                                            152
+PhantomAir                                                                   18
+Name: cells, dtype: int64
+Saving plot to projective-apc100/trace_cells.png
