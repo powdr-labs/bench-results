@@ -1,0 +1,25 @@
+Total cells: 2.97B
+Cells by AIR:
+air_name
+PowdrAir<BabyBearParameters>                                      2630615040
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadStoreCoreAir<4>           91422720
+VmAirWrapper<Rv32BaseAluAdapterAir, BaseAluCoreAir<4, 8>            81461248
+RangeTupleCheckerAir<2>                                             75497472
+VmAirWrapper<Rv32BranchAdapterAir, BranchEqualCoreAir<4>            21786624
+MemoryMerkleAir<8>                                                  20447232
+AccessAdapterAir<8>                                                 14057472
+PersistentBoundaryAir<8>                                            13631488
+VariableRangeCheckerAir                                              9437184
+BitwiseOperationLookupAir<8>                                         2621440
+VmAirWrapper<Rv32BranchAdapterAir, BranchLessThanCoreAir<4, 8>       2097280
+VmAirWrapper<Rv32JalrAdapterAir, Rv32JalrCoreAir>                     819200
+VmAirWrapper<Rv32BaseAluAdapterAir, ShiftCoreAir<4, 8>                645120
+ProgramAir                                                            589824
+Poseidon2PeripheryAir<BabyBearParameters>, 1>                         551936
+VmAirWrapper<Rv32BaseAluAdapterAir, LessThanCoreAir<4, 8>             512512
+VmAirWrapper<Rv32CondRdWriteAdapterAir, Rv32JalLuiCoreAir>            377200
+VmAirWrapper<Rv32RdWriteAdapterAir, Rv32AuipcCoreAir>                 307200
+VmAirWrapper<Rv32MultAdapterAir, MultiplicationCoreAir<4, 8>           14608
+VmConnectorAir                                                           168
+Name: cells, dtype: int64
+Saving plot to apc010/trace_cells.png
