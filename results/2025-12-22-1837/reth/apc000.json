@@ -1,0 +1,101 @@
+{
+  "counter": [
+    {
+      "labels": [
+        [
+          "group",
+          "reth.execute.block_23992138"
+        ],
+        [
+          "block_number",
+          "23992138"
+        ]
+      ],
+      "metric": "execute_e1_insns",
+      "value": "835303691"
+    }
+  ],
+  "gauge": [
+    {
+      "labels": [
+        [
+          "group",
+          "reth.execute.block_23992138"
+        ],
+        [
+          "block_number",
+          "23992138"
+        ]
+      ],
+      "metric": "client.execute_time_ms",
+      "value": "218"
+    },
+    {
+      "labels": [
+        [
+          "group",
+          "reth.execute.block_23992138"
+        ],
+        [
+          "block_number",
+          "23992138"
+        ]
+      ],
+      "metric": "header.hash_slow_time_ms",
+      "value": "0"
+    },
+    {
+      "labels": [
+        [
+          "block_number",
+          "23992138"
+        ]
+      ],
+      "metric": "host.execute_time_ms",
+      "value": "218"
+    },
+    {
+      "labels": [
+        [
+          "group",
+          "reth.execute.block_23992138"
+        ],
+        [
+          "block_number",
+          "23992138"
+        ]
+      ],
+      "metric": "execute_e1_time_ms",
+      "value": "1105"
+    },
+    {
+      "labels": [
+        [
+          "group",
+          "reth.execute.block_23992138"
+        ],
+        [
+          "block_number",
+          "23992138"
+        ]
+      ],
+      "metric": "execute_e1_insn_mi/s",
+      "value": "755.5938309876227"
+    },
+    {
+      "labels": [
+        [
+          "block_number",
+          "23992138"
+        ]
+      ],
+      "metric": "sdk.execute_time_ms",
+      "value": "39190"
+    },
+    {
+      "labels": [],
+      "metric": "reth-block_time_ms",
+      "value": "39423"
+    }
+  ]
+}
