@@ -1,0 +1,70 @@
+Symbolic machine using 24 unique main columns:
+  from_state__timestamp_0
+  reads_aux__0__base__prev_timestamp_0
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_0
+  reads_aux__1__base__prev_timestamp_0
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_0
+  writes_aux__prev_data__0_0
+  writes_aux__prev_data__1_0
+  writes_aux__prev_data__2_0
+  writes_aux__prev_data__3_0
+  b__0_0
+  b__1_0
+  b__2_0
+  b__3_0
+  cmp_result_0
+  diff_marker__0_0
+  diff_marker__1_0
+  diff_marker__2_0
+  diff_marker__3_0
+  diff_val_0
+  reads_aux__1__base__prev_timestamp_1
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_1
+  cmp_result_1
+  free_var_68
+  is_valid
+
+// Bus 0 (EXECUTION_BRIDGE):
+mult=is_valid * -1, args=[2190128, from_state__timestamp_0]
+mult=is_valid * 1, args=[140 * cmp_result_1 + 2190136, from_state__timestamp_0 + 5]
+
+// Bus 1 (MEMORY):
+mult=is_valid * -1, args=[1, 76, b__0_0, b__1_0, b__2_0, b__3_0, reads_aux__0__base__prev_timestamp_0]
+mult=is_valid * 1, args=[1, 76, b__0_0, b__1_0, b__2_0, b__3_0, from_state__timestamp_0]
+mult=is_valid * -1, args=[1, 44, writes_aux__prev_data__0_0, writes_aux__prev_data__1_0, writes_aux__prev_data__2_0, writes_aux__prev_data__3_0, reads_aux__1__base__prev_timestamp_0]
+mult=is_valid * 1, args=[1, 44, cmp_result_0, 0, 0, 0, from_state__timestamp_0 + 3]
+mult=is_valid * -1, args=[1, 0, 0, 0, 0, 0, reads_aux__1__base__prev_timestamp_1]
+mult=is_valid * 1, args=[1, 0, 0, 0, 0, 0, from_state__timestamp_0 + 4]
+
+// Bus 3 (VARIABLE_RANGE_CHECKER):
+mult=is_valid * 1, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=is_valid * 1, args=[15360 * reads_aux__0__base__prev_timestamp_0 + 15360 * reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_0 + 15360 - 15360 * from_state__timestamp_0, 12]
+mult=is_valid * 1, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=is_valid * 1, args=[15360 * reads_aux__1__base__prev_timestamp_0 + 15360 * reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_0 - 15360 * from_state__timestamp_0, 12]
+mult=is_valid * 1, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_1, 17]
+mult=is_valid * 1, args=[15360 * reads_aux__1__base__prev_timestamp_1 + 15360 * reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_1 - (15360 * from_state__timestamp_0 + 46080), 12]
+
+// Bus 6 (BITWISE_LOOKUP):
+mult=diff_marker__0_0 + diff_marker__1_0 + diff_marker__2_0 + diff_marker__3_0, args=[diff_val_0 - 1, 0, 0, 0]
+
+// Algebraic constraints:
+cmp_result_0 * (cmp_result_0 - 1) = 0
+diff_marker__3_0 * (diff_marker__3_0 - 1) = 0
+(1 - diff_marker__3_0) * ((writes_aux__prev_data__3_0 - b__3_0) * (2 * cmp_result_0 - 1)) = 0
+diff_marker__3_0 * ((b__3_0 - writes_aux__prev_data__3_0) * (2 * cmp_result_0 - 1) + diff_val_0) = 0
+diff_marker__2_0 * (diff_marker__2_0 - 1) = 0
+(1 - (diff_marker__2_0 + diff_marker__3_0)) * ((writes_aux__prev_data__2_0 - b__2_0) * (2 * cmp_result_0 - 1)) = 0
+diff_marker__2_0 * ((b__2_0 - writes_aux__prev_data__2_0) * (2 * cmp_result_0 - 1) + diff_val_0) = 0
+diff_marker__1_0 * (diff_marker__1_0 - 1) = 0
+(1 - (diff_marker__1_0 + diff_marker__2_0 + diff_marker__3_0)) * ((writes_aux__prev_data__1_0 - b__1_0) * (2 * cmp_result_0 - 1)) = 0
+diff_marker__1_0 * ((b__1_0 - writes_aux__prev_data__1_0) * (2 * cmp_result_0 - 1) + diff_val_0) = 0
+diff_marker__0_0 * (diff_marker__0_0 - 1) = 0
+(1 - (diff_marker__0_0 + diff_marker__1_0 + diff_marker__2_0 + diff_marker__3_0)) * ((writes_aux__prev_data__0_0 - b__0_0) * (2 * cmp_result_0 - 1)) = 0
+diff_marker__0_0 * ((b__0_0 - writes_aux__prev_data__0_0) * (2 * cmp_result_0 - 1) + diff_val_0) = 0
+(diff_marker__0_0 + diff_marker__1_0 + diff_marker__2_0 + diff_marker__3_0) * (diff_marker__0_0 + diff_marker__1_0 + diff_marker__2_0 + diff_marker__3_0 - 1) = 0
+(1 - (diff_marker__0_0 + diff_marker__1_0 + diff_marker__2_0 + diff_marker__3_0)) * cmp_result_0 = 0
+cmp_result_1 * (cmp_result_1 - 1) = 0
+(1 - cmp_result_1) * cmp_result_0 = 0
+free_var_68 * cmp_result_0 - cmp_result_1 = 0
+(1 - is_valid) * (diff_marker__0_0 + diff_marker__1_0 + diff_marker__2_0 + diff_marker__3_0) = 0
+is_valid * (is_valid - 1) = 0
