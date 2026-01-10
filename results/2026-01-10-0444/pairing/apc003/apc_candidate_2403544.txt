@@ -1,0 +1,24 @@
+Symbolic machine using 8 unique main columns:
+  from_state__timestamp_0
+  rd_aux_cols__base__prev_timestamp_0
+  rd_aux_cols__base__timestamp_lt_aux__lower_decomp__0_0
+  rd_aux_cols__prev_data__0_0
+  rd_aux_cols__prev_data__1_0
+  rd_aux_cols__prev_data__2_0
+  rd_aux_cols__prev_data__3_0
+  is_valid
+
+// Bus 0 (EXECUTION_BRIDGE):
+mult=is_valid * -1, args=[2403544, from_state__timestamp_0]
+mult=is_valid * 1, args=[2587276, from_state__timestamp_0 + 3]
+
+// Bus 1 (MEMORY):
+mult=is_valid * -1, args=[1, 4, rd_aux_cols__prev_data__0_0, rd_aux_cols__prev_data__1_0, rd_aux_cols__prev_data__2_0, rd_aux_cols__prev_data__3_0, rd_aux_cols__base__prev_timestamp_0]
+mult=is_valid * 1, args=[1, 4, 224, 172, 36, 0, from_state__timestamp_0 + 2]
+
+// Bus 3 (VARIABLE_RANGE_CHECKER):
+mult=is_valid * 1, args=[rd_aux_cols__base__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=is_valid * 1, args=[15360 * rd_aux_cols__base__prev_timestamp_0 + 15360 * rd_aux_cols__base__timestamp_lt_aux__lower_decomp__0_0 + 15360 - 15360 * from_state__timestamp_0, 12]
+
+// Algebraic constraints:
+is_valid * (is_valid - 1) = 0
