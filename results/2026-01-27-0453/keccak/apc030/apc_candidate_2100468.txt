@@ -1,0 +1,250 @@
+Symbolic machine using 107 unique main columns:
+  from_state__timestamp_0
+  rs1_data__0_0
+  rs1_data__1_0
+  rs1_data__2_0
+  rs1_data__3_0
+  rs1_aux_cols__base__prev_timestamp_0
+  rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_0
+  read_data_aux__base__prev_timestamp_0
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_0
+  mem_ptr_limbs__0_0
+  mem_ptr_limbs__1_0
+  write_base_aux__prev_timestamp_0
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_0
+  read_data__0_0
+  read_data__1_0
+  read_data__2_0
+  read_data__3_0
+  prev_data__0_0
+  prev_data__1_0
+  prev_data__2_0
+  prev_data__3_0
+  read_data_aux__base__prev_timestamp_1
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_1
+  mem_ptr_limbs__0_1
+  mem_ptr_limbs__1_1
+  write_base_aux__prev_timestamp_1
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_1
+  flags__0_1
+  flags__1_1
+  flags__2_1
+  flags__3_1
+  read_data__0_1
+  read_data__1_1
+  read_data__2_1
+  read_data__3_1
+  prev_data__0_1
+  prev_data__1_1
+  prev_data__2_1
+  prev_data__3_1
+  write_data__0_1
+  writes_aux__base__prev_timestamp_2
+  writes_aux__base__timestamp_lt_aux__lower_decomp__0_2
+  writes_aux__prev_data__0_2
+  writes_aux__prev_data__1_2
+  writes_aux__prev_data__2_2
+  writes_aux__prev_data__3_2
+  a__0_2
+  a__1_2
+  a__2_2
+  a__3_2
+  reads_aux__1__base__prev_timestamp_3
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_3
+  a__0_3
+  a__1_3
+  a__2_3
+  a__3_3
+  c__0_3
+  c__1_3
+  c__2_3
+  c__3_3
+  read_data_aux__base__prev_timestamp_4
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_4
+  mem_ptr_limbs__0_4
+  mem_ptr_limbs__1_4
+  write_base_aux__prev_timestamp_4
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_4
+  flags__0_4
+  flags__1_4
+  flags__2_4
+  flags__3_4
+  read_data__0_4
+  read_data__1_4
+  read_data__2_4
+  read_data__3_4
+  prev_data__0_4
+  prev_data__1_4
+  prev_data__2_4
+  prev_data__3_4
+  write_data__0_4
+  a__0_5
+  a__1_5
+  a__2_5
+  a__3_5
+  a__0_6
+  reads_aux__0__base__prev_timestamp_7
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_7
+  write_base_aux__prev_timestamp_8
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_8
+  flags__0_8
+  flags__1_8
+  flags__2_8
+  flags__3_8
+  prev_data__0_8
+  prev_data__1_8
+  prev_data__2_8
+  prev_data__3_8
+  write_data__0_8
+  write_data__1_8
+  write_data__2_8
+  write_data__3_8
+  cmp_result_9
+  diff_marker__0_9
+  diff_marker__1_9
+  diff_marker__2_9
+  diff_marker__3_9
+  diff_val_9
+  is_valid
+
+// Bus 0 (EXECUTION_BRIDGE):
+mult=is_valid * -1, args=[2100468, from_state__timestamp_0]
+mult=is_valid * 1, args=[384 * cmp_result_9 + 2100508, from_state__timestamp_0 + 29]
+
+// Bus 1 (MEMORY):
+mult=is_valid * -1, args=[1, 8, rs1_data__0_0, rs1_data__1_0, rs1_data__2_0, rs1_data__3_0, rs1_aux_cols__base__prev_timestamp_0]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_0 + 65536 * mem_ptr_limbs__1_0, read_data__0_0, read_data__1_0, read_data__2_0, read_data__3_0, read_data_aux__base__prev_timestamp_0]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_0 + 65536 * mem_ptr_limbs__1_0, read_data__0_0, read_data__1_0, read_data__2_0, read_data__3_0, from_state__timestamp_0 + 1]
+mult=is_valid * -1, args=[1, 44, prev_data__0_0, prev_data__1_0, prev_data__2_0, prev_data__3_0, write_base_aux__prev_timestamp_0]
+mult=is_valid * -1, args=[2, flags__0_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + 2 * flags__1_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + 3 * flags__2_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + mem_ptr_limbs__0_1 + 65536 * mem_ptr_limbs__1_1 - flags__2_1 * (flags__2_1 - 1), read_data__0_1, read_data__1_1, read_data__2_1, read_data__3_1, read_data_aux__base__prev_timestamp_1]
+mult=is_valid * 1, args=[2, flags__0_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + 2 * flags__1_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + 3 * flags__2_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + mem_ptr_limbs__0_1 + 65536 * mem_ptr_limbs__1_1 - flags__2_1 * (flags__2_1 - 1), read_data__0_1, read_data__1_1, read_data__2_1, read_data__3_1, from_state__timestamp_0 + 4]
+mult=is_valid * -1, args=[1, 48, prev_data__0_1, prev_data__1_1, prev_data__2_1, prev_data__3_1, write_base_aux__prev_timestamp_1]
+mult=is_valid * 1, args=[1, 8, rs1_data__0_0, rs1_data__1_0, rs1_data__2_0, rs1_data__3_0, from_state__timestamp_0 + 6]
+mult=is_valid * -1, args=[1, 52, writes_aux__prev_data__0_2, writes_aux__prev_data__1_2, writes_aux__prev_data__2_2, writes_aux__prev_data__3_2, writes_aux__base__prev_timestamp_2]
+mult=is_valid * -1, args=[1, 40, c__0_3, c__1_3, c__2_3, c__3_3, reads_aux__1__base__prev_timestamp_3]
+mult=is_valid * -1, args=[2, flags__0_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + 2 * flags__1_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + 3 * flags__2_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + mem_ptr_limbs__0_4 + 65536 * mem_ptr_limbs__1_4 - flags__2_4 * (flags__2_4 - 1), read_data__0_4, read_data__1_4, read_data__2_4, read_data__3_4, read_data_aux__base__prev_timestamp_4]
+mult=is_valid * 1, args=[2, flags__0_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + 2 * flags__1_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + 3 * flags__2_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + mem_ptr_limbs__0_4 + 65536 * mem_ptr_limbs__1_4 - flags__2_4 * (flags__2_4 - 1), read_data__0_4, read_data__1_4, read_data__2_4, read_data__3_4, from_state__timestamp_0 + 13]
+mult=is_valid * -1, args=[1, 56, prev_data__0_4, prev_data__1_4, prev_data__2_4, prev_data__3_4, write_base_aux__prev_timestamp_4]
+mult=is_valid * 1, args=[1, 56, write_data__0_4, 0, 0, 0, from_state__timestamp_0 + 18]
+mult=is_valid * -1, args=[1, 0, 0, 0, 0, 0, reads_aux__0__base__prev_timestamp_7]
+mult=is_valid * 1, args=[1, 0, 0, 0, 0, 0, from_state__timestamp_0 + 21]
+mult=is_valid * 1, args=[1, 52, a__0_3, a__1_3, a__2_3, a__3_3, from_state__timestamp_0 + 24]
+mult=is_valid * 1, args=[1, 48, a__0_6, 0, 0, 0, from_state__timestamp_0 + 25]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_4 + 65536 * mem_ptr_limbs__1_4 - (flags__1_8 * flags__2_8 + 2 * flags__0_8 * flags__2_8 + 2 * flags__1_8 * flags__3_8 + 3 * flags__2_8 * flags__3_8), prev_data__0_8, prev_data__1_8, prev_data__2_8, prev_data__3_8, write_base_aux__prev_timestamp_8]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_4 + 65536 * mem_ptr_limbs__1_4 - (flags__1_8 * flags__2_8 + 2 * flags__0_8 * flags__2_8 + 2 * flags__1_8 * flags__3_8 + 3 * flags__2_8 * flags__3_8), write_data__0_8, write_data__1_8, write_data__2_8, write_data__3_8, from_state__timestamp_0 + 26]
+mult=is_valid * 1, args=[1, 44, 200, 0, 0, 0, from_state__timestamp_0 + 27]
+mult=is_valid * 1, args=[1, 40, a__0_5, a__1_5, a__2_5, a__3_5, from_state__timestamp_0 + 28]
+
+// Bus 3 (VARIABLE_RANGE_CHECKER):
+mult=is_valid * 1, args=[rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=is_valid * 1, args=[15360 * rs1_aux_cols__base__prev_timestamp_0 + 15360 * rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_0 + 15360 - 15360 * from_state__timestamp_0, 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_0), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_0, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_0 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_0 - 15360 * from_state__timestamp_0, 12]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_0 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_0 - (15360 * from_state__timestamp_0 + 15360), 12]
+mult=is_valid * 1, args=[503316480 * flags__2_1 * (flags__2_1 - 1) + 503316481 * flags__2_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + 503316480 * flags__1_1 * flags__2_1 + 1006632960 * flags__0_1 * flags__2_1 + 1006632960 * flags__1_1 * flags__3_1 - (503316480 * flags__0_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + 1006632960 * flags__1_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + 503316481 * flags__2_1 * flags__3_1 + 503316480 * mem_ptr_limbs__0_1), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_1, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_1, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_1 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_1 - (15360 * from_state__timestamp_0 + 46080), 12]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_1, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_1 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_1 - (15360 * from_state__timestamp_0 + 61440), 12]
+mult=is_valid * 1, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__0_2, 17]
+mult=is_valid * 1, args=[15360 * writes_aux__base__prev_timestamp_2 + 15360 * writes_aux__base__timestamp_lt_aux__lower_decomp__0_2 - (15360 * from_state__timestamp_0 + 107520), 12]
+mult=is_valid * 1, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_3, 17]
+mult=is_valid * 1, args=[15360 * reads_aux__1__base__prev_timestamp_3 + 15360 * reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_3 - (15360 * from_state__timestamp_0 + 138240), 12]
+mult=is_valid * 1, args=[503316480 * flags__2_4 * (flags__2_4 - 1) + 503316481 * flags__2_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + 503316480 * flags__1_4 * flags__2_4 + 1006632960 * flags__0_4 * flags__2_4 + 1006632960 * flags__1_4 * flags__3_4 - (503316480 * flags__0_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + 1006632960 * flags__1_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + 503316481 * flags__2_4 * flags__3_4 + 503316480 * mem_ptr_limbs__0_4), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_4, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_4, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_4 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_4 - (15360 * from_state__timestamp_0 + 184320), 12]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_4, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_4 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_4 - (15360 * from_state__timestamp_0 + 199680), 12]
+mult=is_valid * 1, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_7, 17]
+mult=is_valid * 1, args=[15360 * reads_aux__0__base__prev_timestamp_7 + 15360 * reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_7 - (15360 * from_state__timestamp_0 + 307200), 12]
+mult=is_valid * 1, args=[503316480 * flags__2_8 * (flags__2_8 - 1) + 503316481 * flags__2_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) + 503316480 * flags__1_8 * flags__2_8 + 1006632960 * flags__0_8 * flags__2_8 + 1006632960 * flags__1_8 * flags__3_8 - (503316480 * flags__0_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) + 1006632960 * flags__1_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) + 503316481 * flags__2_8 * flags__3_8 + 503316480 * mem_ptr_limbs__0_4), 14]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_8, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_8 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_8 - (15360 * from_state__timestamp_0 + 384000), 12]
+
+// Bus 6 (BITWISE_LOOKUP):
+mult=is_valid * 1, args=[write_data__0_4, write_data__0_1, a__0_6, 1]
+mult=diff_marker__0_9 + diff_marker__1_9 + diff_marker__2_9 + diff_marker__3_9, args=[diff_val_9 - 1, 0, 0, 0]
+mult=is_valid * 1, args=[a__0_2, a__1_2, 0, 0]
+mult=is_valid * 1, args=[a__2_2, a__3_2, 0, 0]
+mult=is_valid * 1, args=[a__0_3, a__1_3, 0, 0]
+mult=is_valid * 1, args=[a__2_3, a__3_3, 0, 0]
+mult=is_valid * 1, args=[a__0_5, a__1_5, 0, 0]
+mult=is_valid * 1, args=[a__2_5, a__3_5, 0, 0]
+
+// Algebraic constraints:
+(30720 * mem_ptr_limbs__0_0 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 6512640 * is_valid)) * (30720 * mem_ptr_limbs__0_0 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 6512641)) = 0
+(943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_0 + 754974621 * is_valid - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_0)) * (943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_0 + 754974620 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_0)) = 0
+flags__0_1 * ((flags__0_1 - 1) * (flags__0_1 - 2)) = 0
+flags__1_1 * ((flags__1_1 - 1) * (flags__1_1 - 2)) = 0
+flags__2_1 * ((flags__2_1 - 1) * (flags__2_1 - 2)) = 0
+flags__3_1 * ((flags__3_1 - 1) * (flags__3_1 - 2)) = 0
+(flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 1 * is_valid) * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) = 0
+1006632960 * flags__0_1 * (flags__0_1 - 1) + 1006632960 * flags__1_1 * (flags__1_1 - 1) + 1006632960 * flags__2_1 * (flags__2_1 - 1) + 1006632960 * flags__3_1 * (flags__3_1 - 1) + flags__0_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + flags__1_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + flags__2_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + 1 * is_valid = 0
+(1006632960 * flags__0_1 * (flags__0_1 - 1) + 1006632960 * flags__1_1 * (flags__1_1 - 1) + 1006632960 * flags__3_1 * (flags__3_1 - 1)) * read_data__0_1 + flags__0_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) * read_data__1_1 + (1006632960 * flags__2_1 * (flags__2_1 - 1) + flags__1_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2)) * read_data__2_1 + flags__2_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) * read_data__3_1 + (flags__3_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) - (flags__0_1 * flags__1_1 + flags__0_1 * flags__3_1)) * read_data__0_1 + write_data__0_1 - (flags__0_1 * flags__2_1 + flags__1_1 * flags__2_1 + flags__1_1 * flags__3_1 + flags__2_1 * flags__3_1) * prev_data__0_1 = 0
+(1006632960 * flags__0_1 * (flags__0_1 - 1) + 1006632960 * flags__1_1 * (flags__1_1 - 1)) * read_data__1_1 + 1006632960 * flags__2_1 * (flags__2_1 - 1) * read_data__3_1 + (flags__3_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) - flags__0_1 * flags__1_1) * read_data__1_1 - (flags__1_1 * flags__2_1 * read_data__0_1 + (flags__0_1 * flags__2_1 + flags__0_1 * flags__3_1 + flags__1_1 * flags__3_1 + flags__2_1 * flags__3_1) * prev_data__1_1) = 0
+1006632960 * flags__0_1 * (flags__0_1 - 1) * read_data__2_1 + flags__3_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) * read_data__2_1 - ((flags__0_1 * flags__2_1 + flags__1_1 * flags__3_1) * read_data__0_1 + (flags__0_1 * flags__1_1 + flags__0_1 * flags__3_1 + flags__1_1 * flags__2_1 + flags__2_1 * flags__3_1) * prev_data__2_1) = 0
+1006632960 * flags__0_1 * (flags__0_1 - 1) * read_data__3_1 + flags__3_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) * read_data__3_1 - (flags__2_1 * flags__3_1 * read_data__0_1 + flags__0_1 * flags__2_1 * read_data__1_1 + (flags__0_1 * flags__1_1 + flags__0_1 * flags__3_1 + flags__1_1 * flags__2_1 + flags__1_1 * flags__3_1) * prev_data__3_1) = 0
+(30720 * mem_ptr_limbs__0_1 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 6635520 * is_valid)) * (30720 * mem_ptr_limbs__0_1 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 6635521)) = 0
+(943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_1 + 503316379 * is_valid - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_1)) * (943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_1 + 503316378 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_1)) = 0
+flags__1_1 * (flags__1_1 - 1) + flags__2_1 * (flags__2_1 - 1) + 4 * flags__0_1 * flags__1_1 + 4 * flags__0_1 * flags__2_1 + 5 * flags__0_1 * flags__3_1 + 5 * flags__1_1 * flags__2_1 + 5 * flags__1_1 * flags__3_1 + 5 * flags__2_1 * flags__3_1 - (1006632960 * flags__3_1 * (flags__3_1 - 1) + flags__0_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + flags__1_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + flags__2_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + 3 * flags__3_1 * (flags__0_1 + flags__1_1 + flags__2_1 + flags__3_1 - 2) + 1 * is_valid) = 0
+(7864320 * a__0_2 - (7864320 * rs1_data__0_0 + 62914560 * is_valid)) * (7864320 * a__0_2 - (7864320 * rs1_data__0_0 + 62914561)) = 0
+(30720 * a__0_2 + 7864320 * a__1_2 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 245760 * is_valid)) * (30720 * a__0_2 + 7864320 * a__1_2 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 245761)) = 0
+(120 * a__0_2 + 30720 * a__1_2 + 7864320 * a__2_2 - (120 * rs1_data__0_0 + 30720 * rs1_data__1_0 + 7864320 * rs1_data__2_0 + 960 * is_valid)) * (120 * a__0_2 + 30720 * a__1_2 + 7864320 * a__2_2 - (120 * rs1_data__0_0 + 30720 * rs1_data__1_0 + 7864320 * rs1_data__2_0 + 961)) = 0
+(943718400 * rs1_data__0_0 + 120 * a__1_2 + 30720 * a__2_2 + 7864320 * a__3_2 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * a__0_2 + 503316484 * is_valid)) * (943718400 * rs1_data__0_0 + 120 * a__1_2 + 30720 * a__2_2 + 7864320 * a__3_2 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * a__0_2 + 503316485)) = 0
+(7864320 * a__0_3 - (7864320 * a__0_2 + 7864320 * c__0_3)) * (7864320 * a__0_3 - (7864320 * a__0_2 + 7864320 * c__0_3 + 1)) = 0
+(30720 * a__0_3 + 7864320 * a__1_3 - (30720 * a__0_2 + 7864320 * a__1_2 + 30720 * c__0_3 + 7864320 * c__1_3)) * (30720 * a__0_3 + 7864320 * a__1_3 - (30720 * a__0_2 + 7864320 * a__1_2 + 30720 * c__0_3 + 7864320 * c__1_3 + 1)) = 0
+(120 * a__0_3 + 30720 * a__1_3 + 7864320 * a__2_3 - (120 * a__0_2 + 30720 * a__1_2 + 7864320 * a__2_2 + 120 * c__0_3 + 30720 * c__1_3 + 7864320 * c__2_3)) * (120 * a__0_3 + 30720 * a__1_3 + 7864320 * a__2_3 - (120 * a__0_2 + 30720 * a__1_2 + 7864320 * a__2_2 + 120 * c__0_3 + 30720 * c__1_3 + 7864320 * c__2_3 + 1)) = 0
+(943718400 * a__0_2 + 120 * a__1_3 + 30720 * a__2_3 + 7864320 * a__3_3 + 943718400 * c__0_3 - (120 * a__1_2 + 30720 * a__2_2 + 7864320 * a__3_2 + 943718400 * a__0_3 + 120 * c__1_3 + 30720 * c__2_3 + 7864320 * c__3_3)) * (943718400 * a__0_2 + 120 * a__1_3 + 30720 * a__2_3 + 7864320 * a__3_3 + 943718400 * c__0_3 - (120 * a__1_2 + 30720 * a__2_2 + 7864320 * a__3_2 + 943718400 * a__0_3 + 120 * c__1_3 + 30720 * c__2_3 + 7864320 * c__3_3 + 1)) = 0
+flags__0_4 * ((flags__0_4 - 1) * (flags__0_4 - 2)) = 0
+flags__1_4 * ((flags__1_4 - 1) * (flags__1_4 - 2)) = 0
+flags__2_4 * ((flags__2_4 - 1) * (flags__2_4 - 2)) = 0
+flags__3_4 * ((flags__3_4 - 1) * (flags__3_4 - 2)) = 0
+(flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 1 * is_valid) * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) = 0
+1006632960 * flags__0_4 * (flags__0_4 - 1) + 1006632960 * flags__1_4 * (flags__1_4 - 1) + 1006632960 * flags__2_4 * (flags__2_4 - 1) + 1006632960 * flags__3_4 * (flags__3_4 - 1) + flags__0_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + flags__1_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + flags__2_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + 1 * is_valid = 0
+(1006632960 * flags__0_4 * (flags__0_4 - 1) + 1006632960 * flags__1_4 * (flags__1_4 - 1) + 1006632960 * flags__3_4 * (flags__3_4 - 1)) * read_data__0_4 + flags__0_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) * read_data__1_4 + (1006632960 * flags__2_4 * (flags__2_4 - 1) + flags__1_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2)) * read_data__2_4 + flags__2_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) * read_data__3_4 + (flags__3_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) - (flags__0_4 * flags__1_4 + flags__0_4 * flags__3_4)) * read_data__0_4 + write_data__0_4 - (flags__0_4 * flags__2_4 + flags__1_4 * flags__2_4 + flags__1_4 * flags__3_4 + flags__2_4 * flags__3_4) * prev_data__0_4 = 0
+(1006632960 * flags__0_4 * (flags__0_4 - 1) + 1006632960 * flags__1_4 * (flags__1_4 - 1)) * read_data__1_4 + 1006632960 * flags__2_4 * (flags__2_4 - 1) * read_data__3_4 + (flags__3_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) - flags__0_4 * flags__1_4) * read_data__1_4 - (flags__1_4 * flags__2_4 * read_data__0_4 + (flags__0_4 * flags__2_4 + flags__0_4 * flags__3_4 + flags__1_4 * flags__3_4 + flags__2_4 * flags__3_4) * prev_data__1_4) = 0
+1006632960 * flags__0_4 * (flags__0_4 - 1) * read_data__2_4 + flags__3_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) * read_data__2_4 - ((flags__0_4 * flags__2_4 + flags__1_4 * flags__3_4) * read_data__0_4 + (flags__0_4 * flags__1_4 + flags__0_4 * flags__3_4 + flags__1_4 * flags__2_4 + flags__2_4 * flags__3_4) * prev_data__2_4) = 0
+1006632960 * flags__0_4 * (flags__0_4 - 1) * read_data__3_4 + flags__3_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) * read_data__3_4 - (flags__2_4 * flags__3_4 * read_data__0_4 + flags__0_4 * flags__2_4 * read_data__1_4 + (flags__0_4 * flags__1_4 + flags__0_4 * flags__3_4 + flags__1_4 * flags__2_4 + flags__1_4 * flags__3_4) * prev_data__3_4) = 0
+(30720 * mem_ptr_limbs__0_4 - (30720 * a__0_3 + 7864320 * a__1_3)) * (30720 * mem_ptr_limbs__0_4 - (30720 * a__0_3 + 7864320 * a__1_3 + 1)) = 0
+(943718400 * a__0_3 + 30720 * mem_ptr_limbs__1_4 - (120 * a__1_3 + 30720 * a__2_3 + 7864320 * a__3_3 + 943718400 * mem_ptr_limbs__0_4)) * (943718400 * a__0_3 + 30720 * mem_ptr_limbs__1_4 - (120 * a__1_3 + 30720 * a__2_3 + 7864320 * a__3_3 + 943718400 * mem_ptr_limbs__0_4 + 1)) = 0
+flags__1_4 * (flags__1_4 - 1) + flags__2_4 * (flags__2_4 - 1) + 4 * flags__0_4 * flags__1_4 + 4 * flags__0_4 * flags__2_4 + 5 * flags__0_4 * flags__3_4 + 5 * flags__1_4 * flags__2_4 + 5 * flags__1_4 * flags__3_4 + 5 * flags__2_4 * flags__3_4 - (1006632960 * flags__3_4 * (flags__3_4 - 1) + flags__0_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + flags__1_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + flags__2_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + 3 * flags__3_4 * (flags__0_4 + flags__1_4 + flags__2_4 + flags__3_4 - 2) + 1 * is_valid) = 0
+(7864320 * a__0_5 + 7864321 * is_valid - 7864320 * read_data__0_0) * (7864320 * a__0_5 + 7864320 - 7864320 * read_data__0_0) = 0
+(30720 * a__0_5 + 7864320 * a__1_5 + 30721 * is_valid - (30720 * read_data__0_0 + 7864320 * read_data__1_0)) * (30720 * a__0_5 + 7864320 * a__1_5 + 30720 - (30720 * read_data__0_0 + 7864320 * read_data__1_0)) = 0
+(120 * a__0_5 + 30720 * a__1_5 + 7864320 * a__2_5 + 121 * is_valid - (120 * read_data__0_0 + 30720 * read_data__1_0 + 7864320 * read_data__2_0)) * (120 * a__0_5 + 30720 * a__1_5 + 7864320 * a__2_5 + 120 - (120 * read_data__0_0 + 30720 * read_data__1_0 + 7864320 * read_data__2_0)) = 0
+(943718400 * read_data__0_0 + 120 * a__1_5 + 30720 * a__2_5 + 7864320 * a__3_5 - (120 * read_data__1_0 + 30720 * read_data__2_0 + 7864320 * read_data__3_0 + 943718400 * a__0_5 + 943718399 * is_valid)) * (943718400 * read_data__0_0 + 120 * a__1_5 + 30720 * a__2_5 + 7864320 * a__3_5 - (120 * read_data__1_0 + 30720 * read_data__2_0 + 7864320 * read_data__3_0 + 943718400 * a__0_5 + 943718400)) = 0
+flags__0_8 * ((flags__0_8 - 1) * (flags__0_8 - 2)) = 0
+flags__1_8 * ((flags__1_8 - 1) * (flags__1_8 - 2)) = 0
+flags__2_8 * ((flags__2_8 - 1) * (flags__2_8 - 2)) = 0
+flags__3_8 * ((flags__3_8 - 1) * (flags__3_8 - 2)) = 0
+(flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 1 * is_valid) * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) = 0
+1006632960 * flags__0_8 * (flags__0_8 - 1) + 1006632960 * flags__1_8 * (flags__1_8 - 1) + 1006632960 * flags__2_8 * (flags__2_8 - 1) + 1006632960 * flags__3_8 * (flags__3_8 - 1) + flags__0_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) + flags__1_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) + flags__2_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) = 0
+(1006632960 * flags__0_8 * (flags__0_8 - 1) + 1006632960 * flags__1_8 * (flags__1_8 - 1) + 1006632960 * flags__3_8 * (flags__3_8 - 1)) * a__0_6 + (flags__3_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) - (flags__0_8 * flags__1_8 + flags__0_8 * flags__3_8)) * a__0_6 + write_data__0_8 - (flags__0_8 * flags__2_8 + flags__1_8 * flags__2_8 + flags__1_8 * flags__3_8 + flags__2_8 * flags__3_8) * prev_data__0_8 = 0
+write_data__1_8 - (flags__1_8 * flags__2_8 * a__0_6 + (flags__0_8 * flags__2_8 + flags__0_8 * flags__3_8 + flags__1_8 * flags__3_8 + flags__2_8 * flags__3_8) * prev_data__1_8) = 0
+write_data__2_8 - ((flags__0_8 * flags__2_8 + flags__1_8 * flags__3_8) * a__0_6 + (flags__0_8 * flags__1_8 + flags__0_8 * flags__3_8 + flags__1_8 * flags__2_8 + flags__2_8 * flags__3_8) * prev_data__2_8) = 0
+write_data__3_8 - (flags__2_8 * flags__3_8 * a__0_6 + (flags__0_8 * flags__1_8 + flags__0_8 * flags__3_8 + flags__1_8 * flags__2_8 + flags__1_8 * flags__3_8) * prev_data__3_8) = 0
+flags__1_8 * (flags__1_8 - 1) + flags__2_8 * (flags__2_8 - 1) + 4 * flags__0_8 * flags__1_8 + 4 * flags__0_8 * flags__2_8 + 5 * flags__0_8 * flags__3_8 + 5 * flags__1_8 * flags__2_8 + 5 * flags__1_8 * flags__3_8 + 5 * flags__2_8 * flags__3_8 - (1006632960 * flags__3_8 * (flags__3_8 - 1) + flags__0_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) + flags__1_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) + flags__2_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) + 3 * flags__3_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) + 5 * is_valid) = 0
+cmp_result_9 * (cmp_result_9 - 1) = 0
+diff_marker__3_9 * (diff_marker__3_9 - 1) = 0
+(1 - diff_marker__3_9) * (a__3_5 * (2 * cmp_result_9 - 1)) = 0
+diff_marker__3_9 * (diff_val_9 - a__3_5 * (2 * cmp_result_9 - 1)) = 0
+diff_marker__2_9 * (diff_marker__2_9 - 1) = 0
+(1 - (diff_marker__2_9 + diff_marker__3_9)) * (a__2_5 * (2 * cmp_result_9 - 1)) = 0
+diff_marker__2_9 * (diff_val_9 - a__2_5 * (2 * cmp_result_9 - 1)) = 0
+diff_marker__1_9 * (diff_marker__1_9 - 1) = 0
+(1 - (diff_marker__1_9 + diff_marker__2_9 + diff_marker__3_9)) * (a__1_5 * (2 * cmp_result_9 - 1)) = 0
+diff_marker__1_9 * (diff_val_9 - a__1_5 * (2 * cmp_result_9 - 1)) = 0
+diff_marker__0_9 * (diff_marker__0_9 - 1) = 0
+(1 * is_valid - (diff_marker__0_9 + diff_marker__1_9 + diff_marker__2_9 + diff_marker__3_9)) * ((a__0_5 - 200) * (2 * cmp_result_9 - 1)) = 0
+diff_marker__0_9 * ((200 - a__0_5) * (2 * cmp_result_9 - 1) + diff_val_9) = 0
+(diff_marker__0_9 + diff_marker__1_9 + diff_marker__2_9 + diff_marker__3_9) * (diff_marker__0_9 + diff_marker__1_9 + diff_marker__2_9 + diff_marker__3_9 - 1) = 0
+(1 - (diff_marker__0_9 + diff_marker__1_9 + diff_marker__2_9 + diff_marker__3_9)) * cmp_result_9 = 0
+flags__1_1 * flags__2_1 + 2 * flags__0_1 * flags__2_1 + 2 * flags__1_1 * flags__3_1 + 3 * flags__2_1 * flags__3_1 = 0
+flags__1_4 * flags__2_4 + 2 * flags__0_4 * flags__2_4 + 2 * flags__1_4 * flags__3_4 + 3 * flags__2_4 * flags__3_4 = 0
+flags__2_8 * (flags__2_8 - 1) - (flags__0_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) + 2 * flags__1_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2) + 3 * flags__2_8 * (flags__0_8 + flags__1_8 + flags__2_8 + flags__3_8 - 2)) = 0
+(1 - is_valid) * (diff_marker__0_9 + diff_marker__1_9 + diff_marker__2_9 + diff_marker__3_9) = 0
+is_valid * (is_valid - 1) = 0
