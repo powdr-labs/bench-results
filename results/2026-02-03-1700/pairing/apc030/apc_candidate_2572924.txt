@@ -1,0 +1,1230 @@
+Symbolic machine using 620 unique main columns:
+  from_state__timestamp_0
+  rs1_data__0_0
+  rs1_data__1_0
+  rs1_data__2_0
+  rs1_data__3_0
+  rs1_aux_cols__base__prev_timestamp_0
+  rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_0
+  read_data_aux__base__prev_timestamp_0
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_0
+  mem_ptr_limbs__0_0
+  mem_ptr_limbs__1_0
+  write_base_aux__prev_timestamp_0
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_0
+  read_data__0_0
+  read_data__1_0
+  read_data__2_0
+  read_data__3_0
+  prev_data__0_0
+  prev_data__1_0
+  prev_data__2_0
+  prev_data__3_0
+  read_data_aux__base__prev_timestamp_1
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_1
+  mem_ptr_limbs__0_1
+  mem_ptr_limbs__1_1
+  write_base_aux__prev_timestamp_1
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_1
+  read_data__0_1
+  read_data__1_1
+  read_data__2_1
+  read_data__3_1
+  prev_data__0_1
+  prev_data__1_1
+  prev_data__2_1
+  prev_data__3_1
+  read_data_aux__base__prev_timestamp_2
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_2
+  mem_ptr_limbs__0_2
+  mem_ptr_limbs__1_2
+  write_base_aux__prev_timestamp_2
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_2
+  read_data__0_2
+  read_data__1_2
+  read_data__2_2
+  read_data__3_2
+  prev_data__0_2
+  prev_data__1_2
+  prev_data__2_2
+  prev_data__3_2
+  read_data_aux__base__prev_timestamp_3
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_3
+  mem_ptr_limbs__0_3
+  mem_ptr_limbs__1_3
+  write_base_aux__prev_timestamp_3
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_3
+  read_data__0_3
+  read_data__1_3
+  read_data__2_3
+  read_data__3_3
+  prev_data__0_3
+  prev_data__1_3
+  prev_data__2_3
+  prev_data__3_3
+  read_data_aux__base__prev_timestamp_4
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_4
+  mem_ptr_limbs__0_4
+  mem_ptr_limbs__1_4
+  write_base_aux__prev_timestamp_4
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_4
+  read_data__0_4
+  read_data__1_4
+  read_data__2_4
+  read_data__3_4
+  prev_data__0_4
+  prev_data__1_4
+  prev_data__2_4
+  prev_data__3_4
+  read_data_aux__base__prev_timestamp_5
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_5
+  mem_ptr_limbs__0_5
+  mem_ptr_limbs__1_5
+  write_base_aux__prev_timestamp_5
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_5
+  read_data__0_5
+  read_data__1_5
+  read_data__2_5
+  read_data__3_5
+  prev_data__0_5
+  prev_data__1_5
+  prev_data__2_5
+  prev_data__3_5
+  read_data_aux__base__prev_timestamp_6
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_6
+  mem_ptr_limbs__0_6
+  mem_ptr_limbs__1_6
+  write_base_aux__prev_timestamp_6
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_6
+  read_data__0_6
+  read_data__1_6
+  read_data__2_6
+  read_data__3_6
+  prev_data__0_6
+  prev_data__1_6
+  prev_data__2_6
+  prev_data__3_6
+  read_data_aux__base__prev_timestamp_7
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_7
+  mem_ptr_limbs__0_7
+  mem_ptr_limbs__1_7
+  write_base_aux__prev_timestamp_7
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_7
+  read_data__0_7
+  read_data__1_7
+  read_data__2_7
+  read_data__3_7
+  prev_data__0_7
+  prev_data__1_7
+  prev_data__2_7
+  prev_data__3_7
+  rs1_data__0_8
+  rs1_data__1_8
+  rs1_data__2_8
+  rs1_data__3_8
+  rs1_aux_cols__base__prev_timestamp_8
+  rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_8
+  mem_ptr_limbs__0_8
+  mem_ptr_limbs__1_8
+  write_base_aux__prev_timestamp_8
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_8
+  prev_data__0_8
+  prev_data__1_8
+  prev_data__2_8
+  prev_data__3_8
+  mem_ptr_limbs__0_9
+  mem_ptr_limbs__1_9
+  write_base_aux__prev_timestamp_9
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_9
+  prev_data__0_9
+  prev_data__1_9
+  prev_data__2_9
+  prev_data__3_9
+  mem_ptr_limbs__0_10
+  mem_ptr_limbs__1_10
+  write_base_aux__prev_timestamp_10
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_10
+  prev_data__0_10
+  prev_data__1_10
+  prev_data__2_10
+  prev_data__3_10
+  mem_ptr_limbs__0_11
+  mem_ptr_limbs__1_11
+  write_base_aux__prev_timestamp_11
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_11
+  prev_data__0_11
+  prev_data__1_11
+  prev_data__2_11
+  prev_data__3_11
+  rs1_data__0_12
+  rs1_data__1_12
+  rs1_data__2_12
+  rs1_data__3_12
+  rs1_aux_cols__base__prev_timestamp_12
+  rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_12
+  read_data_aux__base__prev_timestamp_12
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_12
+  mem_ptr_limbs__0_12
+  mem_ptr_limbs__1_12
+  read_data__0_12
+  read_data__1_12
+  read_data__2_12
+  read_data__3_12
+  read_data_aux__base__prev_timestamp_13
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_13
+  mem_ptr_limbs__0_13
+  mem_ptr_limbs__1_13
+  read_data__0_13
+  read_data__1_13
+  read_data__2_13
+  read_data__3_13
+  read_data_aux__base__prev_timestamp_14
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_14
+  mem_ptr_limbs__0_14
+  mem_ptr_limbs__1_14
+  read_data__0_14
+  read_data__1_14
+  read_data__2_14
+  read_data__3_14
+  read_data_aux__base__prev_timestamp_15
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_15
+  mem_ptr_limbs__0_15
+  mem_ptr_limbs__1_15
+  read_data__0_15
+  read_data__1_15
+  read_data__2_15
+  read_data__3_15
+  mem_ptr_limbs__0_16
+  mem_ptr_limbs__1_16
+  write_base_aux__prev_timestamp_16
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_16
+  prev_data__0_16
+  prev_data__1_16
+  prev_data__2_16
+  prev_data__3_16
+  mem_ptr_limbs__0_17
+  mem_ptr_limbs__1_17
+  write_base_aux__prev_timestamp_17
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_17
+  prev_data__0_17
+  prev_data__1_17
+  prev_data__2_17
+  prev_data__3_17
+  mem_ptr_limbs__0_18
+  mem_ptr_limbs__1_18
+  write_base_aux__prev_timestamp_18
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_18
+  prev_data__0_18
+  prev_data__1_18
+  prev_data__2_18
+  prev_data__3_18
+  mem_ptr_limbs__0_19
+  mem_ptr_limbs__1_19
+  write_base_aux__prev_timestamp_19
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_19
+  prev_data__0_19
+  prev_data__1_19
+  prev_data__2_19
+  prev_data__3_19
+  read_data_aux__base__prev_timestamp_20
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_20
+  mem_ptr_limbs__0_20
+  mem_ptr_limbs__1_20
+  read_data__0_20
+  read_data__1_20
+  read_data__2_20
+  read_data__3_20
+  read_data_aux__base__prev_timestamp_21
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_21
+  mem_ptr_limbs__0_21
+  mem_ptr_limbs__1_21
+  read_data__0_21
+  read_data__1_21
+  read_data__2_21
+  read_data__3_21
+  read_data_aux__base__prev_timestamp_22
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_22
+  mem_ptr_limbs__0_22
+  mem_ptr_limbs__1_22
+  read_data__0_22
+  read_data__1_22
+  read_data__2_22
+  read_data__3_22
+  read_data_aux__base__prev_timestamp_23
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_23
+  mem_ptr_limbs__0_23
+  mem_ptr_limbs__1_23
+  read_data__0_23
+  read_data__1_23
+  read_data__2_23
+  read_data__3_23
+  mem_ptr_limbs__0_24
+  mem_ptr_limbs__1_24
+  write_base_aux__prev_timestamp_24
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_24
+  prev_data__0_24
+  prev_data__1_24
+  prev_data__2_24
+  prev_data__3_24
+  mem_ptr_limbs__0_25
+  mem_ptr_limbs__1_25
+  write_base_aux__prev_timestamp_25
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_25
+  prev_data__0_25
+  prev_data__1_25
+  prev_data__2_25
+  prev_data__3_25
+  mem_ptr_limbs__0_26
+  mem_ptr_limbs__1_26
+  write_base_aux__prev_timestamp_26
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_26
+  prev_data__0_26
+  prev_data__1_26
+  prev_data__2_26
+  prev_data__3_26
+  mem_ptr_limbs__0_27
+  mem_ptr_limbs__1_27
+  write_base_aux__prev_timestamp_27
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_27
+  prev_data__0_27
+  prev_data__1_27
+  prev_data__2_27
+  prev_data__3_27
+  reads_aux__0__base__prev_timestamp_28
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_28
+  writes_aux__base__prev_timestamp_28
+  writes_aux__base__timestamp_lt_aux__lower_decomp__0_28
+  writes_aux__prev_data__0_28
+  writes_aux__prev_data__1_28
+  writes_aux__prev_data__2_28
+  writes_aux__prev_data__3_28
+  a__0_28
+  a__1_28
+  a__2_28
+  a__3_28
+  b__0_28
+  b__1_28
+  b__2_28
+  b__3_28
+  mem_ptr_limbs__0_29
+  mem_ptr_limbs__1_29
+  write_base_aux__prev_timestamp_29
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_29
+  prev_data__0_29
+  prev_data__1_29
+  prev_data__2_29
+  prev_data__3_29
+  mem_ptr_limbs__0_30
+  mem_ptr_limbs__1_30
+  write_base_aux__prev_timestamp_30
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_30
+  prev_data__0_30
+  prev_data__1_30
+  prev_data__2_30
+  prev_data__3_30
+  mem_ptr_limbs__0_31
+  mem_ptr_limbs__1_31
+  write_base_aux__prev_timestamp_31
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_31
+  prev_data__0_31
+  prev_data__1_31
+  prev_data__2_31
+  prev_data__3_31
+  mem_ptr_limbs__0_32
+  mem_ptr_limbs__1_32
+  write_base_aux__prev_timestamp_32
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_32
+  prev_data__0_32
+  prev_data__1_32
+  prev_data__2_32
+  prev_data__3_32
+  read_data_aux__base__prev_timestamp_33
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_33
+  mem_ptr_limbs__0_33
+  mem_ptr_limbs__1_33
+  read_data__0_33
+  read_data__1_33
+  read_data__2_33
+  read_data__3_33
+  read_data_aux__base__prev_timestamp_34
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_34
+  mem_ptr_limbs__0_34
+  mem_ptr_limbs__1_34
+  read_data__0_34
+  read_data__1_34
+  read_data__2_34
+  read_data__3_34
+  read_data_aux__base__prev_timestamp_35
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_35
+  mem_ptr_limbs__0_35
+  mem_ptr_limbs__1_35
+  read_data__0_35
+  read_data__1_35
+  read_data__2_35
+  read_data__3_35
+  read_data_aux__base__prev_timestamp_36
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_36
+  mem_ptr_limbs__0_36
+  mem_ptr_limbs__1_36
+  read_data__0_36
+  read_data__1_36
+  read_data__2_36
+  read_data__3_36
+  mem_ptr_limbs__0_37
+  mem_ptr_limbs__1_37
+  write_base_aux__prev_timestamp_37
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_37
+  prev_data__0_37
+  prev_data__1_37
+  prev_data__2_37
+  prev_data__3_37
+  mem_ptr_limbs__0_38
+  mem_ptr_limbs__1_38
+  write_base_aux__prev_timestamp_38
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_38
+  prev_data__0_38
+  prev_data__1_38
+  prev_data__2_38
+  prev_data__3_38
+  mem_ptr_limbs__0_39
+  mem_ptr_limbs__1_39
+  write_base_aux__prev_timestamp_39
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_39
+  prev_data__0_39
+  prev_data__1_39
+  prev_data__2_39
+  prev_data__3_39
+  mem_ptr_limbs__0_40
+  mem_ptr_limbs__1_40
+  write_base_aux__prev_timestamp_40
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_40
+  prev_data__0_40
+  prev_data__1_40
+  prev_data__2_40
+  prev_data__3_40
+  read_data_aux__base__prev_timestamp_41
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_41
+  mem_ptr_limbs__0_41
+  mem_ptr_limbs__1_41
+  read_data__0_41
+  read_data__1_41
+  read_data__2_41
+  read_data__3_41
+  read_data_aux__base__prev_timestamp_42
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_42
+  mem_ptr_limbs__0_42
+  mem_ptr_limbs__1_42
+  read_data__0_42
+  read_data__1_42
+  read_data__2_42
+  read_data__3_42
+  read_data_aux__base__prev_timestamp_43
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_43
+  mem_ptr_limbs__0_43
+  mem_ptr_limbs__1_43
+  read_data__0_43
+  read_data__1_43
+  read_data__2_43
+  read_data__3_43
+  read_data_aux__base__prev_timestamp_44
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_44
+  mem_ptr_limbs__0_44
+  mem_ptr_limbs__1_44
+  read_data__0_44
+  read_data__1_44
+  read_data__2_44
+  read_data__3_44
+  mem_ptr_limbs__0_45
+  mem_ptr_limbs__1_45
+  write_base_aux__prev_timestamp_45
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_45
+  prev_data__0_45
+  prev_data__1_45
+  prev_data__2_45
+  prev_data__3_45
+  mem_ptr_limbs__0_46
+  mem_ptr_limbs__1_46
+  write_base_aux__prev_timestamp_46
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_46
+  prev_data__0_46
+  prev_data__1_46
+  prev_data__2_46
+  prev_data__3_46
+  mem_ptr_limbs__0_47
+  mem_ptr_limbs__1_47
+  write_base_aux__prev_timestamp_47
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_47
+  prev_data__0_47
+  prev_data__1_47
+  prev_data__2_47
+  prev_data__3_47
+  mem_ptr_limbs__0_48
+  mem_ptr_limbs__1_48
+  write_base_aux__prev_timestamp_48
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_48
+  prev_data__0_48
+  prev_data__1_48
+  prev_data__2_48
+  prev_data__3_48
+  rs1_data__0_49
+  rs1_data__1_49
+  rs1_data__2_49
+  rs1_data__3_49
+  rs1_aux_cols__base__prev_timestamp_49
+  rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_49
+  read_data_aux__base__prev_timestamp_49
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_49
+  mem_ptr_limbs__0_49
+  mem_ptr_limbs__1_49
+  read_data__0_49
+  read_data__1_49
+  read_data__2_49
+  read_data__3_49
+  read_data_aux__base__prev_timestamp_50
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_50
+  mem_ptr_limbs__0_50
+  mem_ptr_limbs__1_50
+  read_data__0_50
+  read_data__1_50
+  read_data__2_50
+  read_data__3_50
+  read_data_aux__base__prev_timestamp_51
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_51
+  mem_ptr_limbs__0_51
+  mem_ptr_limbs__1_51
+  read_data__0_51
+  read_data__1_51
+  read_data__2_51
+  read_data__3_51
+  read_data_aux__base__prev_timestamp_52
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_52
+  mem_ptr_limbs__0_52
+  mem_ptr_limbs__1_52
+  read_data__0_52
+  read_data__1_52
+  read_data__2_52
+  read_data__3_52
+  mem_ptr_limbs__0_53
+  mem_ptr_limbs__1_53
+  write_base_aux__prev_timestamp_53
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_53
+  prev_data__0_53
+  prev_data__1_53
+  prev_data__2_53
+  prev_data__3_53
+  mem_ptr_limbs__0_54
+  mem_ptr_limbs__1_54
+  write_base_aux__prev_timestamp_54
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_54
+  prev_data__0_54
+  prev_data__1_54
+  prev_data__2_54
+  prev_data__3_54
+  mem_ptr_limbs__0_55
+  mem_ptr_limbs__1_55
+  write_base_aux__prev_timestamp_55
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_55
+  prev_data__0_55
+  prev_data__1_55
+  prev_data__2_55
+  prev_data__3_55
+  mem_ptr_limbs__0_56
+  mem_ptr_limbs__1_56
+  write_base_aux__prev_timestamp_56
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_56
+  prev_data__0_56
+  prev_data__1_56
+  prev_data__2_56
+  prev_data__3_56
+  read_data_aux__base__prev_timestamp_57
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_57
+  mem_ptr_limbs__0_57
+  mem_ptr_limbs__1_57
+  read_data__0_57
+  read_data__1_57
+  read_data__2_57
+  read_data__3_57
+  read_data_aux__base__prev_timestamp_58
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_58
+  mem_ptr_limbs__0_58
+  mem_ptr_limbs__1_58
+  read_data__0_58
+  read_data__1_58
+  read_data__2_58
+  read_data__3_58
+  read_data_aux__base__prev_timestamp_59
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_59
+  mem_ptr_limbs__0_59
+  mem_ptr_limbs__1_59
+  read_data__0_59
+  read_data__1_59
+  read_data__2_59
+  read_data__3_59
+  read_data_aux__base__prev_timestamp_60
+  read_data_aux__base__timestamp_lt_aux__lower_decomp__0_60
+  mem_ptr_limbs__0_60
+  mem_ptr_limbs__1_60
+  read_data__0_60
+  read_data__1_60
+  read_data__2_60
+  read_data__3_60
+  mem_ptr_limbs__0_61
+  mem_ptr_limbs__1_61
+  write_base_aux__prev_timestamp_61
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_61
+  prev_data__0_61
+  prev_data__1_61
+  prev_data__2_61
+  prev_data__3_61
+  mem_ptr_limbs__0_62
+  mem_ptr_limbs__1_62
+  write_base_aux__prev_timestamp_62
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_62
+  prev_data__0_62
+  prev_data__1_62
+  prev_data__2_62
+  prev_data__3_62
+  mem_ptr_limbs__0_63
+  mem_ptr_limbs__1_63
+  write_base_aux__prev_timestamp_63
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_63
+  prev_data__0_63
+  prev_data__1_63
+  prev_data__2_63
+  prev_data__3_63
+  mem_ptr_limbs__0_64
+  mem_ptr_limbs__1_64
+  write_base_aux__prev_timestamp_64
+  write_base_aux__timestamp_lt_aux__lower_decomp__0_64
+  prev_data__0_64
+  prev_data__1_64
+  prev_data__2_64
+  prev_data__3_64
+  a__0_65
+  a__1_65
+  a__2_65
+  a__3_65
+  a__0_66
+  a__1_66
+  a__2_66
+  a__3_66
+  a__0_67
+  a__1_67
+  a__2_67
+  a__3_67
+  rd_aux_cols__base__prev_timestamp_68
+  rd_aux_cols__base__timestamp_lt_aux__lower_decomp__0_68
+  rd_aux_cols__prev_data__0_68
+  rd_aux_cols__prev_data__1_68
+  rd_aux_cols__prev_data__2_68
+  rd_aux_cols__prev_data__3_68
+  is_valid
+
+// Bus 0 (EXECUTION_BRIDGE):
+mult=is_valid * -1, args=[2572924, from_state__timestamp_0]
+mult=is_valid * 1, args=[2121472, from_state__timestamp_0 + 207]
+
+// Bus 1 (MEMORY):
+mult=is_valid * -1, args=[1, 72, rs1_data__0_0, rs1_data__1_0, rs1_data__2_0, rs1_data__3_0, rs1_aux_cols__base__prev_timestamp_0]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_0 + 65536 * mem_ptr_limbs__1_0, read_data__0_0, read_data__1_0, read_data__2_0, read_data__3_0, read_data_aux__base__prev_timestamp_0]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_0 + 65536 * mem_ptr_limbs__1_0, read_data__0_0, read_data__1_0, read_data__2_0, read_data__3_0, from_state__timestamp_0 + 1]
+mult=is_valid * -1, args=[1, 40, prev_data__0_0, prev_data__1_0, prev_data__2_0, prev_data__3_0, write_base_aux__prev_timestamp_0]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_1 + 65536 * mem_ptr_limbs__1_1, read_data__0_1, read_data__1_1, read_data__2_1, read_data__3_1, read_data_aux__base__prev_timestamp_1]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_1 + 65536 * mem_ptr_limbs__1_1, read_data__0_1, read_data__1_1, read_data__2_1, read_data__3_1, from_state__timestamp_0 + 4]
+mult=is_valid * -1, args=[1, 44, prev_data__0_1, prev_data__1_1, prev_data__2_1, prev_data__3_1, write_base_aux__prev_timestamp_1]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_2 + 65536 * mem_ptr_limbs__1_2, read_data__0_2, read_data__1_2, read_data__2_2, read_data__3_2, read_data_aux__base__prev_timestamp_2]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_2 + 65536 * mem_ptr_limbs__1_2, read_data__0_2, read_data__1_2, read_data__2_2, read_data__3_2, from_state__timestamp_0 + 7]
+mult=is_valid * -1, args=[1, 48, prev_data__0_2, prev_data__1_2, prev_data__2_2, prev_data__3_2, write_base_aux__prev_timestamp_2]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_3 + 65536 * mem_ptr_limbs__1_3, read_data__0_3, read_data__1_3, read_data__2_3, read_data__3_3, read_data_aux__base__prev_timestamp_3]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_3 + 65536 * mem_ptr_limbs__1_3, read_data__0_3, read_data__1_3, read_data__2_3, read_data__3_3, from_state__timestamp_0 + 10]
+mult=is_valid * -1, args=[1, 52, prev_data__0_3, prev_data__1_3, prev_data__2_3, prev_data__3_3, write_base_aux__prev_timestamp_3]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_4 + 65536 * mem_ptr_limbs__1_4, read_data__0_4, read_data__1_4, read_data__2_4, read_data__3_4, read_data_aux__base__prev_timestamp_4]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_4 + 65536 * mem_ptr_limbs__1_4, read_data__0_4, read_data__1_4, read_data__2_4, read_data__3_4, from_state__timestamp_0 + 13]
+mult=is_valid * -1, args=[1, 56, prev_data__0_4, prev_data__1_4, prev_data__2_4, prev_data__3_4, write_base_aux__prev_timestamp_4]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_5 + 65536 * mem_ptr_limbs__1_5, read_data__0_5, read_data__1_5, read_data__2_5, read_data__3_5, read_data_aux__base__prev_timestamp_5]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_5 + 65536 * mem_ptr_limbs__1_5, read_data__0_5, read_data__1_5, read_data__2_5, read_data__3_5, from_state__timestamp_0 + 16]
+mult=is_valid * -1, args=[1, 60, prev_data__0_5, prev_data__1_5, prev_data__2_5, prev_data__3_5, write_base_aux__prev_timestamp_5]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_6 + 65536 * mem_ptr_limbs__1_6, read_data__0_6, read_data__1_6, read_data__2_6, read_data__3_6, read_data_aux__base__prev_timestamp_6]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_6 + 65536 * mem_ptr_limbs__1_6, read_data__0_6, read_data__1_6, read_data__2_6, read_data__3_6, from_state__timestamp_0 + 19]
+mult=is_valid * -1, args=[1, 64, prev_data__0_6, prev_data__1_6, prev_data__2_6, prev_data__3_6, write_base_aux__prev_timestamp_6]
+mult=is_valid * 1, args=[1, 72, rs1_data__0_0, rs1_data__1_0, rs1_data__2_0, rs1_data__3_0, from_state__timestamp_0 + 21]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_7 + 65536 * mem_ptr_limbs__1_7, read_data__0_7, read_data__1_7, read_data__2_7, read_data__3_7, read_data_aux__base__prev_timestamp_7]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_7 + 65536 * mem_ptr_limbs__1_7, read_data__0_7, read_data__1_7, read_data__2_7, read_data__3_7, from_state__timestamp_0 + 22]
+mult=is_valid * -1, args=[1, 68, prev_data__0_7, prev_data__1_7, prev_data__2_7, prev_data__3_7, write_base_aux__prev_timestamp_7]
+mult=is_valid * -1, args=[1, 8, rs1_data__0_8, rs1_data__1_8, rs1_data__2_8, rs1_data__3_8, rs1_aux_cols__base__prev_timestamp_8]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_8 + 65536 * mem_ptr_limbs__1_8, prev_data__0_8, prev_data__1_8, prev_data__2_8, prev_data__3_8, write_base_aux__prev_timestamp_8]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_8 + 65536 * mem_ptr_limbs__1_8, read_data__0_0, read_data__1_0, read_data__2_0, read_data__3_0, from_state__timestamp_0 + 26]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_9 + 65536 * mem_ptr_limbs__1_9, prev_data__0_9, prev_data__1_9, prev_data__2_9, prev_data__3_9, write_base_aux__prev_timestamp_9]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_9 + 65536 * mem_ptr_limbs__1_9, read_data__0_1, read_data__1_1, read_data__2_1, read_data__3_1, from_state__timestamp_0 + 29]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_10 + 65536 * mem_ptr_limbs__1_10, prev_data__0_10, prev_data__1_10, prev_data__2_10, prev_data__3_10, write_base_aux__prev_timestamp_10]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_10 + 65536 * mem_ptr_limbs__1_10, read_data__0_2, read_data__1_2, read_data__2_2, read_data__3_2, from_state__timestamp_0 + 32]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_11 + 65536 * mem_ptr_limbs__1_11, prev_data__0_11, prev_data__1_11, prev_data__2_11, prev_data__3_11, write_base_aux__prev_timestamp_11]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_11 + 65536 * mem_ptr_limbs__1_11, read_data__0_3, read_data__1_3, read_data__2_3, read_data__3_3, from_state__timestamp_0 + 35]
+mult=is_valid * -1, args=[1, 76, rs1_data__0_12, rs1_data__1_12, rs1_data__2_12, rs1_data__3_12, rs1_aux_cols__base__prev_timestamp_12]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_12 + 65536 * mem_ptr_limbs__1_12, read_data__0_12, read_data__1_12, read_data__2_12, read_data__3_12, read_data_aux__base__prev_timestamp_12]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_12 + 65536 * mem_ptr_limbs__1_12, read_data__0_12, read_data__1_12, read_data__2_12, read_data__3_12, from_state__timestamp_0 + 37]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_13 + 65536 * mem_ptr_limbs__1_13, read_data__0_13, read_data__1_13, read_data__2_13, read_data__3_13, read_data_aux__base__prev_timestamp_13]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_13 + 65536 * mem_ptr_limbs__1_13, read_data__0_13, read_data__1_13, read_data__2_13, read_data__3_13, from_state__timestamp_0 + 40]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_14 + 65536 * mem_ptr_limbs__1_14, read_data__0_14, read_data__1_14, read_data__2_14, read_data__3_14, read_data_aux__base__prev_timestamp_14]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_14 + 65536 * mem_ptr_limbs__1_14, read_data__0_14, read_data__1_14, read_data__2_14, read_data__3_14, from_state__timestamp_0 + 43]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_15 + 65536 * mem_ptr_limbs__1_15, read_data__0_15, read_data__1_15, read_data__2_15, read_data__3_15, read_data_aux__base__prev_timestamp_15]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_15 + 65536 * mem_ptr_limbs__1_15, read_data__0_15, read_data__1_15, read_data__2_15, read_data__3_15, from_state__timestamp_0 + 46]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_16 + 65536 * mem_ptr_limbs__1_16, prev_data__0_16, prev_data__1_16, prev_data__2_16, prev_data__3_16, write_base_aux__prev_timestamp_16]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_16 + 65536 * mem_ptr_limbs__1_16, read_data__0_4, read_data__1_4, read_data__2_4, read_data__3_4, from_state__timestamp_0 + 50]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_17 + 65536 * mem_ptr_limbs__1_17, prev_data__0_17, prev_data__1_17, prev_data__2_17, prev_data__3_17, write_base_aux__prev_timestamp_17]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_17 + 65536 * mem_ptr_limbs__1_17, read_data__0_5, read_data__1_5, read_data__2_5, read_data__3_5, from_state__timestamp_0 + 53]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_18 + 65536 * mem_ptr_limbs__1_18, prev_data__0_18, prev_data__1_18, prev_data__2_18, prev_data__3_18, write_base_aux__prev_timestamp_18]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_18 + 65536 * mem_ptr_limbs__1_18, read_data__0_6, read_data__1_6, read_data__2_6, read_data__3_6, from_state__timestamp_0 + 56]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_19 + 65536 * mem_ptr_limbs__1_19, prev_data__0_19, prev_data__1_19, prev_data__2_19, prev_data__3_19, write_base_aux__prev_timestamp_19]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_19 + 65536 * mem_ptr_limbs__1_19, read_data__0_7, read_data__1_7, read_data__2_7, read_data__3_7, from_state__timestamp_0 + 59]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_20 + 65536 * mem_ptr_limbs__1_20, read_data__0_20, read_data__1_20, read_data__2_20, read_data__3_20, read_data_aux__base__prev_timestamp_20]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_20 + 65536 * mem_ptr_limbs__1_20, read_data__0_20, read_data__1_20, read_data__2_20, read_data__3_20, from_state__timestamp_0 + 61]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_21 + 65536 * mem_ptr_limbs__1_21, read_data__0_21, read_data__1_21, read_data__2_21, read_data__3_21, read_data_aux__base__prev_timestamp_21]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_21 + 65536 * mem_ptr_limbs__1_21, read_data__0_21, read_data__1_21, read_data__2_21, read_data__3_21, from_state__timestamp_0 + 64]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_22 + 65536 * mem_ptr_limbs__1_22, read_data__0_22, read_data__1_22, read_data__2_22, read_data__3_22, read_data_aux__base__prev_timestamp_22]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_22 + 65536 * mem_ptr_limbs__1_22, read_data__0_22, read_data__1_22, read_data__2_22, read_data__3_22, from_state__timestamp_0 + 67]
+mult=is_valid * 1, args=[1, 76, rs1_data__0_12, rs1_data__1_12, rs1_data__2_12, rs1_data__3_12, from_state__timestamp_0 + 69]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_23 + 65536 * mem_ptr_limbs__1_23, read_data__0_23, read_data__1_23, read_data__2_23, read_data__3_23, read_data_aux__base__prev_timestamp_23]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_23 + 65536 * mem_ptr_limbs__1_23, read_data__0_23, read_data__1_23, read_data__2_23, read_data__3_23, from_state__timestamp_0 + 70]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_24 + 65536 * mem_ptr_limbs__1_24, prev_data__0_24, prev_data__1_24, prev_data__2_24, prev_data__3_24, write_base_aux__prev_timestamp_24]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_24 + 65536 * mem_ptr_limbs__1_24, read_data__0_12, read_data__1_12, read_data__2_12, read_data__3_12, from_state__timestamp_0 + 74]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_25 + 65536 * mem_ptr_limbs__1_25, prev_data__0_25, prev_data__1_25, prev_data__2_25, prev_data__3_25, write_base_aux__prev_timestamp_25]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_25 + 65536 * mem_ptr_limbs__1_25, read_data__0_13, read_data__1_13, read_data__2_13, read_data__3_13, from_state__timestamp_0 + 77]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_26 + 65536 * mem_ptr_limbs__1_26, prev_data__0_26, prev_data__1_26, prev_data__2_26, prev_data__3_26, write_base_aux__prev_timestamp_26]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_26 + 65536 * mem_ptr_limbs__1_26, read_data__0_14, read_data__1_14, read_data__2_14, read_data__3_14, from_state__timestamp_0 + 80]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_27 + 65536 * mem_ptr_limbs__1_27, prev_data__0_27, prev_data__1_27, prev_data__2_27, prev_data__3_27, write_base_aux__prev_timestamp_27]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_27 + 65536 * mem_ptr_limbs__1_27, read_data__0_15, read_data__1_15, read_data__2_15, read_data__3_15, from_state__timestamp_0 + 83]
+mult=is_valid * -1, args=[1, 84, b__0_28, b__1_28, b__2_28, b__3_28, reads_aux__0__base__prev_timestamp_28]
+mult=is_valid * -1, args=[1, 92, writes_aux__prev_data__0_28, writes_aux__prev_data__1_28, writes_aux__prev_data__2_28, writes_aux__prev_data__3_28, writes_aux__base__prev_timestamp_28]
+mult=is_valid * 1, args=[1, 92, a__0_28, a__1_28, a__2_28, a__3_28, from_state__timestamp_0 + 86]
+mult=is_valid * 1, args=[1, 56, read_data__0_20, read_data__1_20, read_data__2_20, read_data__3_20, from_state__timestamp_0 + 88]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_29 + 65536 * mem_ptr_limbs__1_29, prev_data__0_29, prev_data__1_29, prev_data__2_29, prev_data__3_29, write_base_aux__prev_timestamp_29]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_29 + 65536 * mem_ptr_limbs__1_29, read_data__0_20, read_data__1_20, read_data__2_20, read_data__3_20, from_state__timestamp_0 + 89]
+mult=is_valid * 1, args=[1, 60, read_data__0_21, read_data__1_21, read_data__2_21, read_data__3_21, from_state__timestamp_0 + 91]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_30 + 65536 * mem_ptr_limbs__1_30, prev_data__0_30, prev_data__1_30, prev_data__2_30, prev_data__3_30, write_base_aux__prev_timestamp_30]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_30 + 65536 * mem_ptr_limbs__1_30, read_data__0_21, read_data__1_21, read_data__2_21, read_data__3_21, from_state__timestamp_0 + 92]
+mult=is_valid * 1, args=[1, 64, read_data__0_22, read_data__1_22, read_data__2_22, read_data__3_22, from_state__timestamp_0 + 94]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_31 + 65536 * mem_ptr_limbs__1_31, prev_data__0_31, prev_data__1_31, prev_data__2_31, prev_data__3_31, write_base_aux__prev_timestamp_31]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_31 + 65536 * mem_ptr_limbs__1_31, read_data__0_22, read_data__1_22, read_data__2_22, read_data__3_22, from_state__timestamp_0 + 95]
+mult=is_valid * 1, args=[1, 68, read_data__0_23, read_data__1_23, read_data__2_23, read_data__3_23, from_state__timestamp_0 + 97]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_32 + 65536 * mem_ptr_limbs__1_32, prev_data__0_32, prev_data__1_32, prev_data__2_32, prev_data__3_32, write_base_aux__prev_timestamp_32]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_32 + 65536 * mem_ptr_limbs__1_32, read_data__0_23, read_data__1_23, read_data__2_23, read_data__3_23, from_state__timestamp_0 + 98]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_33 + 65536 * mem_ptr_limbs__1_33, read_data__0_33, read_data__1_33, read_data__2_33, read_data__3_33, read_data_aux__base__prev_timestamp_33]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_33 + 65536 * mem_ptr_limbs__1_33, read_data__0_33, read_data__1_33, read_data__2_33, read_data__3_33, from_state__timestamp_0 + 100]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_34 + 65536 * mem_ptr_limbs__1_34, read_data__0_34, read_data__1_34, read_data__2_34, read_data__3_34, read_data_aux__base__prev_timestamp_34]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_34 + 65536 * mem_ptr_limbs__1_34, read_data__0_34, read_data__1_34, read_data__2_34, read_data__3_34, from_state__timestamp_0 + 103]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_35 + 65536 * mem_ptr_limbs__1_35, read_data__0_35, read_data__1_35, read_data__2_35, read_data__3_35, read_data_aux__base__prev_timestamp_35]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_35 + 65536 * mem_ptr_limbs__1_35, read_data__0_35, read_data__1_35, read_data__2_35, read_data__3_35, from_state__timestamp_0 + 106]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_36 + 65536 * mem_ptr_limbs__1_36, read_data__0_36, read_data__1_36, read_data__2_36, read_data__3_36, read_data_aux__base__prev_timestamp_36]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_36 + 65536 * mem_ptr_limbs__1_36, read_data__0_36, read_data__1_36, read_data__2_36, read_data__3_36, from_state__timestamp_0 + 109]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_37 + 65536 * mem_ptr_limbs__1_37, prev_data__0_37, prev_data__1_37, prev_data__2_37, prev_data__3_37, write_base_aux__prev_timestamp_37]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_37 + 65536 * mem_ptr_limbs__1_37, read_data__0_33, read_data__1_33, read_data__2_33, read_data__3_33, from_state__timestamp_0 + 113]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_38 + 65536 * mem_ptr_limbs__1_38, prev_data__0_38, prev_data__1_38, prev_data__2_38, prev_data__3_38, write_base_aux__prev_timestamp_38]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_38 + 65536 * mem_ptr_limbs__1_38, read_data__0_34, read_data__1_34, read_data__2_34, read_data__3_34, from_state__timestamp_0 + 116]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_39 + 65536 * mem_ptr_limbs__1_39, prev_data__0_39, prev_data__1_39, prev_data__2_39, prev_data__3_39, write_base_aux__prev_timestamp_39]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_39 + 65536 * mem_ptr_limbs__1_39, read_data__0_35, read_data__1_35, read_data__2_35, read_data__3_35, from_state__timestamp_0 + 119]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_40 + 65536 * mem_ptr_limbs__1_40, prev_data__0_40, prev_data__1_40, prev_data__2_40, prev_data__3_40, write_base_aux__prev_timestamp_40]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_40 + 65536 * mem_ptr_limbs__1_40, read_data__0_36, read_data__1_36, read_data__2_36, read_data__3_36, from_state__timestamp_0 + 122]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_41 + 65536 * mem_ptr_limbs__1_41, read_data__0_41, read_data__1_41, read_data__2_41, read_data__3_41, read_data_aux__base__prev_timestamp_41]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_41 + 65536 * mem_ptr_limbs__1_41, read_data__0_41, read_data__1_41, read_data__2_41, read_data__3_41, from_state__timestamp_0 + 124]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_42 + 65536 * mem_ptr_limbs__1_42, read_data__0_42, read_data__1_42, read_data__2_42, read_data__3_42, read_data_aux__base__prev_timestamp_42]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_42 + 65536 * mem_ptr_limbs__1_42, read_data__0_42, read_data__1_42, read_data__2_42, read_data__3_42, from_state__timestamp_0 + 127]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_43 + 65536 * mem_ptr_limbs__1_43, read_data__0_43, read_data__1_43, read_data__2_43, read_data__3_43, read_data_aux__base__prev_timestamp_43]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_43 + 65536 * mem_ptr_limbs__1_43, read_data__0_43, read_data__1_43, read_data__2_43, read_data__3_43, from_state__timestamp_0 + 130]
+mult=is_valid * 1, args=[1, 84, b__0_28, b__1_28, b__2_28, b__3_28, from_state__timestamp_0 + 132]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_44 + 65536 * mem_ptr_limbs__1_44, read_data__0_44, read_data__1_44, read_data__2_44, read_data__3_44, read_data_aux__base__prev_timestamp_44]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_44 + 65536 * mem_ptr_limbs__1_44, read_data__0_44, read_data__1_44, read_data__2_44, read_data__3_44, from_state__timestamp_0 + 133]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_45 + 65536 * mem_ptr_limbs__1_45, prev_data__0_45, prev_data__1_45, prev_data__2_45, prev_data__3_45, write_base_aux__prev_timestamp_45]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_45 + 65536 * mem_ptr_limbs__1_45, read_data__0_41, read_data__1_41, read_data__2_41, read_data__3_41, from_state__timestamp_0 + 137]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_46 + 65536 * mem_ptr_limbs__1_46, prev_data__0_46, prev_data__1_46, prev_data__2_46, prev_data__3_46, write_base_aux__prev_timestamp_46]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_46 + 65536 * mem_ptr_limbs__1_46, read_data__0_42, read_data__1_42, read_data__2_42, read_data__3_42, from_state__timestamp_0 + 140]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_47 + 65536 * mem_ptr_limbs__1_47, prev_data__0_47, prev_data__1_47, prev_data__2_47, prev_data__3_47, write_base_aux__prev_timestamp_47]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_47 + 65536 * mem_ptr_limbs__1_47, read_data__0_43, read_data__1_43, read_data__2_43, read_data__3_43, from_state__timestamp_0 + 143]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_48 + 65536 * mem_ptr_limbs__1_48, prev_data__0_48, prev_data__1_48, prev_data__2_48, prev_data__3_48, write_base_aux__prev_timestamp_48]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_48 + 65536 * mem_ptr_limbs__1_48, read_data__0_44, read_data__1_44, read_data__2_44, read_data__3_44, from_state__timestamp_0 + 146]
+mult=is_valid * -1, args=[1, 80, rs1_data__0_49, rs1_data__1_49, rs1_data__2_49, rs1_data__3_49, rs1_aux_cols__base__prev_timestamp_49]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_49 + 65536 * mem_ptr_limbs__1_49, read_data__0_49, read_data__1_49, read_data__2_49, read_data__3_49, read_data_aux__base__prev_timestamp_49]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_49 + 65536 * mem_ptr_limbs__1_49, read_data__0_49, read_data__1_49, read_data__2_49, read_data__3_49, from_state__timestamp_0 + 148]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_50 + 65536 * mem_ptr_limbs__1_50, read_data__0_50, read_data__1_50, read_data__2_50, read_data__3_50, read_data_aux__base__prev_timestamp_50]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_50 + 65536 * mem_ptr_limbs__1_50, read_data__0_50, read_data__1_50, read_data__2_50, read_data__3_50, from_state__timestamp_0 + 151]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_51 + 65536 * mem_ptr_limbs__1_51, read_data__0_51, read_data__1_51, read_data__2_51, read_data__3_51, read_data_aux__base__prev_timestamp_51]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_51 + 65536 * mem_ptr_limbs__1_51, read_data__0_51, read_data__1_51, read_data__2_51, read_data__3_51, from_state__timestamp_0 + 154]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_52 + 65536 * mem_ptr_limbs__1_52, read_data__0_52, read_data__1_52, read_data__2_52, read_data__3_52, read_data_aux__base__prev_timestamp_52]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_52 + 65536 * mem_ptr_limbs__1_52, read_data__0_52, read_data__1_52, read_data__2_52, read_data__3_52, from_state__timestamp_0 + 157]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_53 + 65536 * mem_ptr_limbs__1_53, prev_data__0_53, prev_data__1_53, prev_data__2_53, prev_data__3_53, write_base_aux__prev_timestamp_53]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_53 + 65536 * mem_ptr_limbs__1_53, read_data__0_49, read_data__1_49, read_data__2_49, read_data__3_49, from_state__timestamp_0 + 161]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_54 + 65536 * mem_ptr_limbs__1_54, prev_data__0_54, prev_data__1_54, prev_data__2_54, prev_data__3_54, write_base_aux__prev_timestamp_54]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_54 + 65536 * mem_ptr_limbs__1_54, read_data__0_50, read_data__1_50, read_data__2_50, read_data__3_50, from_state__timestamp_0 + 164]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_55 + 65536 * mem_ptr_limbs__1_55, prev_data__0_55, prev_data__1_55, prev_data__2_55, prev_data__3_55, write_base_aux__prev_timestamp_55]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_55 + 65536 * mem_ptr_limbs__1_55, read_data__0_51, read_data__1_51, read_data__2_51, read_data__3_51, from_state__timestamp_0 + 167]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_56 + 65536 * mem_ptr_limbs__1_56, prev_data__0_56, prev_data__1_56, prev_data__2_56, prev_data__3_56, write_base_aux__prev_timestamp_56]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_56 + 65536 * mem_ptr_limbs__1_56, read_data__0_52, read_data__1_52, read_data__2_52, read_data__3_52, from_state__timestamp_0 + 170]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_57 + 65536 * mem_ptr_limbs__1_57, read_data__0_57, read_data__1_57, read_data__2_57, read_data__3_57, read_data_aux__base__prev_timestamp_57]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_57 + 65536 * mem_ptr_limbs__1_57, read_data__0_57, read_data__1_57, read_data__2_57, read_data__3_57, from_state__timestamp_0 + 172]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_58 + 65536 * mem_ptr_limbs__1_58, read_data__0_58, read_data__1_58, read_data__2_58, read_data__3_58, read_data_aux__base__prev_timestamp_58]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_58 + 65536 * mem_ptr_limbs__1_58, read_data__0_58, read_data__1_58, read_data__2_58, read_data__3_58, from_state__timestamp_0 + 175]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_59 + 65536 * mem_ptr_limbs__1_59, read_data__0_59, read_data__1_59, read_data__2_59, read_data__3_59, read_data_aux__base__prev_timestamp_59]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_59 + 65536 * mem_ptr_limbs__1_59, read_data__0_59, read_data__1_59, read_data__2_59, read_data__3_59, from_state__timestamp_0 + 178]
+mult=is_valid * 1, args=[1, 80, rs1_data__0_49, rs1_data__1_49, rs1_data__2_49, rs1_data__3_49, from_state__timestamp_0 + 180]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_60 + 65536 * mem_ptr_limbs__1_60, read_data__0_60, read_data__1_60, read_data__2_60, read_data__3_60, read_data_aux__base__prev_timestamp_60]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_60 + 65536 * mem_ptr_limbs__1_60, read_data__0_60, read_data__1_60, read_data__2_60, read_data__3_60, from_state__timestamp_0 + 181]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_61 + 65536 * mem_ptr_limbs__1_61, prev_data__0_61, prev_data__1_61, prev_data__2_61, prev_data__3_61, write_base_aux__prev_timestamp_61]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_61 + 65536 * mem_ptr_limbs__1_61, read_data__0_57, read_data__1_57, read_data__2_57, read_data__3_57, from_state__timestamp_0 + 185]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_62 + 65536 * mem_ptr_limbs__1_62, prev_data__0_62, prev_data__1_62, prev_data__2_62, prev_data__3_62, write_base_aux__prev_timestamp_62]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_62 + 65536 * mem_ptr_limbs__1_62, read_data__0_58, read_data__1_58, read_data__2_58, read_data__3_58, from_state__timestamp_0 + 188]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_63 + 65536 * mem_ptr_limbs__1_63, prev_data__0_63, prev_data__1_63, prev_data__2_63, prev_data__3_63, write_base_aux__prev_timestamp_63]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_63 + 65536 * mem_ptr_limbs__1_63, read_data__0_59, read_data__1_59, read_data__2_59, read_data__3_59, from_state__timestamp_0 + 191]
+mult=is_valid * 1, args=[1, 52, read_data__0_60, read_data__1_60, read_data__2_60, read_data__3_60, from_state__timestamp_0 + 193]
+mult=is_valid * -1, args=[2, mem_ptr_limbs__0_64 + 65536 * mem_ptr_limbs__1_64, prev_data__0_64, prev_data__1_64, prev_data__2_64, prev_data__3_64, write_base_aux__prev_timestamp_64]
+mult=is_valid * 1, args=[2, mem_ptr_limbs__0_64 + 65536 * mem_ptr_limbs__1_64, read_data__0_60, read_data__1_60, read_data__2_60, read_data__3_60, from_state__timestamp_0 + 194]
+mult=is_valid * 1, args=[1, 40, a__0_65, a__1_65, a__2_65, a__3_65, from_state__timestamp_0 + 197]
+mult=is_valid * 1, args=[1, 44, a__0_66, a__1_66, a__2_66, a__3_66, from_state__timestamp_0 + 200]
+mult=is_valid * 1, args=[1, 8, rs1_data__0_8, rs1_data__1_8, rs1_data__2_8, rs1_data__3_8, from_state__timestamp_0 + 201]
+mult=is_valid * 1, args=[1, 48, a__0_67, a__1_67, a__2_67, a__3_67, from_state__timestamp_0 + 203]
+mult=is_valid * -1, args=[1, 4, rd_aux_cols__prev_data__0_68, rd_aux_cols__prev_data__1_68, rd_aux_cols__prev_data__2_68, rd_aux_cols__prev_data__3_68, rd_aux_cols__base__prev_timestamp_68]
+mult=is_valid * 1, args=[1, 4, 148, 67, 39, 0, from_state__timestamp_0 + 206]
+
+// Bus 3 (VARIABLE_RANGE_CHECKER):
+mult=is_valid * 1, args=[rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=is_valid * 1, args=[15360 * rs1_aux_cols__base__prev_timestamp_0 + 15360 * rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_0 + 15360 - 15360 * from_state__timestamp_0, 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_0), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_0, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_0 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_0 - 15360 * from_state__timestamp_0, 12]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_0 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_0 - (15360 * from_state__timestamp_0 + 15360), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_1), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_1, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_1, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_1 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_1 - (15360 * from_state__timestamp_0 + 46080), 12]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_1, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_1 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_1 - (15360 * from_state__timestamp_0 + 61440), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_2), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_2, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_2, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_2 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_2 - (15360 * from_state__timestamp_0 + 92160), 12]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_2, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_2 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_2 - (15360 * from_state__timestamp_0 + 107520), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_3), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_3, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_3, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_3 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_3 - (15360 * from_state__timestamp_0 + 138240), 12]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_3, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_3 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_3 - (15360 * from_state__timestamp_0 + 153600), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_4), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_4, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_4, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_4 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_4 - (15360 * from_state__timestamp_0 + 184320), 12]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_4, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_4 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_4 - (15360 * from_state__timestamp_0 + 199680), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_5), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_5, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_5, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_5 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_5 - (15360 * from_state__timestamp_0 + 230400), 12]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_5, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_5 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_5 - (15360 * from_state__timestamp_0 + 245760), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_6), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_6, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_6, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_6 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_6 - (15360 * from_state__timestamp_0 + 276480), 12]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_6, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_6 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_6 - (15360 * from_state__timestamp_0 + 291840), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_7), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_7, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_7, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_7 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_7 - (15360 * from_state__timestamp_0 + 322560), 12]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_7, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_7 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_7 - (15360 * from_state__timestamp_0 + 337920), 12]
+mult=is_valid * 1, args=[rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_8, 17]
+mult=is_valid * 1, args=[15360 * rs1_aux_cols__base__prev_timestamp_8 + 15360 * rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_8 - (15360 * from_state__timestamp_0 + 353280), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_8), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_8, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_8, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_8 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_8 - (15360 * from_state__timestamp_0 + 384000), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_9), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_9, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_9, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_9 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_9 - (15360 * from_state__timestamp_0 + 430080), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_10), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_10, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_10, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_10 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_10 - (15360 * from_state__timestamp_0 + 476160), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_11), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_11, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_11, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_11 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_11 - (15360 * from_state__timestamp_0 + 522240), 12]
+mult=is_valid * 1, args=[rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_12, 17]
+mult=is_valid * 1, args=[15360 * rs1_aux_cols__base__prev_timestamp_12 + 15360 * rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_12 - (15360 * from_state__timestamp_0 + 537600), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_12), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_12, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_12, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_12 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_12 - (15360 * from_state__timestamp_0 + 552960), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_13), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_13, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_13, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_13 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_13 - (15360 * from_state__timestamp_0 + 599040), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_14), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_14, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_14, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_14 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_14 - (15360 * from_state__timestamp_0 + 645120), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_15), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_15, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_15, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_15 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_15 - (15360 * from_state__timestamp_0 + 691200), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_16), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_16, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_16, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_16 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_16 - (15360 * from_state__timestamp_0 + 752640), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_17), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_17, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_17, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_17 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_17 - (15360 * from_state__timestamp_0 + 798720), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_18), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_18, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_18, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_18 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_18 - (15360 * from_state__timestamp_0 + 844800), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_19), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_19, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_19, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_19 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_19 - (15360 * from_state__timestamp_0 + 890880), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_20), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_20, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_20, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_20 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_20 - (15360 * from_state__timestamp_0 + 921600), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_21), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_21, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_21, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_21 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_21 - (15360 * from_state__timestamp_0 + 967680), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_22), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_22, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_22, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_22 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_22 - (15360 * from_state__timestamp_0 + 1013760), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_23), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_23, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_23, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_23 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_23 - (15360 * from_state__timestamp_0 + 1059840), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_24), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_24, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_24, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_24 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_24 - (15360 * from_state__timestamp_0 + 1121280), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_25), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_25, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_25, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_25 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_25 - (15360 * from_state__timestamp_0 + 1167360), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_26), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_26, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_26, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_26 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_26 - (15360 * from_state__timestamp_0 + 1213440), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_27), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_27, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_27, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_27 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_27 - (15360 * from_state__timestamp_0 + 1259520), 12]
+mult=is_valid * 1, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_28, 17]
+mult=is_valid * 1, args=[15360 * reads_aux__0__base__prev_timestamp_28 + 15360 * reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_28 - (15360 * from_state__timestamp_0 + 1274880), 12]
+mult=is_valid * 1, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__0_28, 17]
+mult=is_valid * 1, args=[15360 * writes_aux__base__prev_timestamp_28 + 15360 * writes_aux__base__timestamp_lt_aux__lower_decomp__0_28 - (15360 * from_state__timestamp_0 + 1305600), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_29), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_29, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_29, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_29 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_29 - (15360 * from_state__timestamp_0 + 1351680), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_30), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_30, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_30, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_30 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_30 - (15360 * from_state__timestamp_0 + 1397760), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_31), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_31, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_31, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_31 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_31 - (15360 * from_state__timestamp_0 + 1443840), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_32), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_32, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_32, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_32 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_32 - (15360 * from_state__timestamp_0 + 1489920), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_33), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_33, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_33, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_33 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_33 - (15360 * from_state__timestamp_0 + 1520640), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_34), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_34, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_34, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_34 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_34 - (15360 * from_state__timestamp_0 + 1566720), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_35), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_35, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_35, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_35 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_35 - (15360 * from_state__timestamp_0 + 1612800), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_36), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_36, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_36, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_36 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_36 - (15360 * from_state__timestamp_0 + 1658880), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_37), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_37, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_37, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_37 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_37 - (15360 * from_state__timestamp_0 + 1720320), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_38), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_38, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_38, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_38 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_38 - (15360 * from_state__timestamp_0 + 1766400), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_39), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_39, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_39, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_39 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_39 - (15360 * from_state__timestamp_0 + 1812480), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_40), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_40, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_40, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_40 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_40 - (15360 * from_state__timestamp_0 + 1858560), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_41), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_41, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_41, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_41 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_41 - (15360 * from_state__timestamp_0 + 1889280), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_42), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_42, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_42, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_42 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_42 - (15360 * from_state__timestamp_0 + 1935360), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_43), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_43, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_43, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_43 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_43 - (15360 * from_state__timestamp_0 + 1981440), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_44), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_44, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_44, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_44 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_44 - (15360 * from_state__timestamp_0 + 2027520), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_45), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_45, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_45, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_45 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_45 - (15360 * from_state__timestamp_0 + 2088960), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_46), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_46, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_46, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_46 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_46 - (15360 * from_state__timestamp_0 + 2135040), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_47), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_47, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_47, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_47 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_47 - (15360 * from_state__timestamp_0 + 2181120), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_48), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_48, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_48, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_48 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_48 - (15360 * from_state__timestamp_0 + 2227200), 12]
+mult=is_valid * 1, args=[rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_49, 17]
+mult=is_valid * 1, args=[15360 * rs1_aux_cols__base__prev_timestamp_49 + 15360 * rs1_aux_cols__base__timestamp_lt_aux__lower_decomp__0_49 - (15360 * from_state__timestamp_0 + 2242560), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_49), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_49, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_49, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_49 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_49 - (15360 * from_state__timestamp_0 + 2257920), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_50), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_50, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_50, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_50 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_50 - (15360 * from_state__timestamp_0 + 2304000), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_51), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_51, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_51, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_51 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_51 - (15360 * from_state__timestamp_0 + 2350080), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_52), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_52, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_52, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_52 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_52 - (15360 * from_state__timestamp_0 + 2396160), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_53), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_53, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_53, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_53 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_53 - (15360 * from_state__timestamp_0 + 2457600), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_54), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_54, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_54, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_54 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_54 - (15360 * from_state__timestamp_0 + 2503680), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_55), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_55, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_55, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_55 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_55 - (15360 * from_state__timestamp_0 + 2549760), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_56), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_56, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_56, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_56 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_56 - (15360 * from_state__timestamp_0 + 2595840), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_57), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_57, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_57, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_57 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_57 - (15360 * from_state__timestamp_0 + 2626560), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_58), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_58, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_58, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_58 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_58 - (15360 * from_state__timestamp_0 + 2672640), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_59), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_59, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_59, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_59 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_59 - (15360 * from_state__timestamp_0 + 2718720), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_60), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_60, 13]
+mult=is_valid * 1, args=[read_data_aux__base__timestamp_lt_aux__lower_decomp__0_60, 17]
+mult=is_valid * 1, args=[15360 * read_data_aux__base__prev_timestamp_60 + 15360 * read_data_aux__base__timestamp_lt_aux__lower_decomp__0_60 - (15360 * from_state__timestamp_0 + 2764800), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_61), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_61, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_61, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_61 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_61 - (15360 * from_state__timestamp_0 + 2826240), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_62), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_62, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_62, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_62 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_62 - (15360 * from_state__timestamp_0 + 2872320), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_63), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_63, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_63, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_63 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_63 - (15360 * from_state__timestamp_0 + 2918400), 12]
+mult=is_valid * 1, args=[-(503316480 * mem_ptr_limbs__0_64), 14]
+mult=is_valid * 1, args=[mem_ptr_limbs__1_64, 13]
+mult=is_valid * 1, args=[write_base_aux__timestamp_lt_aux__lower_decomp__0_64, 17]
+mult=is_valid * 1, args=[15360 * write_base_aux__prev_timestamp_64 + 15360 * write_base_aux__timestamp_lt_aux__lower_decomp__0_64 - (15360 * from_state__timestamp_0 + 2964480), 12]
+mult=is_valid * 1, args=[rd_aux_cols__base__timestamp_lt_aux__lower_decomp__0_68, 17]
+mult=is_valid * 1, args=[15360 * rd_aux_cols__base__prev_timestamp_68 + 15360 * rd_aux_cols__base__timestamp_lt_aux__lower_decomp__0_68 - (15360 * from_state__timestamp_0 + 3118080), 12]
+
+// Bus 6 (BITWISE_LOOKUP):
+mult=is_valid * 1, args=[a__0_28, a__1_28, 0, 0]
+mult=is_valid * 1, args=[a__2_28, a__3_28, 0, 0]
+mult=is_valid * 1, args=[a__0_65, a__1_65, 0, 0]
+mult=is_valid * 1, args=[a__2_65, a__3_65, 0, 0]
+mult=is_valid * 1, args=[a__0_66, a__1_66, 0, 0]
+mult=is_valid * 1, args=[a__2_66, a__3_66, 0, 0]
+mult=is_valid * 1, args=[a__0_67, a__1_67, 0, 0]
+mult=is_valid * 1, args=[a__2_67, a__3_67, 0, 0]
+
+// Algebraic constraints:
+(30720 * mem_ptr_limbs__0_0 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 491520 * is_valid)) * (30720 * mem_ptr_limbs__0_0 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 491521)) = 0
+(943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_0 + 1006632953 * is_valid - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_0)) * (943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_0 + 1006632952 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_0)) = 0
+(30720 * mem_ptr_limbs__0_1 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 614400 * is_valid)) * (30720 * mem_ptr_limbs__0_1 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 614401)) = 0
+(943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_1 + 754974711 * is_valid - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_1)) * (943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_1 + 754974710 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_1)) = 0
+(30720 * mem_ptr_limbs__0_2 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 737280 * is_valid)) * (30720 * mem_ptr_limbs__0_2 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 737281)) = 0
+(943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_2 + 503316469 * is_valid - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_2)) * (943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_2 + 503316468 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_2)) = 0
+(30720 * mem_ptr_limbs__0_3 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 860160 * is_valid)) * (30720 * mem_ptr_limbs__0_3 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 860161)) = 0
+(943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_3 + 251658227 * is_valid - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_3)) * (943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_3 + 251658226 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_3)) = 0
+(30720 * mem_ptr_limbs__0_4 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0)) * (30720 * mem_ptr_limbs__0_4 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 1)) = 0
+(943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_4 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_4)) * (943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_4 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_4 + 1)) = 0
+(30720 * mem_ptr_limbs__0_5 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 122880 * is_valid)) * (30720 * mem_ptr_limbs__0_5 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 122881)) = 0
+(943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_5 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_5 + 251658242 * is_valid)) * (943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_5 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_5 + 251658243)) = 0
+(30720 * mem_ptr_limbs__0_6 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 245760 * is_valid)) * (30720 * mem_ptr_limbs__0_6 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 245761)) = 0
+(943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_6 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_6 + 503316484 * is_valid)) * (943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_6 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_6 + 503316485)) = 0
+(30720 * mem_ptr_limbs__0_7 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 368640 * is_valid)) * (30720 * mem_ptr_limbs__0_7 - (30720 * rs1_data__0_0 + 7864320 * rs1_data__1_0 + 368641)) = 0
+(943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_7 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_7 + 754974726 * is_valid)) * (943718400 * rs1_data__0_0 + 30720 * mem_ptr_limbs__1_7 - (120 * rs1_data__1_0 + 30720 * rs1_data__2_0 + 7864320 * rs1_data__3_0 + 943718400 * mem_ptr_limbs__0_7 + 754974727)) = 0
+(30720 * mem_ptr_limbs__0_8 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29245440 * is_valid)) * (30720 * mem_ptr_limbs__0_8 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29245441)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_8 + 503316034 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_8)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_8 + 503316033 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_8)) = 0
+(30720 * mem_ptr_limbs__0_9 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29368320 * is_valid)) * (30720 * mem_ptr_limbs__0_9 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29368321)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_9 + 251657792 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_9)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_9 + 251657791 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_9)) = 0
+(30720 * mem_ptr_limbs__0_10 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29491200 * is_valid)) * (30720 * mem_ptr_limbs__0_10 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29491201)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_10 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_10 + 450 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_10 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_10 + 451)) = 0
+(30720 * mem_ptr_limbs__0_11 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29614080 * is_valid)) * (30720 * mem_ptr_limbs__0_11 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29614081)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_11 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_11 + 251658692 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_11 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_11 + 251658693)) = 0
+(30720 * mem_ptr_limbs__0_12 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12)) * (30720 * mem_ptr_limbs__0_12 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 1)) = 0
+(943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_12 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_12)) * (943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_12 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_12 + 1)) = 0
+(30720 * mem_ptr_limbs__0_13 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 122880 * is_valid)) * (30720 * mem_ptr_limbs__0_13 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 122881)) = 0
+(943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_13 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_13 + 251658242 * is_valid)) * (943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_13 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_13 + 251658243)) = 0
+(30720 * mem_ptr_limbs__0_14 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 245760 * is_valid)) * (30720 * mem_ptr_limbs__0_14 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 245761)) = 0
+(943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_14 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_14 + 503316484 * is_valid)) * (943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_14 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_14 + 503316485)) = 0
+(30720 * mem_ptr_limbs__0_15 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 368640 * is_valid)) * (30720 * mem_ptr_limbs__0_15 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 368641)) = 0
+(943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_15 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_15 + 754974726 * is_valid)) * (943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_15 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_15 + 754974727)) = 0
+(30720 * mem_ptr_limbs__0_16 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 28753920 * is_valid)) * (30720 * mem_ptr_limbs__0_16 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 28753921)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_16 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_16 + 503316919 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_16 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_16 + 503316920)) = 0
+(30720 * mem_ptr_limbs__0_17 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 28876800 * is_valid)) * (30720 * mem_ptr_limbs__0_17 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 28876801)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_17 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_17 + 754975161 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_17 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_17 + 754975162)) = 0
+(30720 * mem_ptr_limbs__0_18 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 28999680 * is_valid)) * (30720 * mem_ptr_limbs__0_18 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 28999681)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_18 + 1006632518 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_18)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_18 + 1006632517 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_18)) = 0
+(30720 * mem_ptr_limbs__0_19 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29122560 * is_valid)) * (30720 * mem_ptr_limbs__0_19 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29122561)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_19 + 754974276 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_19)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_19 + 754974275 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_19)) = 0
+(30720 * mem_ptr_limbs__0_20 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 491520 * is_valid)) * (30720 * mem_ptr_limbs__0_20 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 491521)) = 0
+(943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_20 + 1006632953 * is_valid - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_20)) * (943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_20 + 1006632952 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_20)) = 0
+(30720 * mem_ptr_limbs__0_21 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 614400 * is_valid)) * (30720 * mem_ptr_limbs__0_21 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 614401)) = 0
+(943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_21 + 754974711 * is_valid - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_21)) * (943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_21 + 754974710 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_21)) = 0
+(30720 * mem_ptr_limbs__0_22 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 737280 * is_valid)) * (30720 * mem_ptr_limbs__0_22 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 737281)) = 0
+(943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_22 + 503316469 * is_valid - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_22)) * (943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_22 + 503316468 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_22)) = 0
+(30720 * mem_ptr_limbs__0_23 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 860160 * is_valid)) * (30720 * mem_ptr_limbs__0_23 - (30720 * rs1_data__0_12 + 7864320 * rs1_data__1_12 + 860161)) = 0
+(943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_23 + 251658227 * is_valid - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_23)) * (943718400 * rs1_data__0_12 + 30720 * mem_ptr_limbs__1_23 + 251658226 - (120 * rs1_data__1_12 + 30720 * rs1_data__2_12 + 7864320 * rs1_data__3_12 + 943718400 * mem_ptr_limbs__0_23)) = 0
+(30720 * mem_ptr_limbs__0_24 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29736960 * is_valid)) * (30720 * mem_ptr_limbs__0_24 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29736961)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_24 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_24 + 503316934 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_24 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_24 + 503316935)) = 0
+(30720 * mem_ptr_limbs__0_25 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29859840 * is_valid)) * (30720 * mem_ptr_limbs__0_25 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29859841)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_25 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_25 + 754975176 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_25 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_25 + 754975177)) = 0
+(30720 * mem_ptr_limbs__0_26 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29982720 * is_valid)) * (30720 * mem_ptr_limbs__0_26 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 29982721)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_26 + 1006632503 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_26)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_26 + 1006632502 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_26)) = 0
+(30720 * mem_ptr_limbs__0_27 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30105600 * is_valid)) * (30720 * mem_ptr_limbs__0_27 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30105601)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_27 + 754974261 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_27)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_27 + 754974260 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_27)) = 0
+(7864320 * a__0_28 + 754974721 * is_valid - 7864320 * b__0_28) * (7864320 * a__0_28 + 754974720 - 7864320 * b__0_28) = 0
+(30720 * a__0_28 + 7864320 * a__1_28 - (30720 * b__0_28 + 7864320 * b__1_28 + 4915200 * is_valid)) * (30720 * a__0_28 + 7864320 * a__1_28 - (30720 * b__0_28 + 7864320 * b__1_28 + 4915201)) = 0
+(120 * a__0_28 + 30720 * a__1_28 + 7864320 * a__2_28 - (120 * b__0_28 + 30720 * b__1_28 + 7864320 * b__2_28 + 19200 * is_valid)) * (120 * a__0_28 + 30720 * a__1_28 + 7864320 * a__2_28 - (120 * b__0_28 + 30720 * b__1_28 + 7864320 * b__2_28 + 19201)) = 0
+(120 * a__1_28 + 30720 * a__2_28 + 7864320 * a__3_28 + 943718400 * b__0_28 - (943718400 * a__0_28 + 120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 75 * is_valid)) * (120 * a__1_28 + 30720 * a__2_28 + 7864320 * a__3_28 + 943718400 * b__0_28 - (943718400 * a__0_28 + 120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 76)) = 0
+(30720 * mem_ptr_limbs__0_29 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30228480 * is_valid)) * (30720 * mem_ptr_limbs__0_29 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30228481)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_29 + 503316019 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_29)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_29 + 503316018 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_29)) = 0
+(30720 * mem_ptr_limbs__0_30 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30351360 * is_valid)) * (30720 * mem_ptr_limbs__0_30 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30351361)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_30 + 251657777 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_30)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_30 + 251657776 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_30)) = 0
+(30720 * mem_ptr_limbs__0_31 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30474240 * is_valid)) * (30720 * mem_ptr_limbs__0_31 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30474241)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_31 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_31 + 465 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_31 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_31 + 466)) = 0
+(30720 * mem_ptr_limbs__0_32 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30597120 * is_valid)) * (30720 * mem_ptr_limbs__0_32 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30597121)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_32 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_32 + 251658707 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_32 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_32 + 251658708)) = 0
+(30720 * mem_ptr_limbs__0_33 - (30720 * b__0_28 + 7864320 * b__1_28 + 5406720 * is_valid)) * (30720 * mem_ptr_limbs__0_33 - (30720 * b__0_28 + 7864320 * b__1_28 + 5406721)) = 0
+(943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_33 + 1006632878 * is_valid - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_33)) * (943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_33 + 1006632877 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_33)) = 0
+(30720 * mem_ptr_limbs__0_34 - (30720 * b__0_28 + 7864320 * b__1_28 + 5529600 * is_valid)) * (30720 * mem_ptr_limbs__0_34 - (30720 * b__0_28 + 7864320 * b__1_28 + 5529601)) = 0
+(943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_34 + 754974636 * is_valid - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_34)) * (943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_34 + 754974635 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_34)) = 0
+(30720 * mem_ptr_limbs__0_35 - (30720 * b__0_28 + 7864320 * b__1_28 + 5652480 * is_valid)) * (30720 * mem_ptr_limbs__0_35 - (30720 * b__0_28 + 7864320 * b__1_28 + 5652481)) = 0
+(943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_35 + 503316394 * is_valid - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_35)) * (943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_35 + 503316393 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_35)) = 0
+(30720 * mem_ptr_limbs__0_36 - (30720 * b__0_28 + 7864320 * b__1_28 + 5775360 * is_valid)) * (30720 * mem_ptr_limbs__0_36 - (30720 * b__0_28 + 7864320 * b__1_28 + 5775361)) = 0
+(943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_36 + 251658152 * is_valid - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_36)) * (943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_36 + 251658151 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_36)) = 0
+(30720 * mem_ptr_limbs__0_37 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 32194560 * is_valid)) * (30720 * mem_ptr_limbs__0_37 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 32194561)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_37 + 503315989 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_37)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_37 + 503315988 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_37)) = 0
+(30720 * mem_ptr_limbs__0_38 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 32317440 * is_valid)) * (30720 * mem_ptr_limbs__0_38 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 32317441)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_38 + 251657747 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_38)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_38 + 251657746 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_38)) = 0
+(30720 * mem_ptr_limbs__0_39 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 32440320 * is_valid)) * (30720 * mem_ptr_limbs__0_39 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 32440321)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_39 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_39 + 495 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_39 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_39 + 496)) = 0
+(30720 * mem_ptr_limbs__0_40 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 32563200 * is_valid)) * (30720 * mem_ptr_limbs__0_40 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 32563201)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_40 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_40 + 251658737 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_40 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_40 + 251658738)) = 0
+(30720 * mem_ptr_limbs__0_41 - (30720 * b__0_28 + 7864320 * b__1_28 + 4915200 * is_valid)) * (30720 * mem_ptr_limbs__0_41 - (30720 * b__0_28 + 7864320 * b__1_28 + 4915201)) = 0
+(943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_41 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_41 + 75 * is_valid)) * (943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_41 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_41 + 76)) = 0
+(30720 * mem_ptr_limbs__0_42 - (30720 * b__0_28 + 7864320 * b__1_28 + 5038080 * is_valid)) * (30720 * mem_ptr_limbs__0_42 - (30720 * b__0_28 + 7864320 * b__1_28 + 5038081)) = 0
+(943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_42 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_42 + 251658317 * is_valid)) * (943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_42 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_42 + 251658318)) = 0
+(30720 * mem_ptr_limbs__0_43 - (30720 * b__0_28 + 7864320 * b__1_28 + 5160960 * is_valid)) * (30720 * mem_ptr_limbs__0_43 - (30720 * b__0_28 + 7864320 * b__1_28 + 5160961)) = 0
+(943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_43 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_43 + 503316559 * is_valid)) * (943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_43 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_43 + 503316560)) = 0
+(30720 * mem_ptr_limbs__0_44 - (30720 * b__0_28 + 7864320 * b__1_28 + 5283840 * is_valid)) * (30720 * mem_ptr_limbs__0_44 - (30720 * b__0_28 + 7864320 * b__1_28 + 5283841)) = 0
+(943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_44 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_44 + 754974801 * is_valid)) * (943718400 * b__0_28 + 30720 * mem_ptr_limbs__1_44 - (120 * b__1_28 + 30720 * b__2_28 + 7864320 * b__3_28 + 943718400 * mem_ptr_limbs__0_44 + 754974802)) = 0
+(30720 * mem_ptr_limbs__0_45 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31703040 * is_valid)) * (30720 * mem_ptr_limbs__0_45 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31703041)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_45 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_45 + 503316964 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_45 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_45 + 503316965)) = 0
+(30720 * mem_ptr_limbs__0_46 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31825920 * is_valid)) * (30720 * mem_ptr_limbs__0_46 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31825921)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_46 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_46 + 754975206 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_46 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_46 + 754975207)) = 0
+(30720 * mem_ptr_limbs__0_47 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31948800 * is_valid)) * (30720 * mem_ptr_limbs__0_47 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31948801)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_47 + 1006632473 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_47)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_47 + 1006632472 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_47)) = 0
+(30720 * mem_ptr_limbs__0_48 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 32071680 * is_valid)) * (30720 * mem_ptr_limbs__0_48 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 32071681)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_48 + 754974231 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_48)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_48 + 754974230 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_48)) = 0
+(30720 * mem_ptr_limbs__0_49 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49)) * (30720 * mem_ptr_limbs__0_49 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 1)) = 0
+(943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_49 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_49)) * (943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_49 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_49 + 1)) = 0
+(30720 * mem_ptr_limbs__0_50 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 122880 * is_valid)) * (30720 * mem_ptr_limbs__0_50 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 122881)) = 0
+(943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_50 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_50 + 251658242 * is_valid)) * (943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_50 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_50 + 251658243)) = 0
+(30720 * mem_ptr_limbs__0_51 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 245760 * is_valid)) * (30720 * mem_ptr_limbs__0_51 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 245761)) = 0
+(943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_51 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_51 + 503316484 * is_valid)) * (943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_51 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_51 + 503316485)) = 0
+(30720 * mem_ptr_limbs__0_52 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 368640 * is_valid)) * (30720 * mem_ptr_limbs__0_52 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 368641)) = 0
+(943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_52 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_52 + 754974726 * is_valid)) * (943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_52 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_52 + 754974727)) = 0
+(30720 * mem_ptr_limbs__0_53 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30720000 * is_valid)) * (30720 * mem_ptr_limbs__0_53 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30720001)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_53 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_53 + 503316949 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_53 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_53 + 503316950)) = 0
+(30720 * mem_ptr_limbs__0_54 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30842880 * is_valid)) * (30720 * mem_ptr_limbs__0_54 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30842881)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_54 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_54 + 754975191 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_54 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_54 + 754975192)) = 0
+(30720 * mem_ptr_limbs__0_55 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30965760 * is_valid)) * (30720 * mem_ptr_limbs__0_55 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30965761)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_55 + 1006632488 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_55)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_55 + 1006632487 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_55)) = 0
+(30720 * mem_ptr_limbs__0_56 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31088640 * is_valid)) * (30720 * mem_ptr_limbs__0_56 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31088641)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_56 + 754974246 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_56)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_56 + 754974245 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_56)) = 0
+(30720 * mem_ptr_limbs__0_57 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 491520 * is_valid)) * (30720 * mem_ptr_limbs__0_57 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 491521)) = 0
+(943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_57 + 1006632953 * is_valid - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_57)) * (943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_57 + 1006632952 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_57)) = 0
+(30720 * mem_ptr_limbs__0_58 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 614400 * is_valid)) * (30720 * mem_ptr_limbs__0_58 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 614401)) = 0
+(943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_58 + 754974711 * is_valid - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_58)) * (943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_58 + 754974710 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_58)) = 0
+(30720 * mem_ptr_limbs__0_59 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 737280 * is_valid)) * (30720 * mem_ptr_limbs__0_59 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 737281)) = 0
+(943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_59 + 503316469 * is_valid - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_59)) * (943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_59 + 503316468 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_59)) = 0
+(30720 * mem_ptr_limbs__0_60 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 860160 * is_valid)) * (30720 * mem_ptr_limbs__0_60 - (30720 * rs1_data__0_49 + 7864320 * rs1_data__1_49 + 860161)) = 0
+(943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_60 + 251658227 * is_valid - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_60)) * (943718400 * rs1_data__0_49 + 30720 * mem_ptr_limbs__1_60 + 251658226 - (120 * rs1_data__1_49 + 30720 * rs1_data__2_49 + 7864320 * rs1_data__3_49 + 943718400 * mem_ptr_limbs__0_60)) = 0
+(30720 * mem_ptr_limbs__0_61 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31211520 * is_valid)) * (30720 * mem_ptr_limbs__0_61 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31211521)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_61 + 503316004 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_61)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_61 + 503316003 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_61)) = 0
+(30720 * mem_ptr_limbs__0_62 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31334400 * is_valid)) * (30720 * mem_ptr_limbs__0_62 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31334401)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_62 + 251657762 * is_valid - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_62)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_62 + 251657761 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_62)) = 0
+(30720 * mem_ptr_limbs__0_63 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31457280 * is_valid)) * (30720 * mem_ptr_limbs__0_63 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31457281)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_63 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_63 + 480 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_63 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_63 + 481)) = 0
+(30720 * mem_ptr_limbs__0_64 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31580160 * is_valid)) * (30720 * mem_ptr_limbs__0_64 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 31580161)) = 0
+(943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_64 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_64 + 251658722 * is_valid)) * (943718400 * rs1_data__0_8 + 30720 * mem_ptr_limbs__1_64 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * mem_ptr_limbs__0_64 + 251658723)) = 0
+(7864320 * a__0_65 - (7864320 * rs1_data__0_8 + 817889280 * is_valid)) * (7864320 * a__0_65 - (7864320 * rs1_data__0_8 + 817889281)) = 0
+(30720 * a__0_65 + 7864320 * a__1_65 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 26787840 * is_valid)) * (30720 * a__0_65 + 7864320 * a__1_65 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 26787841)) = 0
+(120 * a__0_65 + 30720 * a__1_65 + 7864320 * a__2_65 - (120 * rs1_data__0_8 + 30720 * rs1_data__1_8 + 7864320 * rs1_data__2_8 + 104640 * is_valid)) * (120 * a__0_65 + 30720 * a__1_65 + 7864320 * a__2_65 - (120 * rs1_data__0_8 + 30720 * rs1_data__1_8 + 7864320 * rs1_data__2_8 + 104641)) = 0
+(943718400 * rs1_data__0_8 + 120 * a__1_65 + 30720 * a__2_65 + 7864320 * a__3_65 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * a__0_65 + 503316889 * is_valid)) * (943718400 * rs1_data__0_8 + 120 * a__1_65 + 30720 * a__2_65 + 7864320 * a__3_65 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * a__0_65 + 503316890)) = 0
+(7864320 * a__0_66 + 692060161 * is_valid - 7864320 * rs1_data__0_8) * (7864320 * a__0_66 + 692060160 - 7864320 * rs1_data__0_8) = 0
+(30720 * a__0_66 + 7864320 * a__1_66 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 28753920 * is_valid)) * (30720 * a__0_66 + 7864320 * a__1_66 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 28753921)) = 0
+(120 * a__0_66 + 30720 * a__1_66 + 7864320 * a__2_66 - (120 * rs1_data__0_8 + 30720 * rs1_data__1_8 + 7864320 * rs1_data__2_8 + 112320 * is_valid)) * (120 * a__0_66 + 30720 * a__1_66 + 7864320 * a__2_66 - (120 * rs1_data__0_8 + 30720 * rs1_data__1_8 + 7864320 * rs1_data__2_8 + 112321)) = 0
+(943718400 * rs1_data__0_8 + 120 * a__1_66 + 30720 * a__2_66 + 7864320 * a__3_66 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * a__0_66 + 503316919 * is_valid)) * (943718400 * rs1_data__0_8 + 120 * a__1_66 + 30720 * a__2_66 + 7864320 * a__3_66 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * a__0_66 + 503316920)) = 0
+(7864320 * a__0_67 + 188743681 * is_valid - 7864320 * rs1_data__0_8) * (7864320 * a__0_67 + 188743680 - 7864320 * rs1_data__0_8) = 0
+(30720 * a__0_67 + 7864320 * a__1_67 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30720000 * is_valid)) * (30720 * a__0_67 + 7864320 * a__1_67 - (30720 * rs1_data__0_8 + 7864320 * rs1_data__1_8 + 30720001)) = 0
+(120 * a__0_67 + 30720 * a__1_67 + 7864320 * a__2_67 - (120 * rs1_data__0_8 + 30720 * rs1_data__1_8 + 7864320 * rs1_data__2_8 + 120000 * is_valid)) * (120 * a__0_67 + 30720 * a__1_67 + 7864320 * a__2_67 - (120 * rs1_data__0_8 + 30720 * rs1_data__1_8 + 7864320 * rs1_data__2_8 + 120001)) = 0
+(943718400 * rs1_data__0_8 + 120 * a__1_67 + 30720 * a__2_67 + 7864320 * a__3_67 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * a__0_67 + 503316949 * is_valid)) * (943718400 * rs1_data__0_8 + 120 * a__1_67 + 30720 * a__2_67 + 7864320 * a__3_67 - (120 * rs1_data__1_8 + 30720 * rs1_data__2_8 + 7864320 * rs1_data__3_8 + 943718400 * a__0_67 + 503316950)) = 0
+is_valid * (is_valid - 1) = 0
