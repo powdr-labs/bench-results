@@ -1,0 +1,3 @@
+openvm-reth-benchmark: 7d7a1b5c226a07a623ef490f92dc87832551c856
+powdr: 28ab2ce0dbf0631b4258e7b751738e3d30553fbb
+run: https://github.com/powdr-labs/powdr/actions/runs/21967937786
