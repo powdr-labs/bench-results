@@ -1,0 +1,609 @@
+Symbolic machine using 244 unique main columns:
+  from_state__pc_0
+  from_state__timestamp_0
+  rd_ptr_0
+  rs1_ptr_0
+  rs2_0
+  rs2_as_0
+  reads_aux__0__base__prev_timestamp_0
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_0
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_0
+  reads_aux__1__base__prev_timestamp_0
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_0
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_0
+  writes_aux__base__prev_timestamp_0
+  writes_aux__base__timestamp_lt_aux__lower_decomp__0_0
+  writes_aux__base__timestamp_lt_aux__lower_decomp__1_0
+  writes_aux__prev_data__0_0
+  writes_aux__prev_data__1_0
+  writes_aux__prev_data__2_0
+  writes_aux__prev_data__3_0
+  a__0_0
+  a__1_0
+  a__2_0
+  a__3_0
+  b__0_0
+  b__1_0
+  b__2_0
+  b__3_0
+  c__0_0
+  c__1_0
+  c__2_0
+  c__3_0
+  opcode_add_flag_0
+  opcode_sub_flag_0
+  opcode_xor_flag_0
+  opcode_or_flag_0
+  opcode_and_flag_0
+  from_state__pc_1
+  from_state__timestamp_1
+  rd_ptr_1
+  rs1_ptr_1
+  rs2_1
+  rs2_as_1
+  reads_aux__0__base__prev_timestamp_1
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_1
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_1
+  reads_aux__1__base__prev_timestamp_1
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_1
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_1
+  writes_aux__base__prev_timestamp_1
+  writes_aux__base__timestamp_lt_aux__lower_decomp__0_1
+  writes_aux__base__timestamp_lt_aux__lower_decomp__1_1
+  writes_aux__prev_data__0_1
+  writes_aux__prev_data__1_1
+  writes_aux__prev_data__2_1
+  writes_aux__prev_data__3_1
+  a__0_1
+  a__1_1
+  a__2_1
+  a__3_1
+  b__0_1
+  b__1_1
+  b__2_1
+  b__3_1
+  c__0_1
+  c__1_1
+  c__2_1
+  c__3_1
+  opcode_add_flag_1
+  opcode_sub_flag_1
+  opcode_xor_flag_1
+  opcode_or_flag_1
+  opcode_and_flag_1
+  from_state__pc_2
+  from_state__timestamp_2
+  rd_ptr_2
+  rs1_ptr_2
+  rs2_2
+  rs2_as_2
+  reads_aux__0__base__prev_timestamp_2
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_2
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_2
+  reads_aux__1__base__prev_timestamp_2
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_2
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_2
+  writes_aux__base__prev_timestamp_2
+  writes_aux__base__timestamp_lt_aux__lower_decomp__0_2
+  writes_aux__base__timestamp_lt_aux__lower_decomp__1_2
+  writes_aux__prev_data__0_2
+  writes_aux__prev_data__1_2
+  writes_aux__prev_data__2_2
+  writes_aux__prev_data__3_2
+  b__0_2
+  b__1_2
+  b__2_2
+  b__3_2
+  c__0_2
+  c__1_2
+  c__2_2
+  c__3_2
+  cmp_result_2
+  opcode_slt_flag_2
+  opcode_sltu_flag_2
+  b_msb_f_2
+  c_msb_f_2
+  diff_marker__0_2
+  diff_marker__1_2
+  diff_marker__2_2
+  diff_marker__3_2
+  diff_val_2
+  from_state__pc_3
+  from_state__timestamp_3
+  rd_ptr_3
+  rs1_ptr_3
+  rs2_3
+  rs2_as_3
+  reads_aux__0__base__prev_timestamp_3
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_3
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_3
+  reads_aux__1__base__prev_timestamp_3
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_3
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_3
+  writes_aux__base__prev_timestamp_3
+  writes_aux__base__timestamp_lt_aux__lower_decomp__0_3
+  writes_aux__base__timestamp_lt_aux__lower_decomp__1_3
+  writes_aux__prev_data__0_3
+  writes_aux__prev_data__1_3
+  writes_aux__prev_data__2_3
+  writes_aux__prev_data__3_3
+  a__0_3
+  a__1_3
+  a__2_3
+  a__3_3
+  b__0_3
+  b__1_3
+  b__2_3
+  b__3_3
+  c__0_3
+  c__1_3
+  c__2_3
+  c__3_3
+  opcode_add_flag_3
+  opcode_sub_flag_3
+  opcode_xor_flag_3
+  opcode_or_flag_3
+  opcode_and_flag_3
+  from_state__pc_4
+  from_state__timestamp_4
+  rd_ptr_4
+  rs1_ptr_4
+  rs2_4
+  rs2_as_4
+  reads_aux__0__base__prev_timestamp_4
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_4
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_4
+  reads_aux__1__base__prev_timestamp_4
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_4
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_4
+  writes_aux__base__prev_timestamp_4
+  writes_aux__base__timestamp_lt_aux__lower_decomp__0_4
+  writes_aux__base__timestamp_lt_aux__lower_decomp__1_4
+  writes_aux__prev_data__0_4
+  writes_aux__prev_data__1_4
+  writes_aux__prev_data__2_4
+  writes_aux__prev_data__3_4
+  a__0_4
+  a__1_4
+  a__2_4
+  a__3_4
+  b__0_4
+  b__1_4
+  b__2_4
+  b__3_4
+  c__0_4
+  c__1_4
+  c__2_4
+  c__3_4
+  opcode_add_flag_4
+  opcode_sub_flag_4
+  opcode_xor_flag_4
+  opcode_or_flag_4
+  opcode_and_flag_4
+  from_state__pc_5
+  from_state__timestamp_5
+  rd_ptr_5
+  rs1_ptr_5
+  rs2_5
+  rs2_as_5
+  reads_aux__0__base__prev_timestamp_5
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_5
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_5
+  reads_aux__1__base__prev_timestamp_5
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_5
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_5
+  writes_aux__base__prev_timestamp_5
+  writes_aux__base__timestamp_lt_aux__lower_decomp__0_5
+  writes_aux__base__timestamp_lt_aux__lower_decomp__1_5
+  writes_aux__prev_data__0_5
+  writes_aux__prev_data__1_5
+  writes_aux__prev_data__2_5
+  writes_aux__prev_data__3_5
+  b__0_5
+  b__1_5
+  b__2_5
+  b__3_5
+  c__0_5
+  c__1_5
+  c__2_5
+  c__3_5
+  cmp_result_5
+  opcode_slt_flag_5
+  opcode_sltu_flag_5
+  b_msb_f_5
+  c_msb_f_5
+  diff_marker__0_5
+  diff_marker__1_5
+  diff_marker__2_5
+  diff_marker__3_5
+  diff_val_5
+  from_state__pc_6
+  from_state__timestamp_6
+  rs1_ptr_6
+  rs2_ptr_6
+  reads_aux__0__base__prev_timestamp_6
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_6
+  reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_6
+  reads_aux__1__base__prev_timestamp_6
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_6
+  reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_6
+  a__0_6
+  a__1_6
+  a__2_6
+  a__3_6
+  b__0_6
+  b__1_6
+  b__2_6
+  b__3_6
+  cmp_result_6
+  imm_6
+  opcode_beq_flag_6
+  opcode_bne_flag_6
+  diff_inv_marker__0_6
+  diff_inv_marker__1_6
+  diff_inv_marker__2_6
+  diff_inv_marker__3_6
+
+// Bus 0 (EXECUTION_BRIDGE):
+mult=-(0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0), args=[from_state__pc_0, from_state__timestamp_0]
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[from_state__pc_0 + 4, from_state__timestamp_0 + 3]
+mult=-(0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1), args=[from_state__pc_1, from_state__timestamp_1]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[from_state__pc_1 + 4, from_state__timestamp_1 + 3]
+mult=-(0 + opcode_slt_flag_2 + opcode_sltu_flag_2), args=[from_state__pc_2, from_state__timestamp_2]
+mult=0 + opcode_slt_flag_2 + opcode_sltu_flag_2, args=[from_state__pc_2 + 4, from_state__timestamp_2 + 3]
+mult=-(0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3), args=[from_state__pc_3, from_state__timestamp_3]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[from_state__pc_3 + 4, from_state__timestamp_3 + 3]
+mult=-(0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4), args=[from_state__pc_4, from_state__timestamp_4]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[from_state__pc_4 + 4, from_state__timestamp_4 + 3]
+mult=-(0 + opcode_slt_flag_5 + opcode_sltu_flag_5), args=[from_state__pc_5, from_state__timestamp_5]
+mult=0 + opcode_slt_flag_5 + opcode_sltu_flag_5, args=[from_state__pc_5 + 4, from_state__timestamp_5 + 3]
+mult=-(0 + opcode_beq_flag_6 + opcode_bne_flag_6), args=[from_state__pc_6, from_state__timestamp_6]
+mult=0 + opcode_beq_flag_6 + opcode_bne_flag_6, args=[from_state__pc_6 + cmp_result_6 * imm_6 + (1 - cmp_result_6) * 4, from_state__timestamp_6 + 2]
+
+// Bus 1 (MEMORY):
+mult=2013265920 * (0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0), args=[1, rs1_ptr_0, b__0_0, b__1_0, b__2_0, b__3_0, reads_aux__0__base__prev_timestamp_0]
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[1, rs1_ptr_0, b__0_0, b__1_0, b__2_0, b__3_0, from_state__timestamp_0 + 0]
+mult=2013265920 * rs2_as_0, args=[rs2_as_0, rs2_0, c__0_0, c__1_0, c__2_0, c__3_0, reads_aux__1__base__prev_timestamp_0]
+mult=rs2_as_0, args=[rs2_as_0, rs2_0, c__0_0, c__1_0, c__2_0, c__3_0, from_state__timestamp_0 + 1]
+mult=2013265920 * (0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0), args=[1, rd_ptr_0, writes_aux__prev_data__0_0, writes_aux__prev_data__1_0, writes_aux__prev_data__2_0, writes_aux__prev_data__3_0, writes_aux__base__prev_timestamp_0]
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[1, rd_ptr_0, a__0_0, a__1_0, a__2_0, a__3_0, from_state__timestamp_0 + 2]
+mult=2013265920 * (0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1), args=[1, rs1_ptr_1, b__0_1, b__1_1, b__2_1, b__3_1, reads_aux__0__base__prev_timestamp_1]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[1, rs1_ptr_1, b__0_1, b__1_1, b__2_1, b__3_1, from_state__timestamp_1 + 0]
+mult=2013265920 * rs2_as_1, args=[rs2_as_1, rs2_1, c__0_1, c__1_1, c__2_1, c__3_1, reads_aux__1__base__prev_timestamp_1]
+mult=rs2_as_1, args=[rs2_as_1, rs2_1, c__0_1, c__1_1, c__2_1, c__3_1, from_state__timestamp_1 + 1]
+mult=2013265920 * (0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1), args=[1, rd_ptr_1, writes_aux__prev_data__0_1, writes_aux__prev_data__1_1, writes_aux__prev_data__2_1, writes_aux__prev_data__3_1, writes_aux__base__prev_timestamp_1]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[1, rd_ptr_1, a__0_1, a__1_1, a__2_1, a__3_1, from_state__timestamp_1 + 2]
+mult=2013265920 * (0 + opcode_slt_flag_2 + opcode_sltu_flag_2), args=[1, rs1_ptr_2, b__0_2, b__1_2, b__2_2, b__3_2, reads_aux__0__base__prev_timestamp_2]
+mult=0 + opcode_slt_flag_2 + opcode_sltu_flag_2, args=[1, rs1_ptr_2, b__0_2, b__1_2, b__2_2, b__3_2, from_state__timestamp_2 + 0]
+mult=2013265920 * rs2_as_2, args=[rs2_as_2, rs2_2, c__0_2, c__1_2, c__2_2, c__3_2, reads_aux__1__base__prev_timestamp_2]
+mult=rs2_as_2, args=[rs2_as_2, rs2_2, c__0_2, c__1_2, c__2_2, c__3_2, from_state__timestamp_2 + 1]
+mult=2013265920 * (0 + opcode_slt_flag_2 + opcode_sltu_flag_2), args=[1, rd_ptr_2, writes_aux__prev_data__0_2, writes_aux__prev_data__1_2, writes_aux__prev_data__2_2, writes_aux__prev_data__3_2, writes_aux__base__prev_timestamp_2]
+mult=0 + opcode_slt_flag_2 + opcode_sltu_flag_2, args=[1, rd_ptr_2, cmp_result_2, 0, 0, 0, from_state__timestamp_2 + 2]
+mult=2013265920 * (0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3), args=[1, rs1_ptr_3, b__0_3, b__1_3, b__2_3, b__3_3, reads_aux__0__base__prev_timestamp_3]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[1, rs1_ptr_3, b__0_3, b__1_3, b__2_3, b__3_3, from_state__timestamp_3 + 0]
+mult=2013265920 * rs2_as_3, args=[rs2_as_3, rs2_3, c__0_3, c__1_3, c__2_3, c__3_3, reads_aux__1__base__prev_timestamp_3]
+mult=rs2_as_3, args=[rs2_as_3, rs2_3, c__0_3, c__1_3, c__2_3, c__3_3, from_state__timestamp_3 + 1]
+mult=2013265920 * (0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3), args=[1, rd_ptr_3, writes_aux__prev_data__0_3, writes_aux__prev_data__1_3, writes_aux__prev_data__2_3, writes_aux__prev_data__3_3, writes_aux__base__prev_timestamp_3]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[1, rd_ptr_3, a__0_3, a__1_3, a__2_3, a__3_3, from_state__timestamp_3 + 2]
+mult=2013265920 * (0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4), args=[1, rs1_ptr_4, b__0_4, b__1_4, b__2_4, b__3_4, reads_aux__0__base__prev_timestamp_4]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[1, rs1_ptr_4, b__0_4, b__1_4, b__2_4, b__3_4, from_state__timestamp_4 + 0]
+mult=2013265920 * rs2_as_4, args=[rs2_as_4, rs2_4, c__0_4, c__1_4, c__2_4, c__3_4, reads_aux__1__base__prev_timestamp_4]
+mult=rs2_as_4, args=[rs2_as_4, rs2_4, c__0_4, c__1_4, c__2_4, c__3_4, from_state__timestamp_4 + 1]
+mult=2013265920 * (0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4), args=[1, rd_ptr_4, writes_aux__prev_data__0_4, writes_aux__prev_data__1_4, writes_aux__prev_data__2_4, writes_aux__prev_data__3_4, writes_aux__base__prev_timestamp_4]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[1, rd_ptr_4, a__0_4, a__1_4, a__2_4, a__3_4, from_state__timestamp_4 + 2]
+mult=2013265920 * (0 + opcode_slt_flag_5 + opcode_sltu_flag_5), args=[1, rs1_ptr_5, b__0_5, b__1_5, b__2_5, b__3_5, reads_aux__0__base__prev_timestamp_5]
+mult=0 + opcode_slt_flag_5 + opcode_sltu_flag_5, args=[1, rs1_ptr_5, b__0_5, b__1_5, b__2_5, b__3_5, from_state__timestamp_5 + 0]
+mult=2013265920 * rs2_as_5, args=[rs2_as_5, rs2_5, c__0_5, c__1_5, c__2_5, c__3_5, reads_aux__1__base__prev_timestamp_5]
+mult=rs2_as_5, args=[rs2_as_5, rs2_5, c__0_5, c__1_5, c__2_5, c__3_5, from_state__timestamp_5 + 1]
+mult=2013265920 * (0 + opcode_slt_flag_5 + opcode_sltu_flag_5), args=[1, rd_ptr_5, writes_aux__prev_data__0_5, writes_aux__prev_data__1_5, writes_aux__prev_data__2_5, writes_aux__prev_data__3_5, writes_aux__base__prev_timestamp_5]
+mult=0 + opcode_slt_flag_5 + opcode_sltu_flag_5, args=[1, rd_ptr_5, cmp_result_5, 0, 0, 0, from_state__timestamp_5 + 2]
+mult=2013265920 * (0 + opcode_beq_flag_6 + opcode_bne_flag_6), args=[1, rs1_ptr_6, a__0_6, a__1_6, a__2_6, a__3_6, reads_aux__0__base__prev_timestamp_6]
+mult=0 + opcode_beq_flag_6 + opcode_bne_flag_6, args=[1, rs1_ptr_6, a__0_6, a__1_6, a__2_6, a__3_6, from_state__timestamp_6 + 0]
+mult=2013265920 * (0 + opcode_beq_flag_6 + opcode_bne_flag_6), args=[1, rs2_ptr_6, b__0_6, b__1_6, b__2_6, b__3_6, reads_aux__1__base__prev_timestamp_6]
+mult=0 + opcode_beq_flag_6 + opcode_bne_flag_6, args=[1, rs2_ptr_6, b__0_6, b__1_6, b__2_6, b__3_6, from_state__timestamp_6 + 1]
+
+// Bus 2 (PC_LOOKUP):
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[from_state__pc_0, 512 + (0 + opcode_add_flag_0 * 0 + opcode_sub_flag_0 * 1 + opcode_xor_flag_0 * 2 + opcode_or_flag_0 * 3 + opcode_and_flag_0 * 4), rd_ptr_0, rs1_ptr_0, rs2_0, 1, rs2_as_0, 0, 0]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[from_state__pc_1, 512 + (0 + opcode_add_flag_1 * 0 + opcode_sub_flag_1 * 1 + opcode_xor_flag_1 * 2 + opcode_or_flag_1 * 3 + opcode_and_flag_1 * 4), rd_ptr_1, rs1_ptr_1, rs2_1, 1, rs2_as_1, 0, 0]
+mult=0 + opcode_slt_flag_2 + opcode_sltu_flag_2, args=[from_state__pc_2, 0 + opcode_slt_flag_2 * 0 + opcode_sltu_flag_2 * 1 + 520, rd_ptr_2, rs1_ptr_2, rs2_2, 1, rs2_as_2, 0, 0]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[from_state__pc_3, 512 + (0 + opcode_add_flag_3 * 0 + opcode_sub_flag_3 * 1 + opcode_xor_flag_3 * 2 + opcode_or_flag_3 * 3 + opcode_and_flag_3 * 4), rd_ptr_3, rs1_ptr_3, rs2_3, 1, rs2_as_3, 0, 0]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[from_state__pc_4, 512 + (0 + opcode_add_flag_4 * 0 + opcode_sub_flag_4 * 1 + opcode_xor_flag_4 * 2 + opcode_or_flag_4 * 3 + opcode_and_flag_4 * 4), rd_ptr_4, rs1_ptr_4, rs2_4, 1, rs2_as_4, 0, 0]
+mult=0 + opcode_slt_flag_5 + opcode_sltu_flag_5, args=[from_state__pc_5, 0 + opcode_slt_flag_5 * 0 + opcode_sltu_flag_5 * 1 + 520, rd_ptr_5, rs1_ptr_5, rs2_5, 1, rs2_as_5, 0, 0]
+mult=0 + opcode_beq_flag_6 + opcode_bne_flag_6, args=[from_state__pc_6, 0 + opcode_beq_flag_6 * 0 + opcode_bne_flag_6 * 1 + 544, rs1_ptr_6, rs2_ptr_6, imm_6, 1, 1, 0, 0]
+
+// Bus 3 (VARIABLE_RANGE_CHECKER):
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_0, 12]
+mult=rs2_as_0, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=rs2_as_0, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_0, 12]
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__0_0, 17]
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__1_0, 12]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_1, 17]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_1, 12]
+mult=rs2_as_1, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_1, 17]
+mult=rs2_as_1, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_1, 12]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__0_1, 17]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__1_1, 12]
+mult=0 + opcode_slt_flag_2 + opcode_sltu_flag_2, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_2, 17]
+mult=0 + opcode_slt_flag_2 + opcode_sltu_flag_2, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_2, 12]
+mult=rs2_as_2, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_2, 17]
+mult=rs2_as_2, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_2, 12]
+mult=0 + opcode_slt_flag_2 + opcode_sltu_flag_2, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__0_2, 17]
+mult=0 + opcode_slt_flag_2 + opcode_sltu_flag_2, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__1_2, 12]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_3, 17]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_3, 12]
+mult=rs2_as_3, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_3, 17]
+mult=rs2_as_3, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_3, 12]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__0_3, 17]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__1_3, 12]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_4, 17]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_4, 12]
+mult=rs2_as_4, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_4, 17]
+mult=rs2_as_4, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_4, 12]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__0_4, 17]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__1_4, 12]
+mult=0 + opcode_slt_flag_5 + opcode_sltu_flag_5, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_5, 17]
+mult=0 + opcode_slt_flag_5 + opcode_sltu_flag_5, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_5, 12]
+mult=rs2_as_5, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_5, 17]
+mult=rs2_as_5, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_5, 12]
+mult=0 + opcode_slt_flag_5 + opcode_sltu_flag_5, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__0_5, 17]
+mult=0 + opcode_slt_flag_5 + opcode_sltu_flag_5, args=[writes_aux__base__timestamp_lt_aux__lower_decomp__1_5, 12]
+mult=0 + opcode_beq_flag_6 + opcode_bne_flag_6, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_6, 17]
+mult=0 + opcode_beq_flag_6 + opcode_bne_flag_6, args=[reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_6, 12]
+mult=0 + opcode_beq_flag_6 + opcode_bne_flag_6, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_6, 17]
+mult=0 + opcode_beq_flag_6 + opcode_bne_flag_6, args=[reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_6, 12]
+
+// Bus 6 (BITWISE_LOOKUP):
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[(1 - (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0)) * a__0_0 + (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) * b__0_0, (1 - (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0)) * a__0_0 + (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) * c__0_0, opcode_xor_flag_0 * a__0_0 + opcode_or_flag_0 * (2 * a__0_0 - b__0_0 - c__0_0) + opcode_and_flag_0 * (b__0_0 + c__0_0 - 2 * a__0_0), 1]
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[(1 - (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0)) * a__1_0 + (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) * b__1_0, (1 - (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0)) * a__1_0 + (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) * c__1_0, opcode_xor_flag_0 * a__1_0 + opcode_or_flag_0 * (2 * a__1_0 - b__1_0 - c__1_0) + opcode_and_flag_0 * (b__1_0 + c__1_0 - 2 * a__1_0), 1]
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[(1 - (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0)) * a__2_0 + (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) * b__2_0, (1 - (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0)) * a__2_0 + (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) * c__2_0, opcode_xor_flag_0 * a__2_0 + opcode_or_flag_0 * (2 * a__2_0 - b__2_0 - c__2_0) + opcode_and_flag_0 * (b__2_0 + c__2_0 - 2 * a__2_0), 1]
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0, args=[(1 - (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0)) * a__3_0 + (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) * b__3_0, (1 - (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0)) * a__3_0 + (opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) * c__3_0, opcode_xor_flag_0 * a__3_0 + opcode_or_flag_0 * (2 * a__3_0 - b__3_0 - c__3_0) + opcode_and_flag_0 * (b__3_0 + c__3_0 - 2 * a__3_0), 1]
+mult=0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0 - rs2_as_0, args=[c__0_0, c__1_0, 0, 0]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[(1 - (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1)) * a__0_1 + (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) * b__0_1, (1 - (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1)) * a__0_1 + (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) * c__0_1, opcode_xor_flag_1 * a__0_1 + opcode_or_flag_1 * (2 * a__0_1 - b__0_1 - c__0_1) + opcode_and_flag_1 * (b__0_1 + c__0_1 - 2 * a__0_1), 1]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[(1 - (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1)) * a__1_1 + (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) * b__1_1, (1 - (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1)) * a__1_1 + (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) * c__1_1, opcode_xor_flag_1 * a__1_1 + opcode_or_flag_1 * (2 * a__1_1 - b__1_1 - c__1_1) + opcode_and_flag_1 * (b__1_1 + c__1_1 - 2 * a__1_1), 1]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[(1 - (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1)) * a__2_1 + (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) * b__2_1, (1 - (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1)) * a__2_1 + (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) * c__2_1, opcode_xor_flag_1 * a__2_1 + opcode_or_flag_1 * (2 * a__2_1 - b__2_1 - c__2_1) + opcode_and_flag_1 * (b__2_1 + c__2_1 - 2 * a__2_1), 1]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1, args=[(1 - (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1)) * a__3_1 + (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) * b__3_1, (1 - (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1)) * a__3_1 + (opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) * c__3_1, opcode_xor_flag_1 * a__3_1 + opcode_or_flag_1 * (2 * a__3_1 - b__3_1 - c__3_1) + opcode_and_flag_1 * (b__3_1 + c__3_1 - 2 * a__3_1), 1]
+mult=0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1 - rs2_as_1, args=[c__0_1, c__1_1, 0, 0]
+mult=0 + opcode_slt_flag_2 + opcode_sltu_flag_2, args=[b_msb_f_2 + 128 * opcode_slt_flag_2, c_msb_f_2 + 128 * opcode_slt_flag_2, 0, 0]
+mult=0 + diff_marker__3_2 + diff_marker__2_2 + diff_marker__1_2 + diff_marker__0_2, args=[diff_val_2 - 1, 0, 0, 0]
+mult=0 + opcode_slt_flag_2 + opcode_sltu_flag_2 - rs2_as_2, args=[c__0_2, c__1_2, 0, 0]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[(1 - (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3)) * a__0_3 + (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) * b__0_3, (1 - (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3)) * a__0_3 + (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) * c__0_3, opcode_xor_flag_3 * a__0_3 + opcode_or_flag_3 * (2 * a__0_3 - b__0_3 - c__0_3) + opcode_and_flag_3 * (b__0_3 + c__0_3 - 2 * a__0_3), 1]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[(1 - (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3)) * a__1_3 + (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) * b__1_3, (1 - (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3)) * a__1_3 + (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) * c__1_3, opcode_xor_flag_3 * a__1_3 + opcode_or_flag_3 * (2 * a__1_3 - b__1_3 - c__1_3) + opcode_and_flag_3 * (b__1_3 + c__1_3 - 2 * a__1_3), 1]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[(1 - (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3)) * a__2_3 + (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) * b__2_3, (1 - (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3)) * a__2_3 + (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) * c__2_3, opcode_xor_flag_3 * a__2_3 + opcode_or_flag_3 * (2 * a__2_3 - b__2_3 - c__2_3) + opcode_and_flag_3 * (b__2_3 + c__2_3 - 2 * a__2_3), 1]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3, args=[(1 - (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3)) * a__3_3 + (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) * b__3_3, (1 - (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3)) * a__3_3 + (opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) * c__3_3, opcode_xor_flag_3 * a__3_3 + opcode_or_flag_3 * (2 * a__3_3 - b__3_3 - c__3_3) + opcode_and_flag_3 * (b__3_3 + c__3_3 - 2 * a__3_3), 1]
+mult=0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3 - rs2_as_3, args=[c__0_3, c__1_3, 0, 0]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[(1 - (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4)) * a__0_4 + (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) * b__0_4, (1 - (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4)) * a__0_4 + (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) * c__0_4, opcode_xor_flag_4 * a__0_4 + opcode_or_flag_4 * (2 * a__0_4 - b__0_4 - c__0_4) + opcode_and_flag_4 * (b__0_4 + c__0_4 - 2 * a__0_4), 1]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[(1 - (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4)) * a__1_4 + (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) * b__1_4, (1 - (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4)) * a__1_4 + (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) * c__1_4, opcode_xor_flag_4 * a__1_4 + opcode_or_flag_4 * (2 * a__1_4 - b__1_4 - c__1_4) + opcode_and_flag_4 * (b__1_4 + c__1_4 - 2 * a__1_4), 1]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[(1 - (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4)) * a__2_4 + (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) * b__2_4, (1 - (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4)) * a__2_4 + (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) * c__2_4, opcode_xor_flag_4 * a__2_4 + opcode_or_flag_4 * (2 * a__2_4 - b__2_4 - c__2_4) + opcode_and_flag_4 * (b__2_4 + c__2_4 - 2 * a__2_4), 1]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4, args=[(1 - (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4)) * a__3_4 + (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) * b__3_4, (1 - (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4)) * a__3_4 + (opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) * c__3_4, opcode_xor_flag_4 * a__3_4 + opcode_or_flag_4 * (2 * a__3_4 - b__3_4 - c__3_4) + opcode_and_flag_4 * (b__3_4 + c__3_4 - 2 * a__3_4), 1]
+mult=0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4 - rs2_as_4, args=[c__0_4, c__1_4, 0, 0]
+mult=0 + opcode_slt_flag_5 + opcode_sltu_flag_5, args=[b_msb_f_5 + 128 * opcode_slt_flag_5, c_msb_f_5 + 128 * opcode_slt_flag_5, 0, 0]
+mult=0 + diff_marker__3_5 + diff_marker__2_5 + diff_marker__1_5 + diff_marker__0_5, args=[diff_val_5 - 1, 0, 0, 0]
+mult=0 + opcode_slt_flag_5 + opcode_sltu_flag_5 - rs2_as_5, args=[c__0_5, c__1_5, 0, 0]
+
+// Algebraic constraints:
+opcode_add_flag_0 * (opcode_add_flag_0 - 1) = 0
+opcode_sub_flag_0 * (opcode_sub_flag_0 - 1) = 0
+opcode_xor_flag_0 * (opcode_xor_flag_0 - 1) = 0
+opcode_or_flag_0 * (opcode_or_flag_0 - 1) = 0
+opcode_and_flag_0 * (opcode_and_flag_0 - 1) = 0
+(0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) * (0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0 - 1) = 0
+opcode_add_flag_0 * (2005401601 * (b__0_0 + c__0_0 - a__0_0 + 0) * (2005401601 * (b__0_0 + c__0_0 - a__0_0 + 0) - 1)) = 0
+opcode_sub_flag_0 * (2005401601 * (a__0_0 + c__0_0 - b__0_0 + 0) * (2005401601 * (a__0_0 + c__0_0 - b__0_0 + 0) - 1)) = 0
+opcode_add_flag_0 * (2005401601 * (b__1_0 + c__1_0 - a__1_0 + 2005401601 * (b__0_0 + c__0_0 - a__0_0 + 0)) * (2005401601 * (b__1_0 + c__1_0 - a__1_0 + 2005401601 * (b__0_0 + c__0_0 - a__0_0 + 0)) - 1)) = 0
+opcode_sub_flag_0 * (2005401601 * (a__1_0 + c__1_0 - b__1_0 + 2005401601 * (a__0_0 + c__0_0 - b__0_0 + 0)) * (2005401601 * (a__1_0 + c__1_0 - b__1_0 + 2005401601 * (a__0_0 + c__0_0 - b__0_0 + 0)) - 1)) = 0
+opcode_add_flag_0 * (2005401601 * (b__2_0 + c__2_0 - a__2_0 + 2005401601 * (b__1_0 + c__1_0 - a__1_0 + 2005401601 * (b__0_0 + c__0_0 - a__0_0 + 0))) * (2005401601 * (b__2_0 + c__2_0 - a__2_0 + 2005401601 * (b__1_0 + c__1_0 - a__1_0 + 2005401601 * (b__0_0 + c__0_0 - a__0_0 + 0))) - 1)) = 0
+opcode_sub_flag_0 * (2005401601 * (a__2_0 + c__2_0 - b__2_0 + 2005401601 * (a__1_0 + c__1_0 - b__1_0 + 2005401601 * (a__0_0 + c__0_0 - b__0_0 + 0))) * (2005401601 * (a__2_0 + c__2_0 - b__2_0 + 2005401601 * (a__1_0 + c__1_0 - b__1_0 + 2005401601 * (a__0_0 + c__0_0 - b__0_0 + 0))) - 1)) = 0
+opcode_add_flag_0 * (2005401601 * (b__3_0 + c__3_0 - a__3_0 + 2005401601 * (b__2_0 + c__2_0 - a__2_0 + 2005401601 * (b__1_0 + c__1_0 - a__1_0 + 2005401601 * (b__0_0 + c__0_0 - a__0_0 + 0)))) * (2005401601 * (b__3_0 + c__3_0 - a__3_0 + 2005401601 * (b__2_0 + c__2_0 - a__2_0 + 2005401601 * (b__1_0 + c__1_0 - a__1_0 + 2005401601 * (b__0_0 + c__0_0 - a__0_0 + 0)))) - 1)) = 0
+opcode_sub_flag_0 * (2005401601 * (a__3_0 + c__3_0 - b__3_0 + 2005401601 * (a__2_0 + c__2_0 - b__2_0 + 2005401601 * (a__1_0 + c__1_0 - b__1_0 + 2005401601 * (a__0_0 + c__0_0 - b__0_0 + 0)))) * (2005401601 * (a__3_0 + c__3_0 - b__3_0 + 2005401601 * (a__2_0 + c__2_0 - b__2_0 + 2005401601 * (a__1_0 + c__1_0 - b__1_0 + 2005401601 * (a__0_0 + c__0_0 - b__0_0 + 0)))) - 1)) = 0
+rs2_as_0 * (rs2_as_0 - 1) = 0
+(1 - rs2_as_0) * (rs2_0 - (c__0_0 + c__1_0 * 256 + c__2_0 * 65536)) = 0
+(1 - rs2_as_0) * (c__2_0 - c__3_0) = 0
+(1 - rs2_as_0) * (c__2_0 * (255 - c__2_0)) = 0
+(0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) * (from_state__timestamp_0 + 0 - reads_aux__0__base__prev_timestamp_0 - 1 - (0 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_0 * 1 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_0 * 131072)) = 0
+rs2_as_0 * (0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0 - 1) = 0
+rs2_as_0 * (from_state__timestamp_0 + 1 - reads_aux__1__base__prev_timestamp_0 - 1 - (0 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_0 * 1 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_0 * 131072)) = 0
+(0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) * (from_state__timestamp_0 + 2 - writes_aux__base__prev_timestamp_0 - 1 - (0 + writes_aux__base__timestamp_lt_aux__lower_decomp__0_0 * 1 + writes_aux__base__timestamp_lt_aux__lower_decomp__1_0 * 131072)) = 0
+-(0 + opcode_add_flag_0 + opcode_sub_flag_0 + opcode_xor_flag_0 + opcode_or_flag_0 + opcode_and_flag_0) + 1 = 0
+from_state__pc_0 - 2113772 = 0
+512 + (0 + opcode_add_flag_0 * 0 + opcode_sub_flag_0 * 1 + opcode_xor_flag_0 * 2 + opcode_or_flag_0 * 3 + opcode_and_flag_0 * 4) - 512 = 0
+rd_ptr_0 - 28 = 0
+rs1_ptr_0 - 28 = 0
+rs2_0 - 116 = 0
+1 - 1 = 0
+rs2_as_0 - 1 = 0
+0 - 0 = 0
+0 - 0 = 0
+opcode_add_flag_1 * (opcode_add_flag_1 - 1) = 0
+opcode_sub_flag_1 * (opcode_sub_flag_1 - 1) = 0
+opcode_xor_flag_1 * (opcode_xor_flag_1 - 1) = 0
+opcode_or_flag_1 * (opcode_or_flag_1 - 1) = 0
+opcode_and_flag_1 * (opcode_and_flag_1 - 1) = 0
+(0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) * (0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1 - 1) = 0
+opcode_add_flag_1 * (2005401601 * (b__0_1 + c__0_1 - a__0_1 + 0) * (2005401601 * (b__0_1 + c__0_1 - a__0_1 + 0) - 1)) = 0
+opcode_sub_flag_1 * (2005401601 * (a__0_1 + c__0_1 - b__0_1 + 0) * (2005401601 * (a__0_1 + c__0_1 - b__0_1 + 0) - 1)) = 0
+opcode_add_flag_1 * (2005401601 * (b__1_1 + c__1_1 - a__1_1 + 2005401601 * (b__0_1 + c__0_1 - a__0_1 + 0)) * (2005401601 * (b__1_1 + c__1_1 - a__1_1 + 2005401601 * (b__0_1 + c__0_1 - a__0_1 + 0)) - 1)) = 0
+opcode_sub_flag_1 * (2005401601 * (a__1_1 + c__1_1 - b__1_1 + 2005401601 * (a__0_1 + c__0_1 - b__0_1 + 0)) * (2005401601 * (a__1_1 + c__1_1 - b__1_1 + 2005401601 * (a__0_1 + c__0_1 - b__0_1 + 0)) - 1)) = 0
+opcode_add_flag_1 * (2005401601 * (b__2_1 + c__2_1 - a__2_1 + 2005401601 * (b__1_1 + c__1_1 - a__1_1 + 2005401601 * (b__0_1 + c__0_1 - a__0_1 + 0))) * (2005401601 * (b__2_1 + c__2_1 - a__2_1 + 2005401601 * (b__1_1 + c__1_1 - a__1_1 + 2005401601 * (b__0_1 + c__0_1 - a__0_1 + 0))) - 1)) = 0
+opcode_sub_flag_1 * (2005401601 * (a__2_1 + c__2_1 - b__2_1 + 2005401601 * (a__1_1 + c__1_1 - b__1_1 + 2005401601 * (a__0_1 + c__0_1 - b__0_1 + 0))) * (2005401601 * (a__2_1 + c__2_1 - b__2_1 + 2005401601 * (a__1_1 + c__1_1 - b__1_1 + 2005401601 * (a__0_1 + c__0_1 - b__0_1 + 0))) - 1)) = 0
+opcode_add_flag_1 * (2005401601 * (b__3_1 + c__3_1 - a__3_1 + 2005401601 * (b__2_1 + c__2_1 - a__2_1 + 2005401601 * (b__1_1 + c__1_1 - a__1_1 + 2005401601 * (b__0_1 + c__0_1 - a__0_1 + 0)))) * (2005401601 * (b__3_1 + c__3_1 - a__3_1 + 2005401601 * (b__2_1 + c__2_1 - a__2_1 + 2005401601 * (b__1_1 + c__1_1 - a__1_1 + 2005401601 * (b__0_1 + c__0_1 - a__0_1 + 0)))) - 1)) = 0
+opcode_sub_flag_1 * (2005401601 * (a__3_1 + c__3_1 - b__3_1 + 2005401601 * (a__2_1 + c__2_1 - b__2_1 + 2005401601 * (a__1_1 + c__1_1 - b__1_1 + 2005401601 * (a__0_1 + c__0_1 - b__0_1 + 0)))) * (2005401601 * (a__3_1 + c__3_1 - b__3_1 + 2005401601 * (a__2_1 + c__2_1 - b__2_1 + 2005401601 * (a__1_1 + c__1_1 - b__1_1 + 2005401601 * (a__0_1 + c__0_1 - b__0_1 + 0)))) - 1)) = 0
+rs2_as_1 * (rs2_as_1 - 1) = 0
+(1 - rs2_as_1) * (rs2_1 - (c__0_1 + c__1_1 * 256 + c__2_1 * 65536)) = 0
+(1 - rs2_as_1) * (c__2_1 - c__3_1) = 0
+(1 - rs2_as_1) * (c__2_1 * (255 - c__2_1)) = 0
+(0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) * (from_state__timestamp_1 + 0 - reads_aux__0__base__prev_timestamp_1 - 1 - (0 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_1 * 1 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_1 * 131072)) = 0
+rs2_as_1 * (0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1 - 1) = 0
+rs2_as_1 * (from_state__timestamp_1 + 1 - reads_aux__1__base__prev_timestamp_1 - 1 - (0 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_1 * 1 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_1 * 131072)) = 0
+(0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) * (from_state__timestamp_1 + 2 - writes_aux__base__prev_timestamp_1 - 1 - (0 + writes_aux__base__timestamp_lt_aux__lower_decomp__0_1 * 1 + writes_aux__base__timestamp_lt_aux__lower_decomp__1_1 * 131072)) = 0
+-(0 + opcode_add_flag_1 + opcode_sub_flag_1 + opcode_xor_flag_1 + opcode_or_flag_1 + opcode_and_flag_1) + 1 = 0
+from_state__pc_1 - 2113776 = 0
+512 + (0 + opcode_add_flag_1 * 0 + opcode_sub_flag_1 * 1 + opcode_xor_flag_1 * 2 + opcode_or_flag_1 * 3 + opcode_and_flag_1 * 4) - 512 = 0
+rd_ptr_1 - 40 = 0
+rs1_ptr_1 - 44 = 0
+rs2_1 - 56 = 0
+1 - 1 = 0
+rs2_as_1 - 1 = 0
+0 - 0 = 0
+0 - 0 = 0
+opcode_slt_flag_2 * (opcode_slt_flag_2 - 1) = 0
+opcode_sltu_flag_2 * (opcode_sltu_flag_2 - 1) = 0
+(0 + opcode_slt_flag_2 + opcode_sltu_flag_2) * (0 + opcode_slt_flag_2 + opcode_sltu_flag_2 - 1) = 0
+cmp_result_2 * (cmp_result_2 - 1) = 0
+(b__3_2 - b_msb_f_2) * (256 - (b__3_2 - b_msb_f_2)) = 0
+(c__3_2 - c_msb_f_2) * (256 - (c__3_2 - c_msb_f_2)) = 0
+diff_marker__3_2 * (diff_marker__3_2 - 1) = 0
+(1 - (0 + diff_marker__3_2)) * ((c_msb_f_2 - b_msb_f_2) * (2 * cmp_result_2 - 1)) = 0
+diff_marker__3_2 * (diff_val_2 - (c_msb_f_2 - b_msb_f_2) * (2 * cmp_result_2 - 1)) = 0
+diff_marker__2_2 * (diff_marker__2_2 - 1) = 0
+(1 - (0 + diff_marker__3_2 + diff_marker__2_2)) * ((c__2_2 - b__2_2) * (2 * cmp_result_2 - 1)) = 0
+diff_marker__2_2 * (diff_val_2 - (c__2_2 - b__2_2) * (2 * cmp_result_2 - 1)) = 0
+diff_marker__1_2 * (diff_marker__1_2 - 1) = 0
+(1 - (0 + diff_marker__3_2 + diff_marker__2_2 + diff_marker__1_2)) * ((c__1_2 - b__1_2) * (2 * cmp_result_2 - 1)) = 0
+diff_marker__1_2 * (diff_val_2 - (c__1_2 - b__1_2) * (2 * cmp_result_2 - 1)) = 0
+diff_marker__0_2 * (diff_marker__0_2 - 1) = 0
+(1 - (0 + diff_marker__3_2 + diff_marker__2_2 + diff_marker__1_2 + diff_marker__0_2)) * ((c__0_2 - b__0_2) * (2 * cmp_result_2 - 1)) = 0
+diff_marker__0_2 * (diff_val_2 - (c__0_2 - b__0_2) * (2 * cmp_result_2 - 1)) = 0
+(0 + diff_marker__3_2 + diff_marker__2_2 + diff_marker__1_2 + diff_marker__0_2) * (0 + diff_marker__3_2 + diff_marker__2_2 + diff_marker__1_2 + diff_marker__0_2 - 1) = 0
+(1 - (0 + diff_marker__3_2 + diff_marker__2_2 + diff_marker__1_2 + diff_marker__0_2)) * cmp_result_2 = 0
+rs2_as_2 * (rs2_as_2 - 1) = 0
+(1 - rs2_as_2) * (rs2_2 - (c__0_2 + c__1_2 * 256 + c__2_2 * 65536)) = 0
+(1 - rs2_as_2) * (c__2_2 - c__3_2) = 0
+(1 - rs2_as_2) * (c__2_2 * (255 - c__2_2)) = 0
+(0 + opcode_slt_flag_2 + opcode_sltu_flag_2) * (from_state__timestamp_2 + 0 - reads_aux__0__base__prev_timestamp_2 - 1 - (0 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_2 * 1 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_2 * 131072)) = 0
+rs2_as_2 * (0 + opcode_slt_flag_2 + opcode_sltu_flag_2 - 1) = 0
+rs2_as_2 * (from_state__timestamp_2 + 1 - reads_aux__1__base__prev_timestamp_2 - 1 - (0 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_2 * 1 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_2 * 131072)) = 0
+(0 + opcode_slt_flag_2 + opcode_sltu_flag_2) * (from_state__timestamp_2 + 2 - writes_aux__base__prev_timestamp_2 - 1 - (0 + writes_aux__base__timestamp_lt_aux__lower_decomp__0_2 * 1 + writes_aux__base__timestamp_lt_aux__lower_decomp__1_2 * 131072)) = 0
+-(0 + opcode_slt_flag_2 + opcode_sltu_flag_2) + 1 = 0
+from_state__pc_2 - 2113780 = 0
+0 + opcode_slt_flag_2 * 0 + opcode_sltu_flag_2 * 1 + 520 - 521 = 0
+rd_ptr_2 - 44 = 0
+rs1_ptr_2 - 40 = 0
+rs2_2 - 44 = 0
+1 - 1 = 0
+rs2_as_2 - 1 = 0
+0 - 0 = 0
+0 - 0 = 0
+opcode_add_flag_3 * (opcode_add_flag_3 - 1) = 0
+opcode_sub_flag_3 * (opcode_sub_flag_3 - 1) = 0
+opcode_xor_flag_3 * (opcode_xor_flag_3 - 1) = 0
+opcode_or_flag_3 * (opcode_or_flag_3 - 1) = 0
+opcode_and_flag_3 * (opcode_and_flag_3 - 1) = 0
+(0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) * (0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3 - 1) = 0
+opcode_add_flag_3 * (2005401601 * (b__0_3 + c__0_3 - a__0_3 + 0) * (2005401601 * (b__0_3 + c__0_3 - a__0_3 + 0) - 1)) = 0
+opcode_sub_flag_3 * (2005401601 * (a__0_3 + c__0_3 - b__0_3 + 0) * (2005401601 * (a__0_3 + c__0_3 - b__0_3 + 0) - 1)) = 0
+opcode_add_flag_3 * (2005401601 * (b__1_3 + c__1_3 - a__1_3 + 2005401601 * (b__0_3 + c__0_3 - a__0_3 + 0)) * (2005401601 * (b__1_3 + c__1_3 - a__1_3 + 2005401601 * (b__0_3 + c__0_3 - a__0_3 + 0)) - 1)) = 0
+opcode_sub_flag_3 * (2005401601 * (a__1_3 + c__1_3 - b__1_3 + 2005401601 * (a__0_3 + c__0_3 - b__0_3 + 0)) * (2005401601 * (a__1_3 + c__1_3 - b__1_3 + 2005401601 * (a__0_3 + c__0_3 - b__0_3 + 0)) - 1)) = 0
+opcode_add_flag_3 * (2005401601 * (b__2_3 + c__2_3 - a__2_3 + 2005401601 * (b__1_3 + c__1_3 - a__1_3 + 2005401601 * (b__0_3 + c__0_3 - a__0_3 + 0))) * (2005401601 * (b__2_3 + c__2_3 - a__2_3 + 2005401601 * (b__1_3 + c__1_3 - a__1_3 + 2005401601 * (b__0_3 + c__0_3 - a__0_3 + 0))) - 1)) = 0
+opcode_sub_flag_3 * (2005401601 * (a__2_3 + c__2_3 - b__2_3 + 2005401601 * (a__1_3 + c__1_3 - b__1_3 + 2005401601 * (a__0_3 + c__0_3 - b__0_3 + 0))) * (2005401601 * (a__2_3 + c__2_3 - b__2_3 + 2005401601 * (a__1_3 + c__1_3 - b__1_3 + 2005401601 * (a__0_3 + c__0_3 - b__0_3 + 0))) - 1)) = 0
+opcode_add_flag_3 * (2005401601 * (b__3_3 + c__3_3 - a__3_3 + 2005401601 * (b__2_3 + c__2_3 - a__2_3 + 2005401601 * (b__1_3 + c__1_3 - a__1_3 + 2005401601 * (b__0_3 + c__0_3 - a__0_3 + 0)))) * (2005401601 * (b__3_3 + c__3_3 - a__3_3 + 2005401601 * (b__2_3 + c__2_3 - a__2_3 + 2005401601 * (b__1_3 + c__1_3 - a__1_3 + 2005401601 * (b__0_3 + c__0_3 - a__0_3 + 0)))) - 1)) = 0
+opcode_sub_flag_3 * (2005401601 * (a__3_3 + c__3_3 - b__3_3 + 2005401601 * (a__2_3 + c__2_3 - b__2_3 + 2005401601 * (a__1_3 + c__1_3 - b__1_3 + 2005401601 * (a__0_3 + c__0_3 - b__0_3 + 0)))) * (2005401601 * (a__3_3 + c__3_3 - b__3_3 + 2005401601 * (a__2_3 + c__2_3 - b__2_3 + 2005401601 * (a__1_3 + c__1_3 - b__1_3 + 2005401601 * (a__0_3 + c__0_3 - b__0_3 + 0)))) - 1)) = 0
+rs2_as_3 * (rs2_as_3 - 1) = 0
+(1 - rs2_as_3) * (rs2_3 - (c__0_3 + c__1_3 * 256 + c__2_3 * 65536)) = 0
+(1 - rs2_as_3) * (c__2_3 - c__3_3) = 0
+(1 - rs2_as_3) * (c__2_3 * (255 - c__2_3)) = 0
+(0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) * (from_state__timestamp_3 + 0 - reads_aux__0__base__prev_timestamp_3 - 1 - (0 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_3 * 1 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_3 * 131072)) = 0
+rs2_as_3 * (0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3 - 1) = 0
+rs2_as_3 * (from_state__timestamp_3 + 1 - reads_aux__1__base__prev_timestamp_3 - 1 - (0 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_3 * 1 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_3 * 131072)) = 0
+(0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) * (from_state__timestamp_3 + 2 - writes_aux__base__prev_timestamp_3 - 1 - (0 + writes_aux__base__timestamp_lt_aux__lower_decomp__0_3 * 1 + writes_aux__base__timestamp_lt_aux__lower_decomp__1_3 * 131072)) = 0
+-(0 + opcode_add_flag_3 + opcode_sub_flag_3 + opcode_xor_flag_3 + opcode_or_flag_3 + opcode_and_flag_3) + 1 = 0
+from_state__pc_3 - 2113784 = 0
+512 + (0 + opcode_add_flag_3 * 0 + opcode_sub_flag_3 * 1 + opcode_xor_flag_3 * 2 + opcode_or_flag_3 * 3 + opcode_and_flag_3 * 4) - 512 = 0
+rd_ptr_3 - 56 = 0
+rs1_ptr_3 - 24 = 0
+rs2_3 - 112 = 0
+1 - 1 = 0
+rs2_as_3 - 1 = 0
+0 - 0 = 0
+0 - 0 = 0
+opcode_add_flag_4 * (opcode_add_flag_4 - 1) = 0
+opcode_sub_flag_4 * (opcode_sub_flag_4 - 1) = 0
+opcode_xor_flag_4 * (opcode_xor_flag_4 - 1) = 0
+opcode_or_flag_4 * (opcode_or_flag_4 - 1) = 0
+opcode_and_flag_4 * (opcode_and_flag_4 - 1) = 0
+(0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) * (0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4 - 1) = 0
+opcode_add_flag_4 * (2005401601 * (b__0_4 + c__0_4 - a__0_4 + 0) * (2005401601 * (b__0_4 + c__0_4 - a__0_4 + 0) - 1)) = 0
+opcode_sub_flag_4 * (2005401601 * (a__0_4 + c__0_4 - b__0_4 + 0) * (2005401601 * (a__0_4 + c__0_4 - b__0_4 + 0) - 1)) = 0
+opcode_add_flag_4 * (2005401601 * (b__1_4 + c__1_4 - a__1_4 + 2005401601 * (b__0_4 + c__0_4 - a__0_4 + 0)) * (2005401601 * (b__1_4 + c__1_4 - a__1_4 + 2005401601 * (b__0_4 + c__0_4 - a__0_4 + 0)) - 1)) = 0
+opcode_sub_flag_4 * (2005401601 * (a__1_4 + c__1_4 - b__1_4 + 2005401601 * (a__0_4 + c__0_4 - b__0_4 + 0)) * (2005401601 * (a__1_4 + c__1_4 - b__1_4 + 2005401601 * (a__0_4 + c__0_4 - b__0_4 + 0)) - 1)) = 0
+opcode_add_flag_4 * (2005401601 * (b__2_4 + c__2_4 - a__2_4 + 2005401601 * (b__1_4 + c__1_4 - a__1_4 + 2005401601 * (b__0_4 + c__0_4 - a__0_4 + 0))) * (2005401601 * (b__2_4 + c__2_4 - a__2_4 + 2005401601 * (b__1_4 + c__1_4 - a__1_4 + 2005401601 * (b__0_4 + c__0_4 - a__0_4 + 0))) - 1)) = 0
+opcode_sub_flag_4 * (2005401601 * (a__2_4 + c__2_4 - b__2_4 + 2005401601 * (a__1_4 + c__1_4 - b__1_4 + 2005401601 * (a__0_4 + c__0_4 - b__0_4 + 0))) * (2005401601 * (a__2_4 + c__2_4 - b__2_4 + 2005401601 * (a__1_4 + c__1_4 - b__1_4 + 2005401601 * (a__0_4 + c__0_4 - b__0_4 + 0))) - 1)) = 0
+opcode_add_flag_4 * (2005401601 * (b__3_4 + c__3_4 - a__3_4 + 2005401601 * (b__2_4 + c__2_4 - a__2_4 + 2005401601 * (b__1_4 + c__1_4 - a__1_4 + 2005401601 * (b__0_4 + c__0_4 - a__0_4 + 0)))) * (2005401601 * (b__3_4 + c__3_4 - a__3_4 + 2005401601 * (b__2_4 + c__2_4 - a__2_4 + 2005401601 * (b__1_4 + c__1_4 - a__1_4 + 2005401601 * (b__0_4 + c__0_4 - a__0_4 + 0)))) - 1)) = 0
+opcode_sub_flag_4 * (2005401601 * (a__3_4 + c__3_4 - b__3_4 + 2005401601 * (a__2_4 + c__2_4 - b__2_4 + 2005401601 * (a__1_4 + c__1_4 - b__1_4 + 2005401601 * (a__0_4 + c__0_4 - b__0_4 + 0)))) * (2005401601 * (a__3_4 + c__3_4 - b__3_4 + 2005401601 * (a__2_4 + c__2_4 - b__2_4 + 2005401601 * (a__1_4 + c__1_4 - b__1_4 + 2005401601 * (a__0_4 + c__0_4 - b__0_4 + 0)))) - 1)) = 0
+rs2_as_4 * (rs2_as_4 - 1) = 0
+(1 - rs2_as_4) * (rs2_4 - (c__0_4 + c__1_4 * 256 + c__2_4 * 65536)) = 0
+(1 - rs2_as_4) * (c__2_4 - c__3_4) = 0
+(1 - rs2_as_4) * (c__2_4 * (255 - c__2_4)) = 0
+(0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) * (from_state__timestamp_4 + 0 - reads_aux__0__base__prev_timestamp_4 - 1 - (0 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_4 * 1 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_4 * 131072)) = 0
+rs2_as_4 * (0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4 - 1) = 0
+rs2_as_4 * (from_state__timestamp_4 + 1 - reads_aux__1__base__prev_timestamp_4 - 1 - (0 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_4 * 1 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_4 * 131072)) = 0
+(0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) * (from_state__timestamp_4 + 2 - writes_aux__base__prev_timestamp_4 - 1 - (0 + writes_aux__base__timestamp_lt_aux__lower_decomp__0_4 * 1 + writes_aux__base__timestamp_lt_aux__lower_decomp__1_4 * 131072)) = 0
+-(0 + opcode_add_flag_4 + opcode_sub_flag_4 + opcode_xor_flag_4 + opcode_or_flag_4 + opcode_and_flag_4) + 1 = 0
+from_state__pc_4 - 2113788 = 0
+512 + (0 + opcode_add_flag_4 * 0 + opcode_sub_flag_4 * 1 + opcode_xor_flag_4 * 2 + opcode_or_flag_4 * 3 + opcode_and_flag_4 * 4) - 512 = 0
+rd_ptr_4 - 56 = 0
+rs1_ptr_4 - 56 = 0
+rs2_4 - 44 = 0
+1 - 1 = 0
+rs2_as_4 - 1 = 0
+0 - 0 = 0
+0 - 0 = 0
+opcode_slt_flag_5 * (opcode_slt_flag_5 - 1) = 0
+opcode_sltu_flag_5 * (opcode_sltu_flag_5 - 1) = 0
+(0 + opcode_slt_flag_5 + opcode_sltu_flag_5) * (0 + opcode_slt_flag_5 + opcode_sltu_flag_5 - 1) = 0
+cmp_result_5 * (cmp_result_5 - 1) = 0
+(b__3_5 - b_msb_f_5) * (256 - (b__3_5 - b_msb_f_5)) = 0
+(c__3_5 - c_msb_f_5) * (256 - (c__3_5 - c_msb_f_5)) = 0
+diff_marker__3_5 * (diff_marker__3_5 - 1) = 0
+(1 - (0 + diff_marker__3_5)) * ((c_msb_f_5 - b_msb_f_5) * (2 * cmp_result_5 - 1)) = 0
+diff_marker__3_5 * (diff_val_5 - (c_msb_f_5 - b_msb_f_5) * (2 * cmp_result_5 - 1)) = 0
+diff_marker__2_5 * (diff_marker__2_5 - 1) = 0
+(1 - (0 + diff_marker__3_5 + diff_marker__2_5)) * ((c__2_5 - b__2_5) * (2 * cmp_result_5 - 1)) = 0
+diff_marker__2_5 * (diff_val_5 - (c__2_5 - b__2_5) * (2 * cmp_result_5 - 1)) = 0
+diff_marker__1_5 * (diff_marker__1_5 - 1) = 0
+(1 - (0 + diff_marker__3_5 + diff_marker__2_5 + diff_marker__1_5)) * ((c__1_5 - b__1_5) * (2 * cmp_result_5 - 1)) = 0
+diff_marker__1_5 * (diff_val_5 - (c__1_5 - b__1_5) * (2 * cmp_result_5 - 1)) = 0
+diff_marker__0_5 * (diff_marker__0_5 - 1) = 0
+(1 - (0 + diff_marker__3_5 + diff_marker__2_5 + diff_marker__1_5 + diff_marker__0_5)) * ((c__0_5 - b__0_5) * (2 * cmp_result_5 - 1)) = 0
+diff_marker__0_5 * (diff_val_5 - (c__0_5 - b__0_5) * (2 * cmp_result_5 - 1)) = 0
+(0 + diff_marker__3_5 + diff_marker__2_5 + diff_marker__1_5 + diff_marker__0_5) * (0 + diff_marker__3_5 + diff_marker__2_5 + diff_marker__1_5 + diff_marker__0_5 - 1) = 0
+(1 - (0 + diff_marker__3_5 + diff_marker__2_5 + diff_marker__1_5 + diff_marker__0_5)) * cmp_result_5 = 0
+rs2_as_5 * (rs2_as_5 - 1) = 0
+(1 - rs2_as_5) * (rs2_5 - (c__0_5 + c__1_5 * 256 + c__2_5 * 65536)) = 0
+(1 - rs2_as_5) * (c__2_5 - c__3_5) = 0
+(1 - rs2_as_5) * (c__2_5 * (255 - c__2_5)) = 0
+(0 + opcode_slt_flag_5 + opcode_sltu_flag_5) * (from_state__timestamp_5 + 0 - reads_aux__0__base__prev_timestamp_5 - 1 - (0 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_5 * 1 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_5 * 131072)) = 0
+rs2_as_5 * (0 + opcode_slt_flag_5 + opcode_sltu_flag_5 - 1) = 0
+rs2_as_5 * (from_state__timestamp_5 + 1 - reads_aux__1__base__prev_timestamp_5 - 1 - (0 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_5 * 1 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_5 * 131072)) = 0
+(0 + opcode_slt_flag_5 + opcode_sltu_flag_5) * (from_state__timestamp_5 + 2 - writes_aux__base__prev_timestamp_5 - 1 - (0 + writes_aux__base__timestamp_lt_aux__lower_decomp__0_5 * 1 + writes_aux__base__timestamp_lt_aux__lower_decomp__1_5 * 131072)) = 0
+-(0 + opcode_slt_flag_5 + opcode_sltu_flag_5) + 1 = 0
+from_state__pc_5 - 2113792 = 0
+0 + opcode_slt_flag_5 * 0 + opcode_sltu_flag_5 * 1 + 520 - 521 = 0
+rd_ptr_5 - 120 = 0
+rs1_ptr_5 - 108 = 0
+rs2_5 - 60 = 0
+1 - 1 = 0
+rs2_as_5 - 1 = 0
+0 - 0 = 0
+0 - 0 = 0
+opcode_beq_flag_6 * (opcode_beq_flag_6 - 1) = 0
+opcode_bne_flag_6 * (opcode_bne_flag_6 - 1) = 0
+(0 + opcode_beq_flag_6 + opcode_bne_flag_6) * (0 + opcode_beq_flag_6 + opcode_bne_flag_6 - 1) = 0
+cmp_result_6 * (cmp_result_6 - 1) = 0
+(cmp_result_6 * opcode_beq_flag_6 + (1 - cmp_result_6) * opcode_bne_flag_6) * (a__0_6 - b__0_6) = 0
+(cmp_result_6 * opcode_beq_flag_6 + (1 - cmp_result_6) * opcode_bne_flag_6) * (a__1_6 - b__1_6) = 0
+(cmp_result_6 * opcode_beq_flag_6 + (1 - cmp_result_6) * opcode_bne_flag_6) * (a__2_6 - b__2_6) = 0
+(cmp_result_6 * opcode_beq_flag_6 + (1 - cmp_result_6) * opcode_bne_flag_6) * (a__3_6 - b__3_6) = 0
+(0 + opcode_beq_flag_6 + opcode_bne_flag_6) * (cmp_result_6 * opcode_beq_flag_6 + (1 - cmp_result_6) * opcode_bne_flag_6 + (a__0_6 - b__0_6) * diff_inv_marker__0_6 + (a__1_6 - b__1_6) * diff_inv_marker__1_6 + (a__2_6 - b__2_6) * diff_inv_marker__2_6 + (a__3_6 - b__3_6) * diff_inv_marker__3_6 - 1) = 0
+(0 + opcode_beq_flag_6 + opcode_bne_flag_6) * (from_state__timestamp_6 + 0 - reads_aux__0__base__prev_timestamp_6 - 1 - (0 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__0_6 * 1 + reads_aux__0__base__timestamp_lt_aux__lower_decomp__1_6 * 131072)) = 0
+(0 + opcode_beq_flag_6 + opcode_bne_flag_6) * (from_state__timestamp_6 + 1 - reads_aux__1__base__prev_timestamp_6 - 1 - (0 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__0_6 * 1 + reads_aux__1__base__timestamp_lt_aux__lower_decomp__1_6 * 131072)) = 0
+-(0 + opcode_beq_flag_6 + opcode_bne_flag_6) + 1 = 0
+from_state__pc_6 - 2113796 = 0
+0 + opcode_beq_flag_6 * 0 + opcode_bne_flag_6 * 1 + 544 - 544 = 0
+rs1_ptr_6 - 56 = 0
+rs2_ptr_6 - 24 = 0
+imm_6 - 8 = 0
+1 - 1 = 0
+1 - 1 = 0
+0 - 0 = 0
+0 - 0 = 0
