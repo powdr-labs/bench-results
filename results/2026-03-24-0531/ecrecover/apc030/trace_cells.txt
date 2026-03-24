@@ -1,0 +1,29 @@
+Total cells: 2.75B
+Cells by AIR:
+air_name
+PowdrAir<BabyBearParameters>                                         1528761344
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadStoreCoreAir<4>             633864192
+VmAirWrapper<Rv32BaseAluAdapterAir, BaseAluCoreAir<4, 8>              322961408
+VmAirWrapper<Rv32BaseAluAdapterAir, ShiftCoreAir<4, 8>                 96337920
+VmAirWrapper<Rv32JalrAdapterAir, Rv32JalrCoreAir>                      29360128
+VmAirWrapper<Rv32RdWriteAdapterAir, Rv32AuipcCoreAir>                  22020096
+RangeTupleCheckerAir<2>                                                18874368
+VmAirWrapper<Rv32BaseAluAdapterAir, LessThanCoreAir<4, 8>              17661952
+VmAirWrapper<Rv32CondRdWriteAdapterAir, Rv32JalLuiCoreAir>             10551296
+VmAirWrapper<Rv32LoadStoreAdapterAir, LoadSignExtendCoreAir<4, 8>      10092544
+VmAirWrapper<Rv32BranchAdapterAir, BranchEqualCoreAir<4>                9732096
+VmAirWrapper<Rv32MultAdapterAir, MultiplicationCoreAir<4, 8>            9519104
+VariableRangeCheckerAir                                                 9437184
+Rv32HintStoreAir                                                        8716288
+VmAirWrapper<Rv32MultAdapterAir, MulHCoreAir<4, 8>                      6365184
+Poseidon2PeripheryAir<BabyBearParameters>, 1>                           5046272
+BitwiseOperationLookupAir<8>                                            2621440
+ProgramAir                                                              2359296
+VmAirWrapper<Rv32BranchAdapterAir, BranchLessThanCoreAir<4, 8>          1835008
+MemoryMerkleAir<8>                                                       786432
+AccessAdapterAir<8>                                                      540672
+PersistentBoundaryAir<8>                                                 524288
+PhantomAir                                                               258048
+VmConnectorAir                                                              168
+Name: cells, dtype: int64
+Saving plot to apc030/trace_cells.png
