@@ -1,0 +1,3 @@
+# Bench results — 2026-05-13-1525
+
+**reth_gpu_modal**: 📂 [Raw data](https://github.com/powdr-labs/bench-results/tree/gh-pages/results/2026-05-13-1525/reth_gpu_modal) &nbsp;|&nbsp; 📊 [Metrics Viewer](https://powdr-labs.github.io/powdr/openvm/metrics-viewer/?data=https%3A%2F%2Fgithub.com%2Fpowdr-labs%2Fbench-results%2Fblob%2Fgh-pages%2Fresults%2F2026-05-13-1525%2Freth_gpu_modal%2Fcombined_metrics.json) &nbsp;|&nbsp; 🔍 [APC Analyzer](https://powdr-labs.github.io/powdr/autoprecompile-analyzer/?data=https%3A%2F%2Fgithub.com%2Fpowdr-labs%2Fbench-results%2Fblob%2Fgh-pages%2Fresults%2F2026-05-13-1525%2Freth_gpu_modal%2Fapc_candidates.json)
