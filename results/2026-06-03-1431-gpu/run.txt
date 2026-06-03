@@ -1,0 +1,3 @@
+openvm-eth: 9e1b6138dc97e436d436eef6303c23dcc22699bf
+powdr: 0dab735e865e2cecfb2f8313d0456dfab309072c
+run: https://github.com/powdr-labs/powdr/actions/runs/26883565595
