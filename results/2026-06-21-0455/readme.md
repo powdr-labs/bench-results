@@ -1,0 +1,17 @@
+# Bench results — 2026-06-21-0455
+
+**reth**: 📂 [Raw data](https://github.com/powdr-labs/bench-results/tree/gh-pages/results/2026-06-21-0455/reth) &nbsp;|&nbsp; 📊 [Metrics Viewer](https://powdr-labs.github.io/powdr/openvm/metrics-viewer/?data=https%3A%2F%2Fgithub.com%2Fpowdr-labs%2Fbench-results%2Fblob%2Fgh-pages%2Fresults%2F2026-06-21-0455%2Freth%2Fcombined_metrics.json) &nbsp;|&nbsp; 🔍 [APC Analyzer](https://powdr-labs.github.io/powdr/autoprecompile-analyzer/?data=https%3A%2F%2Fgithub.com%2Fpowdr-labs%2Fbench-results%2Fblob%2Fgh-pages%2Fresults%2F2026-06-21-0455%2Freth%2Fapc_candidates.json)
+
+**ecc**: 📂 [Raw data](https://github.com/powdr-labs/bench-results/tree/gh-pages/results/2026-06-21-0455/ecc) &nbsp;|&nbsp; 📊 [Metrics Viewer](https://powdr-labs.github.io/powdr/openvm/metrics-viewer/?data=https%3A%2F%2Fgithub.com%2Fpowdr-labs%2Fbench-results%2Fblob%2Fgh-pages%2Fresults%2F2026-06-21-0455%2Fecc%2Fcombined_metrics.json)
+
+**ecrecover**: 📂 [Raw data](https://github.com/powdr-labs/bench-results/tree/gh-pages/results/2026-06-21-0455/ecrecover) &nbsp;|&nbsp; 📊 [Metrics Viewer](https://powdr-labs.github.io/powdr/openvm/metrics-viewer/?data=https%3A%2F%2Fgithub.com%2Fpowdr-labs%2Fbench-results%2Fblob%2Fgh-pages%2Fresults%2F2026-06-21-0455%2Fecrecover%2Fcombined_metrics.json)
+
+**keccak**: 📂 [Raw data](https://github.com/powdr-labs/bench-results/tree/gh-pages/results/2026-06-21-0455/keccak) &nbsp;|&nbsp; 📊 [Metrics Viewer](https://powdr-labs.github.io/powdr/openvm/metrics-viewer/?data=https%3A%2F%2Fgithub.com%2Fpowdr-labs%2Fbench-results%2Fblob%2Fgh-pages%2Fresults%2F2026-06-21-0455%2Fkeccak%2Fcombined_metrics.json)
+
+**matmul**: 📂 [Raw data](https://github.com/powdr-labs/bench-results/tree/gh-pages/results/2026-06-21-0455/matmul) &nbsp;|&nbsp; 📊 [Metrics Viewer](https://powdr-labs.github.io/powdr/openvm/metrics-viewer/?data=https%3A%2F%2Fgithub.com%2Fpowdr-labs%2Fbench-results%2Fblob%2Fgh-pages%2Fresults%2F2026-06-21-0455%2Fmatmul%2Fcombined_metrics.json)
+
+**pairing**: 📂 [Raw data](https://github.com/powdr-labs/bench-results/tree/gh-pages/results/2026-06-21-0455/pairing) &nbsp;|&nbsp; 📊 [Metrics Viewer](https://powdr-labs.github.io/powdr/openvm/metrics-viewer/?data=https%3A%2F%2Fgithub.com%2Fpowdr-labs%2Fbench-results%2Fblob%2Fgh-pages%2Fresults%2F2026-06-21-0455%2Fpairing%2Fcombined_metrics.json)
+
+**sha256**: 📂 [Raw data](https://github.com/powdr-labs/bench-results/tree/gh-pages/results/2026-06-21-0455/sha256) &nbsp;|&nbsp; 📊 [Metrics Viewer](https://powdr-labs.github.io/powdr/openvm/metrics-viewer/?data=https%3A%2F%2Fgithub.com%2Fpowdr-labs%2Fbench-results%2Fblob%2Fgh-pages%2Fresults%2F2026-06-21-0455%2Fsha256%2Fcombined_metrics.json)
+
+**u256**: 📂 [Raw data](https://github.com/powdr-labs/bench-results/tree/gh-pages/results/2026-06-21-0455/u256) &nbsp;|&nbsp; 📊 [Metrics Viewer](https://powdr-labs.github.io/powdr/openvm/metrics-viewer/?data=https%3A%2F%2Fgithub.com%2Fpowdr-labs%2Fbench-results%2Fblob%2Fgh-pages%2Fresults%2F2026-06-21-0455%2Fu256%2Fcombined_metrics.json)
