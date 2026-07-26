@@ -1,0 +1,4 @@
+openvm-eth: b4204ea4e28298744088492b24062bf247cec122
+powdr: 81f6d08a169699ccff0926a7dea079e9db7d1b79
+apc-optimizer: 4349c885401dea7e0f79c9ca07b2859bf1a0ee8d
+run: https://github.com/powdr-labs/powdr/actions/runs/30225149037
