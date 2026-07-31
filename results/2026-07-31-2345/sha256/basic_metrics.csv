@@ -1,0 +1,5 @@
+filename,num_segments,app_proof_cells,app_proof_cols,total_proof_time_ms,total_proof_time_excluding_trace_ms,app_proof_time_ms,app_proof_time_excluding_trace_ms,app_execute_preflight_time_ms,app_execute_metered_time_ms,app_trace_gen_time_ms,leaf_proof_time_ms,leaf_proof_time_excluding_trace_ms,inner_recursion_proof_time_ms,inner_recursion_proof_time_excluding_trace_ms,normal_instruction_ratio,openvm_precompile_ratio,powdr_ratio,powdr_rows
+apc000/metrics.json,17,7627127351,11618,1000414,978077,931426,910248,4831,1182,14794,40866,40012,28122,27817,0.990954323059657,0.009045676940342988,0.0,0
+apc030/metrics.json,2,476962461,30529,200438,120521,174197,94713,4663,1731,74637,14492,14185,11749,11623,0.003709990082427053,0.017017754359498746,0.9792722555580742,393234
+manual/metrics.json,3,1308314474,4514,165769,161820,144750,141072,792,204,2609,8850,8697,12169,12051,0.7772733820569198,0.22272661794308024,0.0,0
+
