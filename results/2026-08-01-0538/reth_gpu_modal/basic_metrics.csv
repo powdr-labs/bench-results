@@ -1,0 +1,5 @@
+filename,num_segments,app_proof_cells,app_proof_cols,total_proof_time_ms,total_proof_time_excluding_trace_ms,app_proof_time_ms,app_proof_time_excluding_trace_ms,app_execute_preflight_time_ms,app_execute_metered_time_ms,app_trace_gen_time_ms,leaf_proof_time_ms,leaf_proof_time_excluding_trace_ms,inner_recursion_proof_time_ms,inner_recursion_proof_time_excluding_trace_ms,normal_instruction_ratio,openvm_precompile_ratio,powdr_ratio,powdr_rows
+results/reth_gpu_modal/apc000.json,44,19891795365,232684,41570,26352,36339,22258,9297,2281,2885,3649,2769,1582,1325,0.5093109919492679,0.49068900805073207,0.0,0
+results/reth_gpu_modal/apc010.json,42,18458619048,246775,41348,25203,36128,21200,8646,2159,3694,3641,2700,1579,1303,0.4164683995053756,0.5278536011097594,0.055677999384864924,18216804
+results/reth_gpu_modal/apc030.json,43,17981862825,276342,43393,25334,38100,21265,9426,2353,4511,3723,2772,1570,1297,0.37899353272371544,0.5514253805904006,0.069581086685884,23238141
+
